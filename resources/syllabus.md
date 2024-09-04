@@ -1,116 +1,120 @@
 ---
 # RDA learning materials metadata minimal set
-title: "The human readable name of the learning resource."
+title: "FAIR-by-Design: introducing Skills4EOSC and FAIR-IMPACT"
 author: 
-    - Name of entity(ies) 
-    - authoring the resource
+    - Sonja Filiposka 
+    - Dominique Green
+    - Joy Davidson
+    - Neil Chue Hong
+    - Morane Gruenpeter
+    - Mario Antonioletti
 tags: 
-    - Keywords
-    - Tags 
-    - Resource Description
+    - FAIR-by-Design
+    - metadata
+    - metrics
 
-abstract: "A brief synopsis about or description of the learning resource."
-primaryLanguage: "two letter code, Language in which the resource was originally published or made available."
-license: "A license document that applies to this content, typically indicated by URL"
-versionDate: "YYYY-MM-DD Version date for the most recently published or broadcast resource."
-urlToResource: "https://doi.org/10.5072/zenodo.1234567"
+abstract: "The main goal of the workshop is to introduce participants to the projects’ resources and show how they can be used to help create a broad range of FAIR by design outputs. We expect this workshop to be of high practical use to participants when it comes to increasing their capacity for supporting the production and reuse of FAIR digital objects. Therefore, it is aimed at any interested stakeholder who would like to become more aware with regards to the FAIR principles in their daily activities by both improving the FAIRness of existing digital objects or employing a FAIR-by-Design approach when developing new digital objects."
+primaryLanguage: "EN"
+license: "http://creativecommons.org/licenses/by/4.0/"
+versionDate: "2024-02-19"
+urlToResource: "https://doi.org/10.5281/zenodo.10676532"
 resourceURLType: "URL"
-targetGroup: "Principle users(s) for which the resource was designed."
-learningResourceType: "The predominant type or kind that characterizes the learning resource."
+targetGroup: "Research software developers, training materials designers"
+learningResourceType: "GitBook"
 learningOutcome: 
-    - Descriptions of what knowledge, 
-    - skills or 
-    - abilities 
-    - students should acquire on completion of the resource.
-accessCost: "Choice stating whether or not there is a fee for use of the resource (CV = Y/N/Maybe with recommendation that further explanation of “Maybe” goes in the Description field"
-expertiseLevel: "Target skill level in the topic being taught; example values include: beginner, intermediate, advanced"
-# template is a reserved keyword related to publishing of the Git book itself and not part of the RDA metadata schema. Please leave it as is and don't edit it manually
-template: signposting.html
-# hide is a reserved keyword related to the layout of the landing page and not part of the RDA metadata schema. Please leave it as is and don't edit it manually
-hide:
-    - toc
+    - describe training materials using metadata
+    - ...
+accessCost: "N"
+expertiseLevel: "Beginner"
 ---
 
-![Header with Skills4EOSC funding information](./attachments/header.png)
+![Header with funding information](./attachments/header.png)
 
-# Title of training 
+# FAIR-by-Design: introducing Skills4EOSC FAIR-by-Design Methodology to the CLARIN community 
 
-{!RELEASE_NOTES.md!}
+# Workshop
 
-# Type (Course/Workshop/Webinar)
+## Date/Time: Fri, 20 Sep 2024 14:00 - 17:00 CEST, Thu, 26 Sep 2024, 14:00 - 17:00 CEST
 
-## Date/Time: when it will be offered
 
-- put available from date if it is self-paced
+## Location: 
+Online
 
-## Location
+## Description
 
-- where it will be available
-- physical location
-- URL link to resources (and virtual room if online) should lead to the learning Skills4EOSC platform
+The main goal of the workshop is to introduce participants to the projects’ resources and show how they can be used to help create a broad range of FAIR by design outputs. We expect this workshop to be of high practical use to participants when it comes to increasing their capacity for supporting the production and reuse of FAIR digital objects. Therefore, it is aimed at any interested stakeholder who would like to become more aware with regards to the FAIR principles in their daily activities by both improving the FAIRness of existing digital objects or employing a FAIR-by-Design approach when developing new digital objects.
 
-## Training Description
+## Target audience: training materials designers
 
-- what is the main goal/purpose of this training
-- short training description
-
-## Target audience: target audience description
-
-## Expertise Level / Skill Level: Beginner / Intermediate / Advanced
+## Expertise Level / Skill Level: Beginner
 
 ## Primary Language: English
 
-## Access Cost: N
+## Access Cost: N 
 
-## Prerequisites
+## Prerequisites: none
 
-- if any
+## Duration: 4 hrs
 
-## Duration
+## Workshop objectives
 
-- total training duration
-
-## Training objectives
-
-- list of specific training objectives
+- describe training materials using metadata
+- ...
 
 ## Keywords
 
-Keywords or tags used to describe the training.
+FAIR-by-design, FAIRness, metadata, methodology
 
-## Agenda: Training Schedule - Training Structure
-
-| Date/Time | Topic             |
+## Agenda:
+### First session: 20th Sep 2024
+| Time | Topic             |
 |-----------|-------------------|
-| timeslot  | training unit 1   |
-| timeslot  | training unit 2   |
-| timeslot  | coffee break      |
-| timeslot  | training unit 3   |
-| timeslot  | lunch break       |
-| timelsot  | training unit 4   |
-| timeslot  | training unit 5   |
+| 14:00 - 14:05  | Welcome   |
+| 14:05 - 14:10  | About CLARIN   |  
+| 14:10 - 14:25  | About Skills4EOSC       |
+| 14:25 - 14:55  | Overview of the FAIR-by-Design Methodology |
+| 14:55 - 15:15  | Metadata Schema & Controlled Vocabularies       |
+| 15:15 - 15:40  | Facilitator Kit   |
+| 15:40 - 15:50  | Break   |
+| 15:50 - 16:15  | Rich learning experience |
+| 16:15 - 16:30  | Citing & Attribution |
+| 16:30 - 16:50  | Hands-on |
+| 16:50 - 17:00  | Q&A |
+
+
+### Second session: 26th Sep 2024
+| Time | Topic             |
+|-----------|-------------------|
+| 14:00 - 14:05  | Welcome   |
+| 14:05 - 14:20  | Session 1 Recap   |  
+| 14:20 - 14:40  | Version control       |
+| 14:40 - 15:05  | Recognition framework |
+| 15:05 - 15:25  | Publishing considerations       |
+| 15:25 - 15:40  | Co-creation   |
+| 15:40 - 15:50  | Break   |
+| 15:50 - 16:15  | Quality assessment |
+| 16:15 - 16:40  | Hands-on |
+| 16:40 - 16:55  | Q&A |
+| 16:50 - 17:00  | Wrap-up |
+
 
 ## Resources and Materials
 
-- location of available resources for the training
+Official event page: []()
 
-## Certification Information
-
-- if any
+All resource and materials can be found at [https://github.com/FAIR-by-Design-Methodology/CLARIN-FBD-Training](https://github.com/FAIR-by-Design-Methodology/CLARIN-FBD-Training)
 
 ## Author(s)
 
-- List of people involved in preparing the training
-- format: Name Surname, comma separated
+Sonja Filiposka, Anastas Mishev, Dominique Green, Angus Whyte, Joy Davidson, Neil Chue Hong, Morane Gruenpeter, Mario Antonioletti
 
 # Trainer(s)
 
-- List of people involved in delivering the training
-- format: Name Surname [![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0123-4561-8999-9999), Name Surname [![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0123-4561-8999-9999), ...
+Sonja Filiposka[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-0034-2855), Anastas Mishev[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0001-7271-6655), Dominique Green[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9411-4281), Angus	Whyte[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-5198-0833), Joy Davidson[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-3484-7675), Neil Chue Hong[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-8876-7606), Morane Gruenpeter[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9777-5560), Mario Antonioletti [![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-2486-7990)
 
 ## Contact information
 
-- how to reach out to training organizers
+[sonja.filiposka@finki.ukim.mk](mailto:sonja.filiposka@finki.ukim.mk)
 
 ## License
 
@@ -118,7 +122,7 @@ Keywords or tags used to describe the training.
 
 ## DOI
 
-[https://doi.org/10.5072/zenodo.1234567](https://doi.org/10.5072/zenodo.1234567)
+[https://doi.org/10.5281/zenodo.10676532](https://doi.org/10.5281/zenodo.10676532)
 
 ## Accessibility Mission
 
@@ -128,4 +132,4 @@ Skills4EOSC is dedicated to ensuring that all produced learning materials are ac
 
 These learning materials have been developed by following the [FAIR-by-Design Methodology](https://doi.org/10.5281/zenodo.7875540).
 
-![Skills4EOSC logo](./attachments/skills4eosc.png)
+![Skills4EOSC logo](./attachments/skills4eosc.png) ![CLARIN logo](./attachments/ClarinLogo.png)

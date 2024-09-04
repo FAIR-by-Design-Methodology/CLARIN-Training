@@ -1,32 +1,21 @@
 ![](./resources/attachments/header.png)
 
-# FAIR-by-Design Methodology - Templates Repository
+# FAIR-by-Design: introducing Skills4EOSC FAIR-by-Design Methodology to the CLARIN community
 
-This repository hosts all templates necessary for the development of FAIR-by-Design learning materials for the requirements of the Skills4EOSC project.
-Use these templates together with 
+This repository hosts all of the materials used to prepare and hold the FAIR-by-Design joint workshop by Skills4EOSC and CLARIN.
 
-- the [FAIR-by-Design Methodology for Learning Materials Development](https://fair-by-design-methodology.github.io/FAIR-by-Design_Book/).
-- the [FAIR-by-Design Methodology Training of Trainers Learning materials](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/)
+The FAIR community is continuously seeking to enable an increasingly broad range of FAIR research outputs including research software and educational resources. This workshop aims to ...:
 
-All content is available under CC0 [license](./LICENSE).
+- Skills4EOSC presents their FAIR-by-Design Methodology which can be used to create FAIR outputs, and 
+- CLARIN....
 
-
-## Want to learn how to implement the FAIR-by-Design Methodology?
-
-If you are interested in following the training as a learner:
-
-- take a look at the [FAIR-by-Design Methodology learning content GitBook](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/) - based on the content of this repo
-- enroll in the corresponding [FAIR-by-Design Methodology course on the Skills4EOSC learning platform](https://learning.skills4eosc.eu/course/view.php?id=19) and try to get the FAIR Instructor badge.
+[![image](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/assets/58505801/d3df9e94-b204-4d9b-ad52-677996e3e8c0)](10.5281/zenodo.10676532)
 
 
-## How to use these templates?
+## How to use these materials?
 
-If you want to start developing FAIR-by-Design learning materials based on these templates simply clone this repository.
+If you want to reuse the materials made for this workshop simply clone this repository.
 
 ---
 
-May your learning materials always be FAIR!
-
-
-The Skills4EOSC FAIR-by-Design Methodology Team
-
+Skills4EOSC and CLARIN
