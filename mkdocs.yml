@@ -4,7 +4,7 @@ theme:
   name: material
   palette:
     primary: custom
-  logo: attachments/logo-white.png
+  logo: attachments/logo.png
   custom_dir: resources/overrides
   features:
     - navigation.footer
