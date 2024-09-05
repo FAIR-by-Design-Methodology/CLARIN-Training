@@ -55,11 +55,11 @@ citation:
   license-url: "https://creativecommons.org/publicdomain/zero/1.0/legalcode"
   type: generic
   keywords:
-  - thefirstkeyword
-  - thesecondkeyword
-  - "a third keyword"
+    - thefirstkeyword
+    - thesecondkeyword
+    - "a third keyword"
   repository: "https://github.com/citation-file-format/my-research-software"
-signposting_linkset: https://raw.githubusercontent.com/FAIR-by-Design-ToT/templates/main/linkset.json # do not update manually
+signposting_linkset: https://raw.githubusercontent.com/FAIR-by-Design-Methodology/CLARIN-Training/main/linkset.json # do not update manually
 signposting_default_profile: '' # update with an URL towards the profile used for the Markdown pages (optional)
 # signposting_gitbook_url: https://gitbook.example.com # leave commented (prefixed with `#`) if using GitHub Pages with the default domain.
 signposting_exclusions:
