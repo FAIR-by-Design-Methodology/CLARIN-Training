@@ -1,4 +1,4 @@
-site_name: FAIR-by-Design Template Repository
+site_name: FAIR-by-Design Training for CLARIN Community
 docs_dir: resources
 theme:
   name: material
