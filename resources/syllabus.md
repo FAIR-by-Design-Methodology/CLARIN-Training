@@ -1,17 +1,13 @@
 ---
 # RDA learning materials metadata minimal set
-title: "FAIR-by-Design: introducing Skills4EOSC and FAIR-IMPACT"
+title: "FAIR-by-Design training for the CLARIN community"
 author: 
     - Sonja Filiposka 
-    - Dominique Green
-    - Joy Davidson
-    - Neil Chue Hong
-    - Morane Gruenpeter
-    - Mario Antonioletti
+    - Anastas Mishev
+    - Athina Anastasopoulou
 tags: 
     - FAIR-by-Design
-    - metadata
-    - metrics
+    - methodology
 
 abstract: "The main goal of the workshop is to introduce participants to the projects’ resources and show how they can be used to help create a broad range of FAIR by design outputs. We expect this workshop to be of high practical use to participants when it comes to increasing their capacity for supporting the production and reuse of FAIR digital objects. Therefore, it is aimed at any interested stakeholder who would like to become more aware with regards to the FAIR principles in their daily activities by both improving the FAIRness of existing digital objects or employing a FAIR-by-Design approach when developing new digital objects."
 primaryLanguage: "EN"
