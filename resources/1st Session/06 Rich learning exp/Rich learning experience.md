@@ -164,12 +164,30 @@ See the example in the previous module where the structure is presented using Me
 
 Admonitions are special call-out boxes that highlight important information or warnings. They help users quickly identify key points or notes. Use Admonitions to Highlight Key Information.
 
+Code blocks can also be used to provide source code examples to learners.
+
+Integrating Jupyter Notebooks with MkDocs can provide a powerful way to combine interactive code, data analysis, and documentation. This is particularly useful for projects that involve both technical explanations and live code examples. To mix MD with Jupyter Notebooks you can:
+
+- Convert Jupyter Notebooks to Markdown or HTML
+    - Jupyter Notebooks can be converted to Markdown or HTML, which can then be included in your MkDocs site.
+- Use nbviewer or GitHub Gists for Live Notebooks
+    - services like nbviewer or GitHub Gists to embed live notebooks, such as
+
+```
+    [View Jupyter Notebook](https://nbviewer.jupyter.org/github/username/repository/blob/main/notebook.ipynb)
+```
+
+- Use jupyter-book for a Comprehensive Solution
+    - consider using jupyter-book, which is designed to work with Jupyter Notebooks and Markdown to create interactive books.
+    - also, the jupyter-mkdocs plugin enables you to run Jupyter Notebooks directly within MkDocs.
+
 !!! tip "Final Tips"
 
     - **Maintain a Consistent Style**: Use consistent image sizes, captions, and positioning throughout your content.
     - **Test Compatibility**: Ensure that the multimedia elements work in the Markdown processor or platform you’re using.
     - **Responsive Design**: Ensure that your multimedia content is responsive, especially when using HTML, so that it looks good on different screen sizes.
     - **Provide Download Links for Media**: Some users might prefer or need to download media files instead of viewing them directly in the browser.
+    - **Documentation**: Ensure that you provide clear documentation and context for users interacting with the Jupyter notebooks.
 
 ### DON'T
 
