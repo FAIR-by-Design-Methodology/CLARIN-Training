@@ -233,13 +233,69 @@ Integrating Jupyter Notebooks with MkDocs can provide a powerful way to combine 
 
 This approach helps create rich, multimedia-enhanced learning content that can cater to different learning modalities, making your materials more engaging and effective.
 
+## Accessibility
+
+All developed learning content should be accessible to a wide range of learners with different needs from a variety of backgrounds, abilities and learning styles. To ensure this the developed content needs to be checked so that access is optimised and all unnecessary barriers are removed making it inclusive and easier to engage with by all learners including people with disabilities.
+
+Accessible educational materials (AEM) are defined as educational materials that are designed or later enhanced in such a way that it makes them usable across the widest range of learner variability. For digital learning materials and technologies this means that they are accessible if they can be easily used by anyone, including people with disabilities. Accessible digital learning materials need to be designed so that they can be directly used without assistive technology or made usable with assistive technology. 
+
+These are just a few examples that illustrate the need for accessible materials:
+
+- simple text structure helps learners with a variety of learning needs, including learners for whom the language used is not their native language
+- simple navigation through the materials should help access the content from mobile devices, as well as learners with low vision
+- adding captions to videos helps learners with hearing impairment as well as learners that have low prior knowledge on the subject and key terminology.
+
+### General guidelines for development of accessible materials
+
+Most of the techniques used for development of accessible learning materials are based on the Universal Design for Learning (UDL) that focuses on the design of learning materials that are aimed to be inclusive of as many learners as possible. This approach, combined with the assistive and accessible technologies, can ensure that every learner has access to the same materials. 
+
+UDL is based on three fundamental principles:
+
+1. multiple means of representation
+	- learning content should be presented in different ways and formats
+2. multiple means of action and expression
+	- several options for action and expression should support the demonstration of acquired knowledge
+3. multiple means of engagement
+	- learners differ in what engages and motivates them so multiple options should be provided
+
+The following are some general guidelines that should help develop accessible learning content:
+
+- **present the information in multiple ways and formats** - this helps support various learning styles and provides alternatives for different impairments
+- **use simple language** - the materials should be accessible for the learners' varying levels of access, background, and ability
+	- an option is to provide additional resources to support learners that have comprehension difficulties
+- **use headings** - assistive technologies differentiate the structural elements in the text (body text and different levels of headings). These help screen readers process the text correctly.
+- **use table of content** - helps learners navigate to the required information easily
+- **provide alternative text for images** - the alternative text is read by the screen reader instead of the image. Decorative images should be marked as decorative so that the screen reader can skip them.
+- **use equation editors for math expressions** - this format helps screen readers understand the content
+- **use a high contrast color palette** - high contrast supports learners with vision impairments
+- **don't use color as the only way to convey information** - provide other alternative means for color blind learners
+- **use descriptive links** - links to other documents should explain where the link is taking the learner 
+- **use tables only when required** - if a table is truly the best way to convey the information and not just a layout trick, then use column and row headers to describe the content
+- **provide closed captions and transcripts** - to make the information in the video accessible to the vision impaired.
+
+### Alternative text tips and tricks
+
+For tip on how to write alternative text for images study the [Alternative text guide by WebAIM](https://webaim.org/techniques/alttext/). The key takeaways in the guide include:
+
+- alternative text should be accurate and equivalent in representing content and function
+- alternative text should be succinct
+- alternative text should not be redundant
+- alternative text should not include phrases such as "image of ..." or "graphic of ..."
+
+Decorative images should have blank alternative text. A decorative image is an image that
+
+- does not present important content
+- is used for layout or non-informative purposes
+- does not have a function (e.g. is not a link)
 
 ## Summary 
 
+To create an engaging and inclusive learning experience, it’s essential to understand and integrate various learning modalities, incorporate multimedia effectively, and ensure accessibility. Learning modalities include visual, auditory, kinesthetic, and read/write styles, each catering to different ways individuals process information. By incorporating multimedia elements such as images, videos, audio, and interactive content, educators can address diverse learning preferences and enrich the educational experience. This not only helps in accommodating various learning styles but also makes the content more engaging and dynamic.
 
+Ensuring accessibility is crucial in making learning resources usable for all individuals, including those with disabilities. This involves using descriptive alt text for images, providing transcripts and captions for audio and video content, and ensuring high color contrast and responsive design. Additionally, interactive elements should be navigable via keyboard, and semantic HTML should be employed to aid screen readers in interpreting content. By following these best practices, educational content becomes more inclusive, allowing all learners to access and benefit from the material effectively.
 
 ## Suggested Reading
 
 - [Advanced editing in MD with multimedia](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%204%20%E2%80%93%20Produce/09-Content%20Development/09-Markdown%20Syntax/?h=video#videos)
-
+- [More about accessibility and standards for accessibility](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%204%20%E2%80%93%20Produce/11-Accessibility/11-Checking_accessibility/)
 
