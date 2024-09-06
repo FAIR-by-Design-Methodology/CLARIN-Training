@@ -161,12 +161,13 @@ Skills4EOSC is dedicated to ensuring that all produced learning materials are ac
 
 These learning materials have been developed by following the [FAIR-by-Design Methodology](https://doi.org/10.5281/zenodo.7875540).
 
-![Skills4EOSC logo](./attachments/skills4eosc.png) ![CLARIN logo](./attachments/ClarinLogo.png)
-
 ## Attribution
 
-The FAIR-by-Design methodoly learning materials provided in this training are based on:
+The FAIR-by-Design methodology learning materials provided in this training are based on:
 
 - Filiposka, S., Mishev, A., & Leister, C. (2024, June 10). [FAIR-by-Design Microlearning](https://doi.org/10.5281/zenodo.11548062). Zenodo. https://doi.org/10.5281/zenodo.11548062
 - Filiposka, S., Mishev, A., Kjorveziroski, V., & Leister, C. (2024, July 1). [FAIR-by-Design Learning Materials Methodology Training of Trainers](https://doi.org/10.5281/zenodo.12604767). Zenodo. https://doi.org/10.5281/zenodo.12604767
 - Filiposka, S., Green, D., Mishev, A., Kjorveziroski, V., Corleto, A., Napolitano, E., Paolini, G., Di Giorgio, S., Janik, J., Schirru, L., Gingold, A., Hadrossek, C., Souyioultzoglou, I., Leister, C., Pavone, G., Sharma, S., Mendez Rodriguez, E. M., & Lazzeri, E. (2023). [D2.2 Methodology for FAIR-by-Design Training Materials (1.4)](https://doi.org/10.5281/zenodo.8305540). Zenodo. https://doi.org/10.5281/zenodo.8305540
+
+![Skills4EOSC logo](./attachments/skills4eosc.png) ![CLARIN logo](./attachments/ClarinLogo.png)
+
