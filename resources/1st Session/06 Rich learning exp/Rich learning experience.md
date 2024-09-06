@@ -140,7 +140,7 @@ To include audio, you can also use HTML:
 
 For more complex interactive elements, one might use HTML or specialized tools that support enhanced Markdown (like Jupyter notebooks or MkDocs):
 
-- Interactive Maps, Charts, or Widgets: You can embed these by using <iframe> or specific Markdown extensions supported by your platform.
+- Interactive Maps, Charts, or Widgets: You can embed these by using ```<iframe>``` or specific Markdown extensions supported by your platform.
 
 - Example (Embedded Map using HTML)
 ```
@@ -222,6 +222,6 @@ This approach helps create rich, multimedia-enhanced learning content that can c
 
 ## Suggested Reading
 
-- [Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development](https://zenodo.org/records/8419242)
+- [Advanced editing in MD with multimedia](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%204%20%E2%80%93%20Produce/09-Content%20Development/09-Markdown%20Syntax/?h=video#videos)
 
 
