@@ -37,9 +37,9 @@ One of the important tasks in this stage is to familiarize with the **RDA minima
 
 This is when the **backward learning process** begins:
     
-    - **Step 1**: What are your desired effects, i.e. learning outcomes?
-    - **Step 2**: How are you going to assess the learners' achievements?
-    - **Step 3**: How should you structure the material to reach them?
+- **Step 1**: What are your desired effects, i.e. learning outcomes?
+- **Step 2**: How are you going to assess the learners' achievements?
+- **Step 3**: How should you structure the material to reach them?
 
 This is the initial stage of the learning materials development process and thus it is important that in this stage the designer **clearly defines the purpose of the learning materials, the target audience and the learning objectives** while taking into consideration any prerequisites. 
 
@@ -68,7 +68,7 @@ Once the vision of what needs to be created is clear, the next step is to discov
     - [OERTX CORA](https://www.projectcora.org/)
     - [GALILEO](https://oer.galileo.usg.edu/)
     - [FORRT](https://forrt.org/)
-- :material-cloud-circle-outline:{ .lg .middle } EOSC_
+- :material-cloud:{ .lg .middle } EOSC_
     - [EOSC Training catalogue on the EOSC Marketplace](https://search.marketplace.eosc-portal.eu/search/training?q=*)
     - Most EOSC projects have their own training catalogues and/or platforms...
 - :material-book:{ .lg .middle } General
@@ -83,13 +83,17 @@ At this stage the designer has a clear idea of what is needed and what already e
 
 In the design stage the **overall structure of the learning materials** is defined identifying all modules and learning units necessary together with the information on what can be reused and what needs to be designed from scratch. Careful attention should be put on license compatibility during this work.
 
-<div class="grid cards" markdown>
+!!! tip 
 
-- <i class="fa fa-cogs" aria-hidden="true"></i> Create an intuitive logical organisation of all learning materials. 
-- <i class="fa fa-cubes" aria-hidden="true"></i> The goal is for other people to easily reuse a single item (plan, activity, unit, assessment, ...).
-- <i class="fa fa-sitemap" aria-hidden="true"></i> Use a hierarchical structure to combine learning units into larger compositions.
+    Create an intuitive logical organisation of all learning materials. 
 
-</div>
+!!! tip
+
+    The goal is for other people to easily reuse a single item (plan, activity, unit, assessment, ...).
+
+!!! tip
+
+    Use a hierarchical structure to combine learning units into larger compositions.
 
 Upon completing the structure, each learning unit needs to be designed using a modeling technique such as the Hunter's model. 
 
@@ -186,7 +190,7 @@ Upon the identification of potential improvements that should be implemented, th
     Select items from the list that will be part of a new version.
     Choose items that make sense to be in the same new release.
 
-!!! Repeat
+!!! tip "Repeat"
 
     Start a new cycle of the FAIR-by-Design methodology that will implement the selected items.
     After the Verify stage, you will reenter continuous improvement with newly gathered information....
