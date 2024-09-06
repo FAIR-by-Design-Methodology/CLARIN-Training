@@ -136,6 +136,10 @@ To include audio, you can also use HTML:
             Your browser does not support the audio element.
     </audio>
 
+!!! warning "Accessible multimedia"
+
+    Provide transcripts and captions for audio and video content to make them accessible to all users.
+
 #### Interactive elements
 
 For more complex interactive elements, one might use HTML or specialized tools that support enhanced Markdown (like Jupyter notebooks or MkDocs):
@@ -206,7 +210,7 @@ Integrating Jupyter Notebooks with MkDocs can provide a powerful way to combine 
 	- Why: Media might not display or function as expected across different browsers or devices.
 	- Tip: Always test embedded media on multiple platforms before publishing.
 
-??? warning Don’t Ignore Accessibility
+??? warning "Don’t Ignore Accessibility"
 
 	- Why: Multimedia content should be accessible to all users, including those with disabilities.
 	- Tip: Use alt text, provide transcripts for videos, and ensure that interactive elements are keyboard-navigable.
@@ -221,7 +225,7 @@ Integrating Jupyter Notebooks with MkDocs can provide a powerful way to combine 
 	- Why: Auto-playing videos or audio can be intrusive and may disrupt the user’s experience.
 	- Tip: Always allow users to control when media plays.
 
-??? warning Don’t Neglect to Credit Sources"
+??? warning "Don’t Neglect to Credit Sources"
 
 	- Why: Failing to attribute media to its original creator can lead to copyright issues and diminish the trustworthiness of your content.
 	- Tip: Always include proper citations or credits when using third-party media.
@@ -251,11 +255,11 @@ Most of the techniques used for development of accessible learning materials are
 
 UDL is based on three fundamental principles:
 
-1. multiple means of representation
+1. **Multiple means of representation**
 	- learning content should be presented in different ways and formats
-2. multiple means of action and expression
+2. **Multiple means of action and expression**
 	- several options for action and expression should support the demonstration of acquired knowledge
-3. multiple means of engagement
+3. **Multiple means of engagement**
 	- learners differ in what engages and motivates them so multiple options should be provided
 
 The following are some general guidelines that should help develop accessible learning content:
