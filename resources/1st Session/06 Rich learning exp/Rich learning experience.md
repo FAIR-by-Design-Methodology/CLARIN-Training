@@ -262,20 +262,52 @@ UDL is based on three fundamental principles:
 3. **Multiple means of engagement**
 	- learners differ in what engages and motivates them so multiple options should be provided
 
-The following are some general guidelines that should help develop accessible learning content:
+The following are some general tips and guidelines that should help develop accessible learning content:
 
-- **present the information in multiple ways and formats** - this helps support various learning styles and provides alternatives for different impairments
-- **use simple language** - the materials should be accessible for the learners' varying levels of access, background, and ability
-	- an option is to provide additional resources to support learners that have comprehension difficulties
-- **use headings** - assistive technologies differentiate the structural elements in the text (body text and different levels of headings). These help screen readers process the text correctly.
-- **use table of content** - helps learners navigate to the required information easily
-- **provide alternative text for images** - the alternative text is read by the screen reader instead of the image. Decorative images should be marked as decorative so that the screen reader can skip them.
-- **use equation editors for math expressions** - this format helps screen readers understand the content
-- **use a high contrast color palette** - high contrast supports learners with vision impairments
-- **don't use color as the only way to convey information** - provide other alternative means for color blind learners
-- **use descriptive links** - links to other documents should explain where the link is taking the learner 
-- **use tables only when required** - if a table is truly the best way to convey the information and not just a layout trick, then use column and row headers to describe the content
-- **provide closed captions and transcripts** - to make the information in the video accessible to the vision impaired.
+!!! tip "Present the information in multiple ways and formats"
+
+    This helps support various learning styles and provides alternatives for different impairments.
+
+!!! tip "Use simple language"
+
+    The materials should be accessible for the learners' varying levels of access, background, and ability.
+	An option is to provide additional resources to support learners that have comprehension difficulties.
+
+!!! tip "Use headings"
+
+    Assistive technologies differentiate the structural elements in the text (body text and different levels of headings). These help screen readers process the text correctly.
+
+!!! tip "Use table of content"
+
+    Helps learners navigate to the required information easily.
+
+!!! tip "Provide alternative text for images"
+
+    The alternative text is read by the screen reader instead of the image. Decorative images should be marked as decorative so that the screen reader can skip them.
+
+!!! tip "Use equation editors for math expressions"
+
+    This format helps screen readers understand the content.
+
+!!! tip "Use a high contrast color palette"
+
+    High contrast supports learners with vision impairments.
+
+!!! tip "Don't use color as the only way to convey information"
+
+    Provide other alternative means for color blind learners.
+
+!!! tip "Use descriptive links"
+
+    Links to other documents should explain where the link is taking the learner.
+
+!!! tip "Use tables only when required"
+
+    If a table is truly the best way to convey the information and not just a layout trick, then use column and row headers to describe the content.
+
+!!! tip "Provide closed captions and transcripts"
+
+    Helps make the information in the video accessible to the vision impaired.
 
 ### Alternative text tips and tricks
 
