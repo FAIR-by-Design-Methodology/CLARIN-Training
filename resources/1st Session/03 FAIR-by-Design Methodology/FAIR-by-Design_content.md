@@ -8,19 +8,20 @@ tags:
 
 ---
 
+# FAIR-by-Design Methodology for Learning Materials
+
 ## Slides
 
 [Download the slides here](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
 
 
-# Introduction
+## Introduction
 
 The FAIR-by-Design methodology for learning materials refers to an approach where educational resources are created and managed in a way that aligns with the FAIR principles: Findable, Accessible, Interoperable, and Reusable. This methodology ensures that learning materials, such as course content, training modules, and educational resources, are not only well-structured and high-quality but also meet specific criteria that make them easier to discover, use, and adapt within the Open Science ecosystem.
 
 In this way the methodology guarantees that the produced materials will be **FAIR not just from the point of view of the learners, but also other designers and trainers** that would like to reuse and adapt the materials for their own purposes. 
 
-
-# FAIR-by-Design Methodology for Learning Materials
+## FAIR-by-Design Methodology Stages
 
 The FAIR-by-Design Methodology is created around the popular backward instructional design process that is used to develop high-quality learner-centric materials. We have taken the steps of the backward instruction design process and added additional considerations to ensure that the process will be aimed towards the design of FAIR learning content from both the perspective of the learners and the perspective of the instructional designers and trainers.
 
@@ -28,9 +29,12 @@ The FAIR-by-Design Methodology is created around the popular backward instructio
 
 The methodology is broken down into a number of stages that are connected in a feedback loop thus enabling continuous improvement:
 
-1. Prepare
-    - In the Prepare stage the instructional designers need to expand their skillset so that they can practically implement the **FAIR principles**. This means that in addition to the traditional instructional design skills, they should also be able to work with PIDs, repositories and catalogues, use a corresponding metadata schema, choose a license, and know how to acknowledge reused work with attribution.
-    - One of the important tasks in this stage is to familiarize with the **RDA minimal metadata schema** for learning resources as this is the basis for the description of the FAIR learning materials.
+### Prepare
+
+In the Prepare stage the instructional designers need to expand their skillset so that they can practically implement the **FAIR principles**. This means that in addition to the traditional instructional design skills, they should also be able to work with PIDs, repositories and catalogues, use a corresponding metadata schema, choose a license, and know how to acknowledge reused work with attribution.
+
+One of the important tasks in this stage is to familiarize with the **RDA minimal metadata schema** for learning resources as this is the basis for the description of the FAIR learning materials.
+
 <div class="row">
   <div class="col-sm-4">
    <!-- <div class="card text-white bg-secondary mb-3" > -->
@@ -65,7 +69,9 @@ The methodology is broken down into a number of stages that are connected in a f
   </div>
 
 </div>
-    - This is the initial stage of the learning materials development process and thus it is important that in this stage the designer **clearly defines the purpose of the learning materials, the target audience and the learning objectives** while taking into consideration any prerequisites. 
+
+This is the initial stage of the learning materials development process and thus it is important that in this stage the designer **clearly defines the purpose of the learning materials, the target audience and the learning objectives** while taking into consideration any prerequisites. 
+
 <div class="grid cards" markdown>
 
 -   :material-flag-checkered:{ .lg .middle } __Purpose__
@@ -110,8 +116,11 @@ The methodology is broken down into a number of stages that are connected in a f
     [:octicons-arrow-right-24: Read more](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%201%20%E2%80%93%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects_cont/#defining-learning-objectives)
 
 </div>
-2. Discover
-    - Once the vision of what needs to be created is clear, the next step is to discover **any existing learning materials that can be reused** or simply serve as inspiration. For these purposes the designer needs to search different types of repositories that might host similar learning materials including OER repositories, learning platforms, general repositories and catalogues, as well as multimedia repositories that can provide sources of audio/visual props that are essential in multi-modal learning.
+
+### Discover
+
+Once the vision of what needs to be created is clear, the next step is to discover **any existing learning materials that can be reused** or simply serve as inspiration. For these purposes the designer needs to search different types of repositories that might host similar learning materials including OER repositories, learning platforms, general repositories and catalogues, as well as multimedia repositories that can provide sources of audio/visual props that are essential in multi-modal learning.
+
 <div class="grid cards" markdown>
 
 -   :material-open-source-initiative:{ .lg .middle } __OER__
@@ -153,9 +162,13 @@ The methodology is broken down into a number of stages that are connected in a f
     
 
 </div>
-3. Design
-    - At this stage the designer has a clear idea of what is needed and what already exists. The next step is to sketch a **conceptual map** of the learning materials that will help crystalize the ideas and prepare the syllabus for the learning materials. The syllabus is then used as a high-level blueprint for the development of the learning materials.
-    - In the design stage the **overall structure of the learning materials** is defined identifying all modules and learning units necessary together with the information on what can be reused and what needs to be designed from scratch. Careful attention should be put on license compatibility during this work.
+
+### Design
+
+At this stage the designer has a clear idea of what is needed and what already exists. The next step is to sketch a **conceptual map** of the learning materials that will help crystalize the ideas and prepare the syllabus for the learning materials. The syllabus is then used as a high-level blueprint for the development of the learning materials.
+
+In the design stage the **overall structure of the learning materials** is defined identifying all modules and learning units necessary together with the information on what can be reused and what needs to be designed from scratch. Careful attention should be put on license compatibility during this work.
+
 <div class="grid cards" markdown>
 
 - <i class="fa fa-cogs" aria-hidden="true"></i> Create an intuitive logical organisation of all learning materials. 
@@ -163,10 +176,15 @@ The methodology is broken down into a number of stages that are connected in a f
 - <i class="fa fa-sitemap" aria-hidden="true"></i> Use a hierarchical structure to combine learning units into larger compositions.
 
 </div>
-    - Upon completing the structure, each learning unit needs to be designed using a modeling technique such as the Hunter's model 
-    - The design stage should also take into account the need for **development of a facilitation guide** that explains in details how to prepare and put the training into practice, as well as a feedback form that should be used to gather feedback after the learning process has finished
-4. Produce
-    - When the design is complete, it is time to move to the produce stage and **choose the tools and file formats** necessary to develop all of the content. Care must be taken that the chosen file formats are open so that reusability is supported, and it is recommended that a **collaborative, versioning system** is used to keep track of all contributions and changes. It is important to consider both the editable files that can be reused by trainers and the final file formats intended for learners.
+
+Upon completing the structure, each learning unit needs to be designed using a modeling technique such as the Hunter's model 
+
+The design stage should also take into account the need for **development of a facilitation guide** that explains in details how to prepare and put the training into practice, as well as a feedback form that should be used to gather feedback after the learning process has finished
+
+### Produce
+
+When the design is complete, it is time to move to the produce stage and **choose the tools and file formats** necessary to develop all of the content. Care must be taken that the chosen file formats are open so that reusability is supported, and it is recommended that a **collaborative, versioning system** is used to keep track of all contributions and changes. It is important to consider both the editable files that can be reused by trainers and the final file formats intended for learners.
+
 <div class="grid" markdown>
 
 ??? info "Collaborative environment for team work"
@@ -194,11 +212,17 @@ The methodology is broken down into a number of stages that are connected in a f
     Truly FAIR learning materials should enable co-creation with external parties. If you don't use a collaborative environment that supports this from the start (such as GitHub), then think how are you going to enable this in the future and how are you going to deal with versioning then.
 
 </div>
-    - One of the most important aspects of the produce stage is **accessibility of the developed learning materials**. Accessibility standards should be followed so as to maximize the audience for the learning materials. 
-    - During this stage the designers must not forget to add the **human-readable and machine-readable metadata** in the developed content as well as to develop the content of all facilitation documents such as the guide, activities description, lesson plans, etc.
-    - The final step in the produce stage is to perform an **internal Quality Assessment** that will check that all elements are present and that the content is adequate.
-5. Publish
-    - A satisfactory completion of the internal QA leads to the publication steps. Before the actual publication, very important final touches need to be done including activities such as the definition of the content of **accompanying files**: license, readme, citation, code of conduct and alike.
+
+One of the most important aspects of the produce stage is **accessibility of the developed learning materials**. Accessibility standards should be followed so as to maximize the audience for the learning materials. 
+
+During this stage the designers must not forget to add the **human-readable and machine-readable metadata** in the developed content as well as to develop the content of all facilitation documents such as the guide, activities description, lesson plans, etc.
+
+The final step in the produce stage is to perform an **internal Quality Assessment** that will check that all elements are present and that the content is adequate.
+
+### Publish
+
+A satisfactory completion of the internal QA leads to the publication steps. Before the actual publication, very important final touches need to be done including activities such as the definition of the content of **accompanying files**: license, readme, citation, code of conduct and alike.
+
 <div class="grid cards" markdown>
 
 -   :material-flag-checkered:{ .lg .middle } __Accompanying files__
@@ -220,10 +244,15 @@ The methodology is broken down into a number of stages that are connected in a f
     Provide the final non-editable versions to the learners on a learning platform of your choice.
 
 </div>
-    - Once all necessary elements are in place, the learning materials can be **published to a selected repo**. If GitHub was chosen as the repository in the Produce stage, then the automated bridge between GitHub and Zenodo can be used to create a Zenodo record and obtain a DOI PID for the learning materials. This records is primarily intended for reuse by other designers and trainers. 
-    - In addition, the complete learning environment should be setup in a learning platform where the **final file formats will be provided to the learners**.
-6. Verify
-    - The final steps in the methodology is to perform another QA round, this time focusing on **external QA**. At this stage the overall level of FAIRness of the learning materials needs to be checked and external experts should be used to provide unbiased feedback regarding the quality of the produced materials. 
+
+Once all necessary elements are in place, the learning materials can be **published to a selected repo**. If GitHub was chosen as the repository in the Produce stage, then the automated bridge between GitHub and Zenodo can be used to create a Zenodo record and obtain a DOI PID for the learning materials. This records is primarily intended for reuse by other designers and trainers. 
+
+In addition, the complete learning environment should be setup in a learning platform where the **final file formats will be provided to the learners**.
+
+### Verify
+
+The final steps in the methodology is to perform another QA round, this time focusing on **external QA**. At this stage the overall level of FAIRness of the learning materials needs to be checked and external experts should be used to provide unbiased feedback regarding the quality of the produced materials. 
+
 ??? danger "A fresh set of eyes"
 
     Have someone who has not participated in the development of the learning materials review the final work. This will guarantee a review free of cognitive bias.
@@ -237,10 +266,14 @@ The methodology is broken down into a number of stages that are connected in a f
     In Skills4EOSC T2.4 has developed a number of QA checklists that you and your external reviewer need to go through so that you can ensure high-quality learning materials (see [Sánchez et al. 2023](https://doi.org/10.5281/zenodo.8305482)).
 
 
-    - This stage also focuses on setting up different mechanism for gathering feedback so that the learning materials can be further improved. In this way it fosters **the co-creation process** that empowers learners and other designers and trainers to actively participate in the development.
-7. Continuous Improvement
-    - The gathered internal and external feedback should be used as input for the **development of a new version** of the learning materials.
-    - Upon the identification of potential improvements that should be implemented, the development process circles back to the first stage aiming to publish a new improved version of the learning materials.
+This stage also focuses on setting up different mechanism for gathering feedback so that the learning materials can be further improved. In this way it fosters **the co-creation process** that empowers learners and other designers and trainers to actively participate in the development.
+
+### Continuous Improvement
+
+The gathered internal and external feedback should be used as input for the **development of a new version** of the learning materials.
+
+Upon the identification of potential improvements that should be implemented, the development process circles back to the first stage aiming to publish a new improved version of the learning materials.
+
 <div class="row row-cols-1 row-cols-md-2">
     <div class="col mb-4">
         <div class="card">
@@ -287,7 +320,7 @@ The methodology is broken down into a number of stages that are connected in a f
     </div>
 </div>
 
-# Summary
+## Summary
 
 The FAIR-by-Design methodology proposes six stages that aim to ensure that the end result will be FAIR Learning Materials that are:
 
@@ -296,7 +329,7 @@ The FAIR-by-Design methodology proposes six stages that aim to ensure that the e
 3. **Interoperable**: Learning materials are designed to be compatible with various systems and tools. This involves using standardized formats, protocols, and vocabularies that enable the integration and use of the materials across different platforms, enhancing the ability to mix, match, and repurpose content.
 4. **Reusable**: The resources are created with reuse in mind, allowing others to easily adapt or repurpose them for different contexts. This requires clear licensing, proper documentation, and a modular design that facilitates modification and customization.
 
-# Suggested Reading
+## Suggested Reading
 
 - [Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development](https://zenodo.org/records/8419242)
 - [FAIR-by-Design Learning Materials Methodology Training of Trainers on Zenodo](https://zenodo.org/records/10063110)
