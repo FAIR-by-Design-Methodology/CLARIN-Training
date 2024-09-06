@@ -8,12 +8,14 @@ tags:
     - project outputs
 ---
 
+# About Skills4EOSC
+
 ## Slides
 
 [Download the slides here](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
 
 
-# Introduction to Skills4EOSC
+## Introduction to Skills4EOSC
 
 Skills4EOSC ‘Skills for the European Open Science commons: creating a training ecosystem for Open and FAIR science’ is funded by the European Commission Horizon Europe programme (GA 101058527).
 
@@ -43,12 +45,12 @@ There is also [a registry of the Skills4EOSC training courses](https://www.skill
 All of the deliverables, milestones and other relevant project outputs are developed using a **co-creation process**. This means that once the initial draft is completed, the material is shared with the public so that comments and opinions can be gathered and included in the final version. The list of [materials for community review](https://www.skills4eosc.eu/participate/materials-for-community-review) provides an easy access to the EU surveys which you can use to provide your feedback on a given topic.
 
 
-# Summary 
+## Summary 
 
 Skills4EOSC aims to build a comprehensive and sustainable framework for Open Science skills development, ensuring that European researchers and data stewards are well-equipped to contribute to the evolving landscape of Open Science.
 
 
-# Suggested Reading
+## Suggested Reading
 
 - [Skills4EOSC Website](https://www.skills4eosc.eu/)
 - [Skills4EOSC Learning Platform](https://learning.skills4eosc.eu/)
