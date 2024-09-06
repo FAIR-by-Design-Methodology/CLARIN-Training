@@ -30,7 +30,7 @@ up to 100
 | Duration | Topic         | Key points/Teaching Method/Questions                 | Activities | Resources   |
 |----------|---------------|------------------------------------------------------|------------|-------------|
 | 5 mins   | Goals         | learning modalities                                  |            | pptx        |
-| 10 mins  | Multimedia    | how to add multimedia to MD content, tips and tricks | questions  | pptx, Menti |
+| 10 mins  | Multimedia    | how to add multimedia to MD content, tips and tricks | questions, discussion | pptx, Menti |
 | 10 mins  | Accessibility | accessibility best practices                         | questions  | pptx, Menti |
 
 
