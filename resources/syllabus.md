@@ -5,42 +5,67 @@ author:
     - Sonja Filiposka 
     - Anastas Mishev
     - Athina Anastasopoulou
+    - Francesca Frontini
+    - Giulia Pedonese
+    - Iulianna van der Lek
 tags: 
-    - FAIR-by-Design
-    - methodology
+    - "FAIR learning materials"
+    - "FAIR-by-Design methodology"
+    - "FAIR instructional design"
+    - "FAIR quality assessment"
 
-abstract: "The main goal of the workshop is to introduce participants to the projects’ resources and show how they can be used to help create a broad range of FAIR by design outputs. We expect this workshop to be of high practical use to participants when it comes to increasing their capacity for supporting the production and reuse of FAIR digital objects. Therefore, it is aimed at any interested stakeholder who would like to become more aware with regards to the FAIR principles in their daily activities by both improving the FAIRness of existing digital objects or employing a FAIR-by-Design approach when developing new digital objects."
+abstract: "When developing learning materials, it is essential to ensure they are FAIR (Findable, Accessible, Interoperable, and Reusable) from both the learners' and trainers' perspectives. Therefore, integrating FAIR principles into the development of learning materials is a crucial element. This training introduces the CLARIN community to the FAIR-by-Design Methodology, which provides a systematic approach that embeds the FAIR principles into the backward instructional design process."
 primaryLanguage: "EN"
 license: "http://creativecommons.org/licenses/by/4.0/"
-versionDate: "2024-02-19"
+versionDate: "2024-09-19"
 urlToResource: "https://doi.org/10.5281/zenodo.10676532"
 resourceURLType: "URL"
-targetGroup: "Research software developers, training materials designers"
+targetGroup: "Training materials designers, Training workflow and infrastructure managers"
 learningResourceType: "GitBook"
 learningOutcome: 
-    - describe training materials using metadata
-    - ...
+    - Describe training materials using metadata
+    - Structure comprehensive learning materials
+    - Develop a facilitation kit
+    - Adapt and mix learning materials
+    - Publish FAIR-by-Design learning materials
+    - Collaborate with other instructors
+    - Assess FAIR-ness of learning materials
 accessCost: "N"
 expertiseLevel: "Beginner"
 ---
 
 ![Header with funding information](./attachments/header.png)
 
-# FAIR-by-Design: introducing Skills4EOSC FAIR-by-Design Methodology to the CLARIN community 
+# Introducing the FAIR-by-Design Methodology to the CLARIN community 
 
 # Workshop
 
-## Date/Time: Fri, 20 Sep 2024 14:00 - 17:00 CEST, Thu, 26 Sep 2024, 14:00 - 17:00 CEST
-
+## Date/Time: 
+- Session 1: Fri, 20 Sep 2024 14:00 - 17:00 CEST
+- Session 2: Thu, 26 Sep 2024, 14:00 - 17:00 CEST
 
 ## Location: 
 Online
 
 ## Description
 
-The main goal of the workshop is to introduce participants to the projects’ resources and show how they can be used to help create a broad range of FAIR by design outputs. We expect this workshop to be of high practical use to participants when it comes to increasing their capacity for supporting the production and reuse of FAIR digital objects. Therefore, it is aimed at any interested stakeholder who would like to become more aware with regards to the FAIR principles in their daily activities by both improving the FAIRness of existing digital objects or employing a FAIR-by-Design approach when developing new digital objects.
+When developing learning materials, it is essential to ensure they are FAIR (Findable, Accessible, Interoperable, and Reusable) from both the learners' and trainers' perspectives. Therefore, integrating FAIR principles into the development of learning materials is a crucial element. This training introduces the FAIR-by-Design Methodology, which provides a systematic approach that embeds the FAIR principles into the backward instructional design process.
 
-## Target audience: training materials designers
+During the training session, the participants will:
+
+- Gain an in-depth understanding of the FAIR-by-Design workflow where each stage highlights different aspects of the learning materials design process.
+- Learn practical techniques for implementing the methodology to produce high-quality FAIR learning materials.
+- Engage in discussions to explore how these principles can be applied in specific real-world scenarios.
+
+This event is organised by CLARIN ERIC, CLARIN-IT and H2IOSC in conjunction with the Skills4EOSC project.
+
+
+## Target audience
+
+- CLARIN Trainers' Network, Ambassadors and members of the CLARIN thematic committees involved in the development of training and learning resources
+- CLARIN-IT members involved in training activities in the H2IOSC project
+- Anyone interested in the topic is welcome to join the session and learn
+
 
 ## Expertise Level / Skill Level: Beginner
 
@@ -48,18 +73,26 @@ The main goal of the workshop is to introduce participants to the projects’ re
 
 ## Access Cost: N 
 
-## Prerequisites: none
+## Prerequisites: Basic knowledge of working with GitHub repositories and MD files
 
-## Duration: 4 hrs
+## Duration: 2 x 3 hrs
 
-## Workshop objectives
+## Training objectives
 
-- describe training materials using metadata
-- ...
+- Describe training materials using metadata
+- Structure comprehensive learning materials
+- Develop a facilitation kit
+- Adapt and mix learning materials
+- Publish FAIR-by-Design learning materials
+- Collaborate with other instructors
+- Assess FAIR-ness of learning materials
 
 ## Keywords
 
-FAIR-by-design, FAIRness, metadata, methodology
+- FAIR learning materials
+- FAIR-by-Design methodology
+- FAIR instructional design
+- FAIR quality assessment
 
 ## Agenda:
 ### First session: 20th Sep 2024
@@ -98,15 +131,15 @@ FAIR-by-design, FAIRness, metadata, methodology
 
 Official event page: []()
 
-All resource and materials can be found at [https://github.com/FAIR-by-Design-Methodology/CLARIN-FBD-Training](https://github.com/FAIR-by-Design-Methodology/CLARIN-FBD-Training)
+All resources and materials can be found at [https://github.com/FAIR-by-Design-Methodology/CLARIN-FBD-Training](https://github.com/FAIR-by-Design-Methodology/CLARIN-FBD-Training)
 
 ## Author(s)
 
-Sonja Filiposka, Anastas Mishev, Dominique Green, Angus Whyte, Joy Davidson, Neil Chue Hong, Morane Gruenpeter, Mario Antonioletti
+Sonja Filiposka, Anastas Mishev, Athina Anastasopoulou, Francesca Frontini, Giulia Pedonese, Iulianna van der Lek
 
 # Trainer(s)
 
-Sonja Filiposka[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-0034-2855), Anastas Mishev[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0001-7271-6655), Dominique Green[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9411-4281), Angus	Whyte[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-5198-0833), Joy Davidson[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-3484-7675), Neil Chue Hong[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-8876-7606), Morane Gruenpeter[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-9777-5560), Mario Antonioletti [![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-2486-7990)
+Sonja Filiposka[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-0034-2855), Anastas Mishev[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0001-7271-6655), Athina Anastasopoulou, Francesca Frontini[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-8126-6294), Giulia Pedonese[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0003-3828-0135), Iulianna van der Lek[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org/0000-0002-0736-0311)
 
 ## Contact information
 
@@ -129,3 +162,11 @@ Skills4EOSC is dedicated to ensuring that all produced learning materials are ac
 These learning materials have been developed by following the [FAIR-by-Design Methodology](https://doi.org/10.5281/zenodo.7875540).
 
 ![Skills4EOSC logo](./attachments/skills4eosc.png) ![CLARIN logo](./attachments/ClarinLogo.png)
+
+## Attribution
+
+The FAIR-by-Design methodoly learning materials provided in this training are based on:
+
+- Filiposka, S., Mishev, A., & Leister, C. (2024, June 10). [FAIR-by-Design Microlearning](https://doi.org/10.5281/zenodo.11548062). Zenodo. https://doi.org/10.5281/zenodo.11548062
+- Filiposka, S., Mishev, A., Kjorveziroski, V., & Leister, C. (2024, July 1). [FAIR-by-Design Learning Materials Methodology Training of Trainers](https://doi.org/10.5281/zenodo.12604767). Zenodo. https://doi.org/10.5281/zenodo.12604767
+- Filiposka, S., Green, D., Mishev, A., Kjorveziroski, V., Corleto, A., Napolitano, E., Paolini, G., Di Giorgio, S., Janik, J., Schirru, L., Gingold, A., Hadrossek, C., Souyioultzoglou, I., Leister, C., Pavone, G., Sharma, S., Mendez Rodriguez, E. M., & Lazzeri, E. (2023). [D2.2 Methodology for FAIR-by-Design Training Materials (1.4)](https://doi.org/10.5281/zenodo.8305540). Zenodo. https://doi.org/10.5281/zenodo.8305540
