@@ -1127,6 +1127,27 @@ or if it is a local file
 <p>Some Markdown processors support extended syntax for including multimedia, such as MathJax for equations or Mermaid for diagrams.</p>
 <p>See the example in the previous module where the structure is presented using Mermaid. </p>
 <p>Admonitions are special call-out boxes that highlight important information or warnings. They help users quickly identify key points or notes. Use Admonitions to Highlight Key Information.</p>
+<p>Code blocks can also be used to provide source code examples to learners.</p>
+<p>Integrating Jupyter Notebooks with MkDocs can provide a powerful way to combine interactive code, data analysis, and documentation. This is particularly useful for projects that involve both technical explanations and live code examples. To mix MD with Jupyter Notebooks you can:</p>
+<ul>
+<li>Convert Jupyter Notebooks to Markdown or HTML<ul>
+<li>Jupyter Notebooks can be converted to Markdown or HTML, which can then be included in your MkDocs site.</li>
+</ul>
+</li>
+<li>Use nbviewer or GitHub Gists for Live Notebooks<ul>
+<li>services like nbviewer or GitHub Gists to embed live notebooks, such as</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code>    [View Jupyter Notebook](https://nbviewer.jupyter.org/github/username/repository/blob/main/notebook.ipynb)
+</code></pre></div>
+<ul>
+<li>Use jupyter-book for a Comprehensive Solution<ul>
+<li>consider using jupyter-book, which is designed to work with Jupyter Notebooks and Markdown to create interactive books.</li>
+<li>also, the jupyter-mkdocs plugin enables you to run Jupyter Notebooks directly within MkDocs.</li>
+</ul>
+</li>
+</ul>
 <div class="admonition tip">
 <p class="admonition-title">Final Tips</p>
 <ul>
@@ -1134,6 +1155,7 @@ or if it is a local file
 <li><strong>Test Compatibility</strong>: Ensure that the multimedia elements work in the Markdown processor or platform you’re using.</li>
 <li><strong>Responsive Design</strong>: Ensure that your multimedia content is responsive, especially when using HTML, so that it looks good on different screen sizes.</li>
 <li><strong>Provide Download Links for Media</strong>: Some users might prefer or need to download media files instead of viewing them directly in the browser.</li>
+<li><strong>Documentation</strong>: Ensure that you provide clear documentation and context for users interacting with the Jupyter notebooks.</li>
 </ul>
 </div>
 <h3 id="dont">DON'T</h3>
