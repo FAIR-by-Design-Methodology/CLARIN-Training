@@ -31,7 +31,85 @@ The methodology is broken down into a number of stages that are connected in a f
 1. Prepare
     - In the Prepare stage the instructional designers need to expand their skillset so that they can practically implement the **FAIR principles**. This means that in addition to the traditional instructional design skills, they should also be able to work with PIDs, repositories and catalogues, use a corresponding metadata schema, choose a license, and know how to acknowledge reused work with attribution.
     - One of the important tasks in this stage is to familiarize with the **RDA minimal metadata schema** for learning resources as this is the basis for the description of the FAIR learning materials.
+<div class="row">
+  <div class="col-sm-4">
+   <!-- <div class="card text-white bg-secondary mb-3" > -->
+   <div class="card bg-light mb-3" >
+      <!-- <div class="card-header text-white"> -->
+      <div class="card-header"><i class="fa fa-fast-backward" aria-hidden="true"></i> Think backward</div>
+      <div class="card-body">
+        <h5 class="card-title">Step 1</h5>
+        <p class="card-text">What are your desired effects, i.e. learning outcomes?</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="card bg-light mb-3" >
+      <div class="card-header"><i class="fa fa-fast-backward" aria-hidden="true"></i> Think backward</div>
+      <div class="card-body">
+        <h5 class="card-title">Step 2</h5>
+        <p class="card-text">How are you going to assess the learners' achievements?</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="card bg-light mb-3" >
+      <div class="card-header"><i class="fa fa-fast-backward" aria-hidden="true"></i> Think backward</div>
+      <div class="card-body">
+        <h5 class="card-title">Step 3</h5>
+        <p class="card-text">How should you structure the material to reach them?</p>
+      </div>
+    </div>
+  </div>
+
+</div>
     - This is the initial stage of the learning materials development process and thus it is important that in this stage the designer **clearly defines the purpose of the learning materials, the target audience and the learning objectives** while taking into consideration any prerequisites. 
+<div class="grid cards" markdown>
+
+-   :material-flag-checkered:{ .lg .middle } __Purpose__
+
+    ---
+
+    When and how the learning materials can be used and for what purposes?
+
+-   :material-target-account:{ .lg .middle } __Target Audience__
+
+    ---
+
+    Is there anything specific that needs to be taken into account, such as cultural context?
+
+-   :material-history:{ .lg .middle } __Prerequisites__
+
+    ---
+
+    What does the target audience need to know or understand before starting the learning process?
+
+
+-   :material-target-account:{ .lg .middle } __Scope__
+
+    ---
+
+    Is it going to be a single learning unit, or a group such as a course?
+
+-   :material-bullseye-arrow:{ .lg .middle } __Learning Objectives__
+
+    ---
+
+    What competences will be gained after successful completing of the learning process?
+
+    ??? info "Be SMART"
+
+        Objectives should be **s**pecific, **m**easurable, **a**ttainable, **r**elevant and **t**ime-bound.
+
+    ??? hint "Use Blooms Taxonomy"
+    
+        Formulate the objectives as actionable verb + observable knowledge, skill, attitude, behavior or ability.
+
+    [:octicons-arrow-right-24: Read more](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%201%20%E2%80%93%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects_cont/#defining-learning-objectives)
+
+</div>
 2. Discover
     - Once the vision of what needs to be created is clear, the next step is to discover **any existing learning materials that can be reused** or simply serve as inspiration. For these purposes the designer needs to search different types of repositories that might host similar learning materials including OER repositories, learning platforms, general repositories and catalogues, as well as multimedia repositories that can provide sources of audio/visual props that are essential in multi-modal learning.
 3. Design
