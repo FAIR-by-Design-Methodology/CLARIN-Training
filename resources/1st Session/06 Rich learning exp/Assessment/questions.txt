@@ -1,0 +1,13 @@
+1. What types of multimedia/interactive content can be added to MD?
+    - cloud of words
+2. Which of the following are good accessibility practices?
+    - organise content in tables
+    - [X] use headings
+    - [X] don't use flickering videos
+    - auto play videos
+    - use only black and white images
+3. Which of the following is a best practice for ensuring web content is accessible to users with disabilities?
+    - Use small font sizes to save space and increase visual appeal.
+    - [X] Include descriptive alt text for images to provide context for screen readers.
+    - Rely solely on color to convey important information.
+    - Design interactive elements that are only accessible through mouse clicks.
