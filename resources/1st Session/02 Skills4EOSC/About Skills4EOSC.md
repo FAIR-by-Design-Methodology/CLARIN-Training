@@ -17,6 +17,8 @@ tags:
 
 Skills4EOSC ‘Skills for the European Open Science commons: creating a training ecosystem for Open and FAIR science’ is funded by the European Commission Horizon Europe programme (GA 101058527).
 
+![Skills4EOSC logo](./attachments/Skills4EOSC_logo_extended.png)
+
 The project is coordinated by Consortium GARR and supported by 44 partners in 18 European countries.
 
 The project officially started on the 1st of September 2022 and lasts until 31st of August 2025.
