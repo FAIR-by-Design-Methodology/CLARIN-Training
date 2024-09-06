@@ -1055,31 +1055,30 @@
 <pre><code>![Alt text](image-url)
 </code></pre>
 <p>such as
-    <img alt="A beautiful sunset" src="https://example.com/sunset.jpg" />
+<div class="highlight"><pre><span></span><code>    ![A beautiful sunset](https://example.com/sunset.jpg)
+</code></pre></div>
 or if it is a local file 
-    <img alt="Alt text" src="./path/to/image.jpg" /></p>
+<div class="highlight"><pre><span></span><code>    ![Alt text](./path/to/image.jpg)
+</code></pre></div></p>
 <div class="admonition tip">
 <p class="admonition-title">Images in MD</p>
 <p>One of the most important things to remember is that the "alt text" is alternative text for the image that is used for accessibility purposes. It will be read by a screen reader that helps learners with visual impairments.</p>
 </div>
 <p>Icons add visual interest and can help convey meaning quickly. While Markdown itself doesn’t support icons natively, you can use HTML or rely on Markdown extensions or themes that support icons.</p>
 <ul>
-<li>
-<p>Example</p>
-<p><i class="fas fa-info-circle"></i> This is an informational icon.</p>
-</li>
+<li>Example
+<div class="highlight"><pre><span></span><code>    &lt;i class=&quot;fas fa-info-circle&quot;&gt;&lt;/i&gt; This is an informational icon.
+</code></pre></div></li>
 </ul>
 <h4 id="videos">Videos</h4>
 <p>While Markdown doesn’t natively support embedding videos, you can use HTML to embed videos from platforms like YouTube or use a link to direct users to the video.</p>
 <ul>
-<li>
-<p>Using HTML (embedded video):</p>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe></p>
-</li>
-<li>
-<p>Using a link (linked video):</p>
-<p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Watch this video</a></p>
-</li>
+<li>Using HTML (embedded video):
+<div class="highlight"><pre><span></span><code>    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dQw4w9WgXcQ&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+</code></pre></div></li>
+<li>Using a link (linked video):
+<div class="highlight"><pre><span></span><code>    [Watch this video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+</code></pre></div></li>
 </ul>
 <div class="admonition tip">
 <p class="admonition-title">Videos in MD</p>
@@ -1113,16 +1112,17 @@ or if it is a local file
 <p>Interactive Maps, Charts, or Widgets: You can embed these by using <iframe> or specific Markdown extensions supported by your platform.</p>
 </li>
 <li>
-<p>Example (Embedded Map using HTML)</p>
-<p><iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+<p>Example (Embedded Map using HTML)
+<div class="highlight"><pre><span></span><code>    &lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18...&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+</code></pre></div></p>
 </li>
 </ul>
 <h4 id="slideshows">Slideshows</h4>
 <p>If you need to add a slideshow, you might use Markdown libraries such as Reveal.js that convert Markdown into presentation slides.</p>
 <h4 id="linking-to-files">Linking to Files</h4>
-<p>For documents, PDFs, or other files:</p>
-<pre><code>[Download the PDF](https://example.com/document.pdf)
-</code></pre>
+<p>For documents, PDFs, or other files:
+<div class="highlight"><pre><span></span><code>    [Download the PDF](https://example.com/document.pdf)
+</code></pre></div></p>
 <h4 id="markdown-extensions">Markdown Extensions</h4>
 <p>Some Markdown processors support extended syntax for including multimedia, such as MathJax for equations or Mermaid for diagrams.</p>
 <p>See the example in the previous module where the structure is presented using Mermaid. </p>
