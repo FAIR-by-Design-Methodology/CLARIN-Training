@@ -12,7 +12,7 @@ tags:
 
 ## Slides
 
-[Download the slides here](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/2nd%20Session/03%20FAIR-by-Design%20Methodology/FAIR-by-Design_Methodology.pptx){:download}
+[Download the slides here](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/1st%20Session/03%20FAIR-by-Design%20Methodology/FAIR-by-Design_Methodology.pptx){:download}
 
 ## Learning objectives
 
