@@ -35,133 +35,47 @@ In the Prepare stage the instructional designers need to expand their skillset s
 
 One of the important tasks in this stage is to familiarize with the **RDA minimal metadata schema** for learning resources as this is the basis for the description of the FAIR learning materials.
 
-<div class="row">
-  <div class="col-sm-4">
-   <!-- <div class="card text-white bg-secondary mb-3" > -->
-   <div class="card bg-light mb-3" >
-      <!-- <div class="card-header text-white"> -->
-      <div class="card-header"><i class="fa fa-fast-backward" aria-hidden="true"></i> Think backward</div>
-      <div class="card-body">
-        <h5 class="card-title">Step 1</h5>
-        <p class="card-text">What are your desired effects, i.e. learning outcomes?</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-sm-4">
-    <div class="card bg-light mb-3" >
-      <div class="card-header"><i class="fa fa-fast-backward" aria-hidden="true"></i> Think backward</div>
-      <div class="card-body">
-        <h5 class="card-title">Step 2</h5>
-        <p class="card-text">How are you going to assess the learners' achievements?</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-sm-4">
-    <div class="card bg-light mb-3" >
-      <div class="card-header"><i class="fa fa-fast-backward" aria-hidden="true"></i> Think backward</div>
-      <div class="card-body">
-        <h5 class="card-title">Step 3</h5>
-        <p class="card-text">How should you structure the material to reach them?</p>
-      </div>
-    </div>
-  </div>
-
-</div>
+This is when the **backward learning process** begins:
+    
+    - **Step 1**: What are your desired effects, i.e. learning outcomes?
+    - **Step 2**: How are you going to assess the learners' achievements?
+    - **Step 3**: How should you structure the material to reach them?
 
 This is the initial stage of the learning materials development process and thus it is important that in this stage the designer **clearly defines the purpose of the learning materials, the target audience and the learning objectives** while taking into consideration any prerequisites. 
 
-<div class="grid cards" markdown>
-
--   :material-flag-checkered:{ .lg .middle } __Purpose__
-
-    ---
-
-    When and how the learning materials can be used and for what purposes?
-
--   :material-target-account:{ .lg .middle } __Target Audience__
-
-    ---
-
-    Is there anything specific that needs to be taken into account, such as cultural context?
-
--   :material-history:{ .lg .middle } __Prerequisites__
-
-    ---
-
-    What does the target audience need to know or understand before starting the learning process?
-
-
--   :material-target-account:{ .lg .middle } __Scope__
-
-    ---
-
-    Is it going to be a single learning unit, or a group such as a course?
-
--   :material-bullseye-arrow:{ .lg .middle } __Learning Objectives__
-
-    ---
-
-    What competences will be gained after successful completing of the learning process?
-
-    ??? info "Be SMART"
-
-        Objectives should be **s**pecific, **m**easurable, **a**ttainable, **r**elevant and **t**ime-bound.
-
-    ??? hint "Use Blooms Taxonomy"
-    
-        Formulate the objectives as actionable verb + observable knowledge, skill, attitude, behavior or ability.
-
-    [:octicons-arrow-right-24: Read more](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%201%20%E2%80%93%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects_cont/#defining-learning-objectives)
-
-</div>
+- :material-flag-checkered:{ .lg .middle } Purpose
+    - When and how the learning materials can be used and for what purposes?
+- :material-target-account:{ .lg .middle } Target Audience
+    - Is there anything specific that needs to be taken into account, such as cultural context?
+- :material-history:{ .lg .middle } Prerequisites
+    - What does the target audience need to know or understand before starting the learning process?
+- :material-target-account:{ .lg .middle } Scope
+    - Is it going to be a single learning unit, or a group such as a course?
+-  :material-bullseye-arrow:{ .lg .middle } Learning Objectives
+    - What competences will be gained after successful completing of the learning process?
+    - Objectives should be **S**pecific, **M**easurable, **A**ttainable, **R**elevant and **T**ime-bound.
+    - Use Blooms Taxonomy: Formulate the objectives as actionable verb + observable knowledge, skill, attitude, behavior or ability.
 
 ### Discover
 
 Once the vision of what needs to be created is clear, the next step is to discover **any existing learning materials that can be reused** or simply serve as inspiration. For these purposes the designer needs to search different types of repositories that might host similar learning materials including OER repositories, learning platforms, general repositories and catalogues, as well as multimedia repositories that can provide sources of audio/visual props that are essential in multi-modal learning.
 
-<div class="grid cards" markdown>
-
--   :material-open-source-initiative:{ .lg .middle } __OER__
-
-    ---
-
-    [DOAB](https://directory.doabooks.org/)
-
-    [MERLOT](https://www.merlot.org/merlot/index.htm)
+- :material-open-source-initiative:{ .lg .middle } OER
+    - [DOAB](https://directory.doabooks.org/)
+    - [MERLOT](https://www.merlot.org/merlot/index.htm)
+    - [OASIS](https://oasis.geneseo.edu/index.php)
+    - [OER Commons](https://www.oercommons.org/)
+    - [OERTX CORA](https://www.projectcora.org/)
+    - [GALILEO](https://oer.galileo.usg.edu/)
+    - [FORRT](https://forrt.org/)
+- :material-cloud-circle-outline:{ .lg .middle } EOSC_
+    - [EOSC Training catalogue on the EOSC Marketplace](https://search.marketplace.eosc-portal.eu/search/training?q=*)
+    - Most EOSC projects have their own training catalogues and/or platforms...
+- :material-book:{ .lg .middle } General
+    - [Creative Commons Search](https://search.creativecommons.org/) - content provided under a CC license
+    - [Zenodo](https://zenodo.org/) - a multi-disciplinary open repository
+    - [OSF](https://osf.io/) - a free, open research platform
     
-    [OASIS](https://oasis.geneseo.edu/index.php)
-    
-    [OER Commons](https://www.oercommons.org/)
-    
-    [OERTX CORA](https://www.projectcora.org/)
-    
-    [GALILEO](https://oer.galileo.usg.edu/)
-    
-    [FORRT](https://forrt.org/)
-
--   :material-cloud-circle-outline:{ .lg .middle } __EOSC__
-
-    ---
-
-    [EOSC Training catalogue on the EOSC Marketplace](https://search.marketplace.eosc-portal.eu/search/training?q=*)
-    
-    Most EOSC projects have their own training catalogues and/or platforms...
-    
-
--   :material-book:{ .lg .middle } __General__
-
-    ---
-
-    [Creative Commons Search](https://search.creativecommons.org/) - content provided under a CC license
-
-    [Zenodo](https://zenodo.org/) - a multi-disciplinary open repository
-
-    [OSF](https://osf.io/) - a free, open research platform
-    
-
-</div>
 
 ### Design
 
@@ -177,7 +91,7 @@ In the design stage the **overall structure of the learning materials** is defin
 
 </div>
 
-Upon completing the structure, each learning unit needs to be designed using a modeling technique such as the Hunter's model 
+Upon completing the structure, each learning unit needs to be designed using a modeling technique such as the Hunter's model. 
 
 The design stage should also take into account the need for **development of a facilitation guide** that explains in details how to prepare and put the training into practice, as well as a feedback form that should be used to gather feedback after the learning process has finished
 
@@ -185,33 +99,30 @@ The design stage should also take into account the need for **development of a f
 
 When the design is complete, it is time to move to the produce stage and **choose the tools and file formats** necessary to develop all of the content. Care must be taken that the chosen file formats are open so that reusability is supported, and it is recommended that a **collaborative, versioning system** is used to keep track of all contributions and changes. It is important to consider both the editable files that can be reused by trainers and the final file formats intended for learners.
 
-<div class="grid" markdown>
-
-??? info "Collaborative environment for team work"
+!!! tip "Collaborative environment for team work"
 
     Choose an environment for producing the learning material that will enable multiple people to work on the same material at one. Two examples are workplace or GitHub (find out more <a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%204%20–%20Produce/08-Development%20Tools/08-Introduction%20to%20Markdown%20and%20Git/'>here</a>). Replicate the folder tree in the environment and start using the provided templates to generate the content.
 
-??? tip "Granular versioning for easy rollback"
+!!! tip "Granular versioning for easy rollback"
 
     Versioning helps you maintain control over your changes. If the collaborative environment does not provide versioning and history retention then keep a history of the files by adopting a naming convention such as combining the file name with an increasing version number.
 
-??? success "Open file formats to foster reuse "
+!!! tip "Open file formats to foster reuse"
 
     For other people to reuse your materials they should be made available using open file formats (docx, pptx, pdf, md, html, etc.). If you use close file formats then you MUST clearly state the tools that have been used for development in your README file.
 
-??? warning "Multimodal content to reach all audience"
+!!! tip "Multimodal content to reach all audience"
 
     Don't forget to include different types of multimedia to provide support for different learning modalities: read/write, auditory, visual, kinesthetic.
     
-??? example "Two file sets: editable + final"
+!!! tip "Two file sets: editable + final"
 
     Always work with and keep a history of your editable files. These are what matters for you and other instructors. The second set of final files should be obtained from the editable when needed (before distributing them to the learners). The final files should be kept on the learning platform only. In this way you don't need to worry about keeping the versions in sync.
 
-??? bug "Don't forget to support co-creation"
+!!! tip "Don't forget to support co-creation"
 
     Truly FAIR learning materials should enable co-creation with external parties. If you don't use a collaborative environment that supports this from the start (such as GitHub), then think how are you going to enable this in the future and how are you going to deal with versioning then.
 
-</div>
 
 One of the most important aspects of the produce stage is **accessibility of the developed learning materials**. Accessibility standards should be followed so as to maximize the audience for the learning materials. 
 
@@ -223,45 +134,32 @@ The final step in the produce stage is to perform an **internal Quality Assessme
 
 A satisfactory completion of the internal QA leads to the publication steps. Before the actual publication, very important final touches need to be done including activities such as the definition of the content of **accompanying files**: license, readme, citation, code of conduct and alike.
 
-<div class="grid cards" markdown>
-
--   :material-flag-checkered:{ .lg .middle } __Accompanying files__
-
-    ---
+!!! tip "Accompanying files"
 
     Define the overall license, provide description, instructions on how to cite your materials, define the code of conduct for a co-creation environment, etc.
 
--   :material-target-account:{ .lg .middle } __Put into repository__
+!!! tip "Put into repository"
 
-    ---
+    Publish the editable package in an appropriate FAIR repository.
+    This record is primarily intended for reuse by other designers and trainers.
 
-    Publish the editable package in an appropriate FAIR repository so that others can reuse it.
-
--   :material-history:{ .lg .middle } __Provide to learners__
-
-    ---
+!!! tip "Provide to learners"
 
     Provide the final non-editable versions to the learners on a learning platform of your choice.
-
-</div>
-
-Once all necessary elements are in place, the learning materials can be **published to a selected repo**. If GitHub was chosen as the repository in the Produce stage, then the automated bridge between GitHub and Zenodo can be used to create a Zenodo record and obtain a DOI PID for the learning materials. This records is primarily intended for reuse by other designers and trainers. 
-
-In addition, the complete learning environment should be setup in a learning platform where the **final file formats will be provided to the learners**.
 
 ### Verify
 
 The final steps in the methodology is to perform another QA round, this time focusing on **external QA**. At this stage the overall level of FAIRness of the learning materials needs to be checked and external experts should be used to provide unbiased feedback regarding the quality of the produced materials. 
 
-??? danger "A fresh set of eyes"
+!!! tip "A fresh set of eyes"
 
     Have someone who has not participated in the development of the learning materials review the final work. This will guarantee a review free of cognitive bias.
 
-??? success "Don't forget to QA the Learning Management System (LMS)"
+!!! tip "Don't forget to QA the Learning Management System (LMS)"
 
     The reviewer should play the role of a new learner in the LMS and check everything from the learner perspective.
 
-??? tip "Go through the QA checklists"
+!!! tip "Go through the QA checklists"
 
     In Skills4EOSC T2.4 has developed a number of QA checklists that you and your external reviewer need to go through so that you can ensure high-quality learning materials (see [Sánchez et al. 2023](https://doi.org/10.5281/zenodo.8305482)).
 
@@ -274,51 +172,25 @@ The gathered internal and external feedback should be used as input for the **de
 
 Upon the identification of potential improvements that should be implemented, the development process circles back to the first stage aiming to publish a new improved version of the learning materials.
 
-<div class="row row-cols-1 row-cols-md-2">
-    <div class="col mb-4">
-        <div class="card">
-            <div class="card-body">
-                <i class="fa fa-download fa-3x" aria-hidden="true"></i>
-                <h2 class="card-title">Gather</h2>
-                <p class="card-text">Gather feedback from all available internal & external sources.</br>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card">
-            <div class="card-body">
-                <i class="fa fa-bar-chart fa-3x" aria-hidden="true"></i>
-                <h2 class="card-title">Analyse</h2>
-                <p class="card-text">Analyse the gathered information in a structured way.</p>
-                <p class="card-text">Create a list of potential improvements with impact level (high, moderate, low).
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card">
-            <div class="card-body">
-                <i class="fa fa-arrow-up fa-3x" aria-hidden="true"></i>
-                <h2 class="card-title">Improve</h2>
-                <p class="card-text">Select items from the list that will be part of a new version.</p>
-                <p class="card-text">Choose items that make sense to be in the same new release.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card">
-            <div class="card-body">
-                <i class="fa fa-repeat fa-3x" aria-hidden="true"></i>
-                <h2 class="card-title">Repeat</h2>
-                <p class="card-text">Start a new cycle of the FAIR-by-Design methodology that will implement the selected items.</p>
-                <p class="card-text">After the Verify stage, you will reenter continuous improvement with newly gathered information....
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+!!! tip "Gather"
+
+    Gather feedback from all available internal & external sources.
+
+!!! tip "Analyse"
+
+    Analyse the gathered information in a structured way.
+    Create a list of potential improvements with impact level (high, moderate, low).
+
+!!! tip "Improve"
+    
+    Select items from the list that will be part of a new version.
+    Choose items that make sense to be in the same new release.
+
+!!! Repeat
+
+    Start a new cycle of the FAIR-by-Design methodology that will implement the selected items.
+    After the Verify stage, you will reenter continuous improvement with newly gathered information....
+                
 
 ## Summary
 
@@ -337,5 +209,3 @@ The FAIR-by-Design methodology proposes six stages that aim to ensure that the e
 - [FAIR-by-Design Learning Materials Methodology Training of Trainers on GitHub](https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT)
 - [FAIR-by-Design Learning Materials Methodology Training of Trainers GitBook](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/)
 - [FAIR-by-Design Learning Materials Methodology Templates Repository](https://github.com/FAIR-by-Design-Methodology/templates)
-
-
