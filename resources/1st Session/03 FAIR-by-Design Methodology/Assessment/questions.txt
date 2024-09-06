@@ -1,0 +1,19 @@
+1. In which stage of the methodology you need to define the learning objectives?
+    - [X] Prepare
+    - Discover
+    - Design
+    - Produce
+    - Publish
+    - Verify
+    - Improve
+
+2. What is accessibility in FAIR-by-Design?
+    - [X] provide access to metadata for everyone
+    - [X] provide access to materials for learners
+    - [X] make materials accessible for different learners' types
+    - make open materials without any cost
+
+3. The repository record should contain
+    - [X] the editable files for instructors
+    - the non-editable final files for learners
+    - both
