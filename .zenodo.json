@@ -1,0 +1,55 @@
+{
+  "creators": [
+    {
+      "affiliation": "UKIM",
+      "name": "Filiposka, Sonja",
+      "orcid": "0000-0003-0034-2855"
+    },
+    {
+      "affiliation": "UKIM",
+      "name": "Mishev, Anastas",
+      "orcid": "0000-0001-7271-6655"
+    },
+    {
+      "affiliation": "GRNET",
+      "name": "Anastasopoulou, Athina"
+    },
+    {
+      "affiliation": "CLARIN ERIC",
+      "name": "Frontini, Francesca",
+      "orcid": "0000-0002-8126-6294"
+    },
+    {
+      "affiliation": "CLARIN",
+      "name": "Pedonese, Giulia",
+      "orcid": "0000-0003-3828-0135"
+    },
+    {
+      "affiliation": "CLARIN",
+      "name": "van der Lek, Iulianna",
+      "orcid": "0000-0002-0736-0311"
+    }
+  ],
+  "description": "When developing learning materials, it is essential to ensure they are FAIR (Findable, Accessible, Interoperable, and Reusable) from both the learners' and trainers' perspectives. Therefore, integrating FAIR principles into the development of learning materials is a crucial element. This training introduces the CLARIN community to the FAIR-by-Design Methodology, which provides a systematic approach that embeds the FAIR principles into the backward instructional design process.",
+  "keywords": [
+    "FAIR learning materials",
+    "FAIR-by-Design methodology",
+    "FAIR instructional design",
+    "FAIR quality assessment"
+  ],
+  "license": "CC-BY-4.0",
+  "publication_date": "2024-09-19",
+  "title": "FAIR-by-Design training for the CLARIN community",
+  "version": "1.0.0",
+  "upload_type": "lesson",
+  "communities": [
+    {
+      "identifier": "skills4eosc"
+    }
+  ],
+  "grants": [
+    {
+      "id": "10.13039/501100000780::101058527"
+    }
+  ]
+}
