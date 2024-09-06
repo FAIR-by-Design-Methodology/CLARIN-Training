@@ -11,6 +11,7 @@ theme:
     - search.highlight
     - search.suggest
 markdown_extensions:
+  - attr_list
   - markdown_include.include:
       base_path: .
   - md_in_html
