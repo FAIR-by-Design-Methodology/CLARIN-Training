@@ -199,14 +199,93 @@ The methodology is broken down into a number of stages that are connected in a f
     - The final step in the produce stage is to perform an **internal Quality Assessment** that will check that all elements are present and that the content is adequate.
 5. Publish
     - A satisfactory completion of the internal QA leads to the publication steps. Before the actual publication, very important final touches need to be done including activities such as the definition of the content of **accompanying files**: license, readme, citation, code of conduct and alike.
+<div class="grid cards" markdown>
+
+-   :material-flag-checkered:{ .lg .middle } __Accompanying files__
+
+    ---
+
+    Define the overall license, provide description, instructions on how to cite your materials, define the code of conduct for a co-creation environment, etc.
+
+-   :material-target-account:{ .lg .middle } __Put into repository__
+
+    ---
+
+    Publish the editable package in an appropriate FAIR repository so that others can reuse it.
+
+-   :material-history:{ .lg .middle } __Provide to learners__
+
+    ---
+
+    Provide the final non-editable versions to the learners on a learning platform of your choice.
+
+</div>
     - Once all necessary elements are in place, the learning materials can be **published to a selected repo**. If GitHub was chosen as the repository in the Produce stage, then the automated bridge between GitHub and Zenodo can be used to create a Zenodo record and obtain a DOI PID for the learning materials. This records is primarily intended for reuse by other designers and trainers. 
     - In addition, the complete learning environment should be setup in a learning platform where the **final file formats will be provided to the learners**.
 6. Verify
     - The final steps in the methodology is to perform another QA round, this time focusing on **external QA**. At this stage the overall level of FAIRness of the learning materials needs to be checked and external experts should be used to provide unbiased feedback regarding the quality of the produced materials. 
+??? danger "A fresh set of eyes"
+
+    Have someone who has not participated in the development of the learning materials review the final work. This will guarantee a review free of cognitive bias.
+
+??? success "Don't forget to QA the Learning Management System (LMS)"
+
+    The reviewer should play the role of a new learner in the LMS and check everything from the learner perspective.
+
+??? tip "Go through the QA checklists"
+
+    In Skills4EOSC T2.4 has developed a number of QA checklists that you and your external reviewer need to go through so that you can ensure high-quality learning materials (see [Sánchez et al. 2023](https://doi.org/10.5281/zenodo.8305482)).
+
+
     - This stage also focuses on setting up different mechanism for gathering feedback so that the learning materials can be further improved. In this way it fosters **the co-creation process** that empowers learners and other designers and trainers to actively participate in the development.
 7. Continuous Improvement
     - The gathered internal and external feedback should be used as input for the **development of a new version** of the learning materials.
     - Upon the identification of potential improvements that should be implemented, the development process circles back to the first stage aiming to publish a new improved version of the learning materials.
+<div class="row row-cols-1 row-cols-md-2">
+    <div class="col mb-4">
+        <div class="card">
+            <div class="card-body">
+                <i class="fa fa-download fa-3x" aria-hidden="true"></i>
+                <h2 class="card-title">Gather</h2>
+                <p class="card-text">Gather feedback from all available internal & external sources.</br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+        <div class="card">
+            <div class="card-body">
+                <i class="fa fa-bar-chart fa-3x" aria-hidden="true"></i>
+                <h2 class="card-title">Analyse</h2>
+                <p class="card-text">Analyse the gathered information in a structured way.</p>
+                <p class="card-text">Create a list of potential improvements with impact level (high, moderate, low).
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+        <div class="card">
+            <div class="card-body">
+                <i class="fa fa-arrow-up fa-3x" aria-hidden="true"></i>
+                <h2 class="card-title">Improve</h2>
+                <p class="card-text">Select items from the list that will be part of a new version.</p>
+                <p class="card-text">Choose items that make sense to be in the same new release.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+        <div class="card">
+            <div class="card-body">
+                <i class="fa fa-repeat fa-3x" aria-hidden="true"></i>
+                <h2 class="card-title">Repeat</h2>
+                <p class="card-text">Start a new cycle of the FAIR-by-Design methodology that will implement the selected items.</p>
+                <p class="card-text">After the Verify stage, you will reenter continuous improvement with newly gathered information....
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 # Summary
 
