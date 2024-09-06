@@ -78,10 +78,13 @@ To add images, use the following syntax:
     ![Alt text](image-url)
 
 such as
+```
     ![A beautiful sunset](https://example.com/sunset.jpg)
+```
 or if it is a local file 
+```
     ![Alt text](./path/to/image.jpg)
-
+```
 !!! tip "Images in MD"
 
     One of the most important things to remember is that the "alt text" is alternative text for the image that is used for accessibility purposes. It will be read by a screen reader that helps learners with visual impairments.
@@ -89,22 +92,22 @@ or if it is a local file
 Icons add visual interest and can help convey meaning quickly. While Markdown itself doesn’t support icons natively, you can use HTML or rely on Markdown extensions or themes that support icons.
 
 - Example
-
+```
     <i class="fas fa-info-circle"></i> This is an informational icon.
-
+```
 
 #### Videos
 
 While Markdown doesn’t natively support embedding videos, you can use HTML to embed videos from platforms like YouTube or use a link to direct users to the video.
 
 - Using HTML (embedded video):
-
+```
     <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-
+```
 - Using a link (linked video):
-
+```
     [Watch this video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
+```
 !!! tip "Videos in MD"
 
     As in the examples, it is best practice to put the video on a video streaming provider and then link or embed it. This helps keep the repo lean as video files are quite big, plus it allows you to use some advanced features such as auto captioning, chapters, playlists, etc.
@@ -140,9 +143,9 @@ For more complex interactive elements, one might use HTML or specialized tools t
 - Interactive Maps, Charts, or Widgets: You can embed these by using <iframe> or specific Markdown extensions supported by your platform.
 
 - Example (Embedded Map using HTML)
-
+```
     <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
+```
 #### Slideshows
 
 If you need to add a slideshow, you might use Markdown libraries such as Reveal.js that convert Markdown into presentation slides.
@@ -150,9 +153,9 @@ If you need to add a slideshow, you might use Markdown libraries such as Reveal.
 #### Linking to Files
 
 For documents, PDFs, or other files:
-
+```
     [Download the PDF](https://example.com/document.pdf)
-
+```
 #### Markdown Extensions
 
 Some Markdown processors support extended syntax for including multimedia, such as MathJax for equations or Mermaid for diagrams.
