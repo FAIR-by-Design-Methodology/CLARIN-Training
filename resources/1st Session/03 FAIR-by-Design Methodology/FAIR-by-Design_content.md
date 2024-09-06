@@ -14,6 +14,12 @@ tags:
 
 [Download the slides here](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
 
+## Learning objectives
+
+Upon completing this module the learner should be able to:
+
+- identify the goals of the FAIR-by-Design methodology
+- describe the stages of the FAIR-by-Design methodology
 
 ## Introduction
 
