@@ -1,10 +1,8 @@
 <details markdown>
 <summary>Release Notes</summary>
 
-## 1.0.0 (2024-01-01)
+## 1.0.0 (2024-09-19)
 
-- Copy and paste similar sections at the top of the document as new versions are released.
-- All sections need to be within the `<details>` tags.
-- Alter the date in the brackets to reflect the actual date when the release has been made.
+- This is the initial version of the training materials used for the virtual training on the FAIR-by-Design Methodology adapted to the CLARIN community.
 
 </details>
