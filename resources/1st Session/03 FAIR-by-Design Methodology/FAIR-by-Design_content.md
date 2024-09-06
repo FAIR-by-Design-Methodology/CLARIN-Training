@@ -112,13 +112,88 @@ The methodology is broken down into a number of stages that are connected in a f
 </div>
 2. Discover
     - Once the vision of what needs to be created is clear, the next step is to discover **any existing learning materials that can be reused** or simply serve as inspiration. For these purposes the designer needs to search different types of repositories that might host similar learning materials including OER repositories, learning platforms, general repositories and catalogues, as well as multimedia repositories that can provide sources of audio/visual props that are essential in multi-modal learning.
+<div class="grid cards" markdown>
+
+-   :material-open-source-initiative:{ .lg .middle } __OER__
+
+    ---
+
+    [DOAB](https://directory.doabooks.org/)
+
+    [MERLOT](https://www.merlot.org/merlot/index.htm)
+    
+    [OASIS](https://oasis.geneseo.edu/index.php)
+    
+    [OER Commons](https://www.oercommons.org/)
+    
+    [OERTX CORA](https://www.projectcora.org/)
+    
+    [GALILEO](https://oer.galileo.usg.edu/)
+    
+    [FORRT](https://forrt.org/)
+
+-   :material-cloud-circle-outline:{ .lg .middle } __EOSC__
+
+    ---
+
+    [EOSC Training catalogue on the EOSC Marketplace](https://search.marketplace.eosc-portal.eu/search/training?q=*)
+    
+    Most EOSC projects have their own training catalogues and/or platforms...
+    
+
+-   :material-book:{ .lg .middle } __General__
+
+    ---
+
+    [Creative Commons Search](https://search.creativecommons.org/) - content provided under a CC license
+
+    [Zenodo](https://zenodo.org/) - a multi-disciplinary open repository
+
+    [OSF](https://osf.io/) - a free, open research platform
+    
+
+</div>
 3. Design
     - At this stage the designer has a clear idea of what is needed and what already exists. The next step is to sketch a **conceptual map** of the learning materials that will help crystalize the ideas and prepare the syllabus for the learning materials. The syllabus is then used as a high-level blueprint for the development of the learning materials.
     - In the design stage the **overall structure of the learning materials** is defined identifying all modules and learning units necessary together with the information on what can be reused and what needs to be designed from scratch. Careful attention should be put on license compatibility during this work.
+<div class="grid cards" markdown>
+
+- <i class="fa fa-cogs" aria-hidden="true"></i> Create an intuitive logical organisation of all learning materials. 
+- <i class="fa fa-cubes" aria-hidden="true"></i> The goal is for other people to easily reuse a single item (plan, activity, unit, assessment, ...).
+- <i class="fa fa-sitemap" aria-hidden="true"></i> Use a hierarchical structure to combine learning units into larger compositions.
+
+</div>
     - Upon completing the structure, each learning unit needs to be designed using a modeling technique such as the Hunter's model 
     - The design stage should also take into account the need for **development of a facilitation guide** that explains in details how to prepare and put the training into practice, as well as a feedback form that should be used to gather feedback after the learning process has finished
 4. Produce
     - When the design is complete, it is time to move to the produce stage and **choose the tools and file formats** necessary to develop all of the content. Care must be taken that the chosen file formats are open so that reusability is supported, and it is recommended that a **collaborative, versioning system** is used to keep track of all contributions and changes. It is important to consider both the editable files that can be reused by trainers and the final file formats intended for learners.
+<div class="grid" markdown>
+
+??? info "Collaborative environment for team work"
+
+    Choose an environment for producing the learning material that will enable multiple people to work on the same material at one. Two examples are workplace or GitHub (find out more <a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%204%20–%20Produce/08-Development%20Tools/08-Introduction%20to%20Markdown%20and%20Git/'>here</a>). Replicate the folder tree in the environment and start using the provided templates to generate the content.
+
+??? tip "Granular versioning for easy rollback"
+
+    Versioning helps you maintain control over your changes. If the collaborative environment does not provide versioning and history retention then keep a history of the files by adopting a naming convention such as combining the file name with an increasing version number.
+
+??? success "Open file formats to foster reuse "
+
+    For other people to reuse your materials they should be made available using open file formats (docx, pptx, pdf, md, html, etc.). If you use close file formats then you MUST clearly state the tools that have been used for development in your README file.
+
+??? warning "Multimodal content to reach all audience"
+
+    Don't forget to include different types of multimedia to provide support for different learning modalities: read/write, auditory, visual, kinesthetic.
+    
+??? example "Two file sets: editable + final"
+
+    Always work with and keep a history of your editable files. These are what matters for you and other instructors. The second set of final files should be obtained from the editable when needed (before distributing them to the learners). The final files should be kept on the learning platform only. In this way you don't need to worry about keeping the versions in sync.
+
+??? bug "Don't forget to support co-creation"
+
+    Truly FAIR learning materials should enable co-creation with external parties. If you don't use a collaborative environment that supports this from the start (such as GitHub), then think how are you going to enable this in the future and how are you going to deal with versioning then.
+
+</div>
     - One of the most important aspects of the produce stage is **accessibility of the developed learning materials**. Accessibility standards should be followed so as to maximize the audience for the learning materials. 
     - During this stage the designers must not forget to add the **human-readable and machine-readable metadata** in the developed content as well as to develop the content of all facilitation documents such as the guide, activities description, lesson plans, etc.
     - The final step in the produce stage is to perform an **internal Quality Assessment** that will check that all elements are present and that the content is adequate.
