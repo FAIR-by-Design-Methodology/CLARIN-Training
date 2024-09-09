@@ -719,6 +719,208 @@
 <h1 id="slides-new">Slides (new)</h1>
 <p><a download="download" href="https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx">Download the slides regarding the FAIR-by-Design Methodology here</a></p>
 <h1 id="introduction">Introduction</h1>
+<h2 id="metadata-and-metadata-schema">Metadata and Metadata Schema</h2>
+<p>Metadata is one of the key ingredients to making learning resources findable, accessible, and reusable. In essence, metadata consists of structured information that describes, explains and locates a resource.</p>
+<p>The main purpose of the (meta)data about the learning resource is to enable cataloguing and discovery by providing a standard means to report on:</p>
+<ul>
+<li>WHO created the resource</li>
+<li>WHAT is the content of the resource</li>
+<li>WHEN was the resource created</li>
+<li>WHERE is the location of the resource</li>
+<li>WHY the data was resource</li>
+</ul>
+<p><img alt="example metadata for a language dataset" src="../attachments/image-clarin-metadata.png" /></p>
+<p>Example metadata for a language dataset</p>
+<p>Using this information a learner or instructor should be able to:</p>
+<ul>
+<li>Search and retrieve the information about a learning resource </li>
+<li>Determine if the learning resource meets certain learning requirements</li>
+<li>Discover how to acquire and use the learning resource</li>
+</ul>
+<h3 id="rda-minimal-metadata-for-learning-resources">RDA Minimal Metadata for Learning Resources</h3>
+<p>The <a href="https://www.rd-alliance.org/groups/education-and-training-handling-research-data.html">RDA Education And Training On Handling Of Research Data Interest Group</a> has defined a <a href="https://zenodo.org/record/6769695#.YrrP9-xBybQ">minimal metadata set for learning resources</a> that has become a de facto standard for describing FAIR learning materials.</p>
+<p>The following table describes the minimal metadata set elements and their definitions:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Element Name</strong></th>
+<th><strong>Definition</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Title</td>
+<td>The human readable name of the resource.</td>
+</tr>
+<tr>
+<td>Abstract / Description</td>
+<td>A brief synopsis about or description of the learning resource</td>
+</tr>
+<tr>
+<td>Author(s)</td>
+<td>Name of entity(ies) authoring the resource</td>
+</tr>
+<tr>
+<td>Primary Language</td>
+<td>Language in which the resource was originally published or made available</td>
+</tr>
+<tr>
+<td>Keyword(s)</td>
+<td>Keywords or tags used to describe the resource</td>
+</tr>
+<tr>
+<td>License</td>
+<td>A license document that applies to this content, typically indicated by URL</td>
+</tr>
+<tr>
+<td>Version Date</td>
+<td>Version date for the most recently published or broadcast resource</td>
+</tr>
+<tr>
+<td>URL to Resource</td>
+<td>URL that resolves to the learning resource or to a "landing page" for the resource that contains important contextual information  including the direct resolvable link to the resource, if applicable.</td>
+</tr>
+<tr>
+<td>Resource URL Type</td>
+<td>Designation of the identifier scheme  used for the resource URL, e.g., DOI, ARK, Handle</td>
+</tr>
+<tr>
+<td>Target Group (Audience)</td>
+<td>Principal users(s) for which the resource was designed</td>
+</tr>
+<tr>
+<td>Learning Resource Type</td>
+<td>The predominant type or kind that characterizes the learning resource</td>
+</tr>
+<tr>
+<td>Learning Outcome</td>
+<td>Descriptions of what knowledge, skills or abilities a learner should acquire on completion of the resource</td>
+</tr>
+<tr>
+<td>Access Cost</td>
+<td>Choice stating whether or not there is a fee for use of the resource (yes, no, maybe)</td>
+</tr>
+<tr>
+<td>Expertise (Skill) Level</td>
+<td>Target skill level in the topic being taught; example values include beginner, intermediate, advanced</td>
+</tr>
+</tbody>
+</table>
+<p>This table is taken from <a href="https://doi.org/10.15497/RDA00073">RDA Minimal Metadata for Learning Resources</a> by Hoebelheinrich, Nancy J; Biernacka, Katarzyna; Brazas, Michelle; Castro, Leyla Jael; Fiore, Nicola; Hellström, Margareta; Lazzeri, Emma; Leenarts, Ellen; Martinez Lavanchy, Paula Maria; Newbold, Elizabeth; Nurnberger, Amy; Plomp, Esther; Vaira, Lucia; van Gelder, Celia W G; Whyte, Angus licensed under the <a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC BY 4.0 license</a>.</p>
+<p>These elements need to be standardized so that they are useful when used in practice. This is done by defining a metadata schema that describes the structure of the metadata elements. The metadata schema defines the standards for describing the metadata elements.</p>
+<p>The metadata schema for learning resources that also defines the type of each element, the allowed values, and constraints is available on the RDA website: <a href="https://www.rd-alliance.org/system/files/Copy%20of%20Examples%20for%20Professional%20and%20Informal%20Education.pdf">RDA Minimal Metadata for Learning Resources Professional and Informal Education Examples</a></p>
+<h3 id="controlled-vocabularies">Controlled Vocabularies</h3>
+<p>Some of the fields in the proposed RDA metadata schema are based on fixed or suggested controlled vocabularies (CV). The use of controlled vocabularies is to help humans and machines categorize the information while helping to reduce duplication and errors. </p>
+<p>In essence, controlled vocabularies should be used for any metadata elements with predefined value(s), where in the vocabulary is presented as a list of prescribed items. </p>
+<p>Such examples are </p>
+<ul>
+<li>Access Cost with possible values of Y, N and Maybe</li>
+<li>Primary Language that can be a two letter code from the <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">ISO 639-1:2002 codeset</a></li>
+</ul>
+<p>Note that in many cases controlled vocabularies are suggested, but at this stage they are not strictly defined.</p>
+<p>Later on during this training, you will learn how and where to define the metadata for your learning resources.</p>
+<h2 id="syllabus">Syllabus</h2>
+<p>Once you have identified your learning concepts, the next step is to sequence them into an instructional sequence (agenda). This instructional sequence will become your blueprint for the organisation of the learning materials and the definition of the syllabus.</p>
+<p>In essence the blueprint takes the input from the creative concept map and organizes it into a more formal outline. Formally, we call this learning materials outline syllabus. Each syllabus should provide information regarding a number of elements (including the ones defined in the step 1 of the backward instructional design):</p>
+<ul>
+<li>clear, descriptive <strong>title</strong> </li>
+<li>description of the <strong>purpose</strong> or goal </li>
+<li><strong>target audience</strong></li>
+<li><strong>prerequisites</strong></li>
+<li><strong>duration</strong></li>
+<li><strong>learning objectives</strong></li>
+<li><strong>agenda</strong> (instructional sequence)</li>
+<li><strong>resources and materials</strong></li>
+<li><strong>certification</strong> information</li>
+</ul>
+<p>Remember that:</p>
+<ul>
+<li>The syllabus can present a higher level sequence outline, that can be later broken down into smaller subtopics if necessary.</li>
+<li>The topics sequence should be defined so that the concepts introduced early help with the ones encountered later. </li>
+<li>The defined agenda should not be very rigid thus preventing changing the sequence of topics or adding or deleting topics at a later stage.</li>
+<li>The syllabus is sent to the learners and should provide them with all necessary information to help them decide if they want to follow the training related to the learning materials.</li>
+</ul>
+<h3 id="syllabus-elements">Syllabus Elements</h3>
+<p>Within this training we recommend the development of a training syllabus that consists of two groups of information:</p>
+<ul>
+<li>typical syllabus information</li>
+<li>additional information related to the RDA minimal metadata schema</li>
+</ul>
+<p>The following is a <strong>list of all required syllabus fields</strong>:</p>
+<ul>
+<li>Clear descriptive Title of the training </li>
+<li>Type (Course/Workshop/Webinar)</li>
+<li>Date/Time: when it will be offered (available from date if it is self-paced)</li>
+<li>Location - where it will be available<ul>
+<li>physical location</li>
+<li>URL link to resources (and virtual room if online) should lead to the learning Skills4EOSC platform</li>
+</ul>
+</li>
+<li>Training Description - what is the main goal/purpose of this training</li>
+<li>Target audience: target audience description </li>
+<li>Expertise Level / Skill Level: Beginner / Intermediate / Advanced</li>
+<li>Primary Language: English</li>
+<li>Access Cost: N </li>
+<li>Prerequisites - if any</li>
+<li>Duration - total training duration</li>
+<li>Training objectives - list of specific training objectives</li>
+<li>Keywords - Keywords or tags used to describe the training</li>
+<li>Agenda: Training Schedule - Training Structure  (time, topic)</li>
+<li>Resources and Materials - list with locations of available/required resources for the training</li>
+<li>Certification Information - if any</li>
+<li>Author(s) - Comma separated List of people involved in preparing the training (Name Surname)</li>
+<li>Trainer(s) - Comma separated list of people involved in delivering the training (Name Surname ORCID logo link)</li>
+<li>Contact information - how to reach out to training organizers</li>
+<li>License</li>
+<li>PID</li>
+<li>Accessibility Mission</li>
+</ul>
+<p>As syllabus is one of the required documents for the FAIR-by-Design learning materials, you must ensure that your syllabus contains <strong>all elements</strong> provided in this section. Only in this way you will ensure that your learning materials contain all necessary metadata information together with the traditional syllabus information that is provided.</p>
+<h2 id="backward-instructional-design-process">Backward instructional design process</h2>
+<p>The backward design first focuses on the learning outcomes that one wants to achieve and then works backward to the topics that need to be covered in order to achieve the learning objectives. </p>
+<p><img alt="Three steps of the backward design model: determine goal and objectives, plan assessments, plan learning activities" src="../attachments/backward_design_model_april_2020.png" />
+"<a href="http://campdesign.online/documents/backward_design_model_april_2020.pdf">Backward design model</a>" from <a href="http://campdesign.online/backwarddesign.html">Muhlenberg College</a> licensed under the <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>. </p>
+<p>By following this process, the learner becomes the focal point of the training, making the developed learning materials learner-centric.</p>
+<h3 id="ideating-a-learning-resource">Ideating a learning resource</h3>
+<p>According to best practices for the <a href="https://www.skillcast.com/blog/instructional-design-best-practices">instructional design process</a> in the initial preparation phase (step 1) there should be a clear definition of the <strong>overarching aspects and considerations</strong> related to the learning materials that are going to be created. </p>
+<p>The aspects that need to be defined first are:</p>
+<ul>
+<li><strong>Purpose</strong> of learning material<ul>
+<li>when and how the learning materials can be used and for what purposes</li>
+</ul>
+</li>
+<li><strong>Target Audience</strong>
+    – the primary audience for the learning materials <ul>
+<li>is there anything specific that needs to be taken into account, such as cultural context</li>
+</ul>
+</li>
+<li><strong>Prerequisites</strong><ul>
+<li>what does the target audience need to know or understand before starting the learning process</li>
+<li>it is suggested to use names and links to other learning materials if possible</li>
+</ul>
+</li>
+<li><strong>Overall Scope of the learning materials</strong><ul>
+<li>is it going to be a single learning object, or an aggregation of some sort such as a course</li>
+</ul>
+</li>
+<li><strong>Learning Objectives</strong> <ul>
+<li>what competences will be gained after successful completing of the learning process</li>
+</ul>
+</li>
+</ul>
+<p>If possible, the choice of a delivery platform should be postponed to the design step as to ensure that the choice is compatible with the types of learning objects identified for potential reuse.</p>
+<h3 id="defining-learning-objectives">Defining learning objectives</h3>
+<p>Learning objectives should describe what new knowledge and skills will be obtained in a specific, measurable, attainable, relevant and time-bound (SMART) way. </p>
+<p>The learning objectives are used to organize specific topics or individual learning activities so that the learner can most effectively achieve the overall learning outcome.</p>
+<p>To ensure standardization and wide understanding of the learning objective, it is best practice to define the learning objectives using a well-known taxonomy such as the <a href="https://cmapspublic2.ihmc.us/rid=1Q2PTM7HL-26LTFBX-9YN8/Krathwohl%202002.pdf">Bloom’s taxonomy</a>. </p>
+<p>The Bloom's Taxonomy is a classification of the different objectives and skills that educators set for their students (learning outcomes). The cognitive domain categorizes the human learning process into 6 hierarchical levels: Remember, Understand, Apply, Analyze, Evaluate, and Create. </p>
+<p><img alt="Description of the complexity levels for the cognitive domain" src="../attachments/Bloom%27s_Revised_Taxonomy.jpg" />
+"<a href="https://www.flickr.com/photos/vandycft/29428436431">Bloom's Revised Taxonomy</a>" by <a href="https://cft.vanderbilt.edu">Vanderbilt University Center for Teaching</a> licensed under the terms of the <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY-2.0</a>.</p>
+<p>When defining learning objectives using the Bloom's taxonomy, correct verbs should be used for each objective based on the level the learners needs to achieve. For these purposes the example verbs provided in the image can be used.</p>
+<p><img alt="List of verbs on each complexity level in the cognitive domain" src="../attachments/Bloom%E2%80%99s_Taxonomy_Verbs.png" />
+<a href="https://en.wikipedia.org/wiki/Bloom%27s_taxonomy#/media/File:Bloom%E2%80%99s_Taxonomy_Verbs.png">Bloom's taxonomy</a> by <a href="https://www.fractuslearning.com/">Fractus Learning</a>. (2023, July 10). In <a href="https://en.wikipedia.org/wiki/Bloom%27s_taxonomy">Wikipedia</a> licensed under the terms of <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-SA 4.0</a>.  </p>
+<p>This approach will significantly improve the findability of the produced resources, as well as the potential reuse of individual learning objects in different aggregations.</p>
+<p>The number of learning objectives depends on the aggregation level of the learning resource that is being developed. </p>
 <h1 id="summary">Summary</h1>
 <h1 id="suggested-reading">Suggested Reading</h1>
 <ul>
