@@ -154,6 +154,41 @@ For more complex interactive elements, one might use HTML or specialized tools t
 
 If you need to add a slideshow, you might use Markdown libraries such as Reveal.js that convert Markdown into presentation slides.
 
+#### Slides to narrated video
+
+To turn your slides into a video with text-to-speech narration using AI empowered tools, follow these steps:
+
+1. Prepare Your Slides
+    - Ensure your slides are in the correct sequence and format.
+    - Export your slides as images or PDFs if your chosen video editor requires it.
+
+2. Create a Script for Narration
+    - Write down the text you want to be narrated for each slide.
+    - Ensure the script matches the flow and content of your slides.
+
+3. Generate Text-to-Speech Narration
+    - Use a free text-to-speech tool like Google Text-to-Speech, Balabolka, or Natural Reader (free versions available):
+	    - [Google Text-to-Speech](https://cloud.google.com/text-to-speech/): If you have a Google account, you can use Google Cloud’s Text-to-Speech API for free (up to certain limits).
+	    - [Balabolka](https://speechelo.com/): software that allows you to convert text files to speech and save them as audio files.
+	    - [Natural Reader](https://speechify.com/product-reviews/natural-reader/): Offers an online version that can read text aloud and download the audio.
+	- Convert your script into audio files, one for each slide or section.
+4. Combine Slides and Audio into a Video
+	- Use a free video editor like OpenShot, Shotcut, or iMovie (if on macOS):
+	    - [OpenShot](https://www.openshot.org/): A free, open-source video editor that supports adding images, text, audio, and transitions.
+	    - [Shotcut](https://www.shotcut.org/): Another free, open-source video editor with more advanced features.
+	    - [iMovie](https://support.apple.com/imovie): Free for macOS users, simple and intuitive for basic video editing.
+	- Import your slides and audio files into the video editor.
+	- Arrange the slides in sequence, and sync each slide with the corresponding audio.
+	- Add transitions, background music, or any other effects you desire.
+5. Export Your Video
+	- Once your video is complete, export it in your preferred format (e.g., MP4, MOV).
+	- Ensure the settings match your desired resolution and quality.
+6. Review and Finalize
+	- Watch the video to check for any syncing issues or mistakes.
+	- Make any necessary adjustments before finalizing your video.
+7. Bonus
+    - use the slides and narration content to build MD content around the generated video.
+
 #### Linking to Files
 
 For documents, PDFs, or other files:
