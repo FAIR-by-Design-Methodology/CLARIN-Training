@@ -325,9 +325,8 @@ Decorative images should have blank alternative text. A decorative image is an i
 - does not have a function (e.g. is not a link)
 
 
-<div class="grid cards" markdown>
 
--   :material-human:{ .lg .middle } __Use accessibility evaluation tools!__
+ !!! tip "Use accessibility evaluation tools!"
 
     ---
 
@@ -352,7 +351,6 @@ Decorative images should have blank alternative text. A decorative image is an i
 
         Open the PDF and then from the All tools menu on the left, select View more and then select Prepare for accessibility.
 
-</div>
 
 ## Summary 
 
