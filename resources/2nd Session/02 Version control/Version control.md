@@ -30,12 +30,12 @@ Below is a list of common Git related terminology which will be useful for the r
 
 
 
-### Filling out ==RELEASE==_NOTES.md
+### Filling out RELEASE_NOTES.md
 
-1. Open the `==RELEASE==_NOTES.md` file by clicking on its name from the left-hand directory tree.
+1. Open the RELEASE_NOTES.md` file by clicking on its name from the left-hand directory tree.
 2. The file uses a special Markdown syntax which allows its contents to be shown as collapsed on the syllabus home page, thus preserving space. 
-3. For the initial ==release==, alter the text below the `1.0.0` heading and make sure to also update the date of the ==release== in the heading itself.
-4. For all subsequent ==release==s, add a new level two heading using two hash symbols on a new line, (`##`) just below `<summary>Release ==Notes==</summary>`. Ideally, the `==RELEASE==_NOTES.md`file should list the various versions in a descending order, sorted by the ==release== date.
+3. For the initial release, alter the text below the `1.0.0` heading and make sure to also update the date of the release in the heading itself.
+4. For all subsequent releases, add a new level two heading using two hash symbols on a new line, (`##`) just below `<summary>Release Notes <summary>`. Ideally, the RELEASE_NOTES.md file should list the various versions in a descending order, sorted by the release date.
 
 
 ### New iteration
