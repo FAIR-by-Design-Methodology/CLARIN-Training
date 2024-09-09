@@ -324,6 +324,7 @@ Decorative images should have blank alternative text. A decorative image is an i
 - is used for layout or non-informative purposes
 - does not have a function (e.g. is not a link)
 
+
 <div class="grid cards" markdown>
 
 -   :material-human:{ .lg .middle } __Use accessibility evaluation tools!__
