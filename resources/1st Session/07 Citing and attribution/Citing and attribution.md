@@ -206,7 +206,11 @@ The citation file is a specific file wherein you need to provide the correct inf
 
 ## Summary 
 
-Summary
+Intellectual Property Rights (IPR) protect creators by granting them exclusive rights over their work, with copyright being particularly relevant to the creation of learning materials. Copyright automatically applies to original works, requiring permission for reuse unless the work is in the public domain or covered by specific exceptions. Licensing, especially through Creative Commons (CC), provides a way for creators to define how others can use their work. 
+
+Attribution and citation are crucial for recognizing and respecting the original creators. All CC licenses mandate attribution, which can be effectively managed using the TASL approach—Title, Author, Source, and License. Proper citation ensures legal compliance and honors the intellectual contributions of others. 
+
+The use of CITATION.cff files is also encouraged, as they provide a standardized format for describing how a work should be cited, which is particularly useful in open-source projects and for maintaining consistent citation practices across platforms.
 
 ## Suggested Reading
 
