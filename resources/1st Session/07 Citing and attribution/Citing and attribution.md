@@ -10,13 +10,13 @@ tags:
 
 ## Slides
 
-[Download the slides here](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
+[Download the slides here](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/1st%20Session/07%20Citing%20and%20attribution/Reuse_existing_materials.pptx){:download}
 
 ## Learning Objectives
 
-- Compare licenses
-- Write attribution
-- Define citing
+- Identify permissible licenses
+- Provide attribution for reused content
+- Define how others should cite your work
 
 ## Intellectual Property Rights (IPR)
 
@@ -38,7 +38,7 @@ In absence of exceptions or limitations, one can reuse an existing work if it is
 
 ### Licensing
 
->The content in this section is adapted from:
+>The content in this section contains material taken from:
 >
 >- [CC FAQ website](https://creativecommons.org/faq/#can-i-combine-material-under-different-creative-commons-licenses-in-my-work) licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode)
 >- [Creative Commons license Wikipage](https://en.wikipedia.org/wiki/Creative_Commons_license) (2023, June 21) in Wikipedia licensed under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -178,28 +178,30 @@ Depending on the country, the reproduction and communication of a protected work
 
 Citation files are plain text files with human- and machine-readable citation information that tells others how to cite or attribute your work.
 
-Starting from CITATION.cff, the purpose of this file is to provide information on how the Git repository can be cited. Its content, among other things, also controls the text shown when the Cite this repository button is clicked on the right hand side of a GitHub repository's homepage. It is written in a YAML format and has controlled vocabularies for most of the supported fields. Luckily, validators are also widely available, and we will discuss some options in this space in the Activity, below.
+There is a an [open source project that defines the Citation File Format (CFF) in a CITATION.cff file](https://citation-file-format.github.io/) so that there is a structured, uniform way of decribing how others should cite your work. CITATION.cff is written in a YAML format and has controlled vocabularies for most of the supported fields. 
 
-Create your own citation file
+The purpose of this file is to provide information on how the materials (Git repository) should be cited. Its content, among other things, also controls the text shown when the Cite this repository button is clicked on the right hand side of a GitHub repository's homepage. 
 
-4. Create your own citation file
-    - unlike code_of_conduct where the only information required is an email address, or license where the file content is provided by CC, the citation file is a specific file wherein you need to provide the correct information so that it can be correctly processed
-    - in the templates GitHub repository from step 1 navigate to the [citation file](https://github.com/FAIR-by-Design-Methodology/templates/blob/main/CITATION.cff)
-    - copy the whole content of the file
-    - in another browser tab, navigate to [https://citation-file-format.github.io/](https://citation-file-format.github.io/) 
-        - this is a tool that helps you develop citation files in the cff file format
-    - click on Create CFF file in the upper right corner
-    - click on the cffinit website blue button
-    - choose Update
-    - paste the content of the copied citation file from the templates repo
-    - click parse
-        - there are two warnings as doi and license are not defined as basic fields, but the bottom message should say parsed CFF successfully
-    - click start editing
+### Create your own citation file
+
+The citation file is a specific file wherein you need to provide the correct information so that it can be correctly processed. The following steps outline the procedure when using the FAIR-by-Design templates repository.
+
+1. In the templates GitHub repository navigate to the [citation file](https://github.com/FAIR-by-Design-Methodology/templates/blob/main/CITATION.cff)
+2. Copy the whole content of the file
+3. In another browser tab, navigate to [https://citation-file-format.github.io/](https://citation-file-format.github.io/) 
+    - the site provides an online tool that helps you develop citation files in the cff file format
+4. Click on Create CFF file in the upper right corner
+5. Click on the cffinit website blue button
+6. Choose Update
+7. Paste the content of the copied citation file from the templates repo
+8. Click parse
+    - there are two warnings as doi and license are not defined as basic fields, but the bottom message should say parsed CFF successfully
+9. Click start editing
     - note that this tool makes you choose between type of work software or dataset. As the learning materials are neither we recommend that the type field is not used in the file.
-    - follow the workflow and define the content of citation.cff
-    - ensure the file is valid
-    - you can download the file for future reference
-    - note that the citation file format provided in the templates repo is such that it is compatible with Zenodo
+10. Follow the workflow and define the content of citation.cff
+11. Ensure the file is valid
+12. Download the file 
+13. Put the file in the root of your learning materials repo
 
 
 ## Summary 
