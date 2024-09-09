@@ -80,6 +80,8 @@ Example is provided below:
 
 The right to attribution is a moral right of the authors that protects the personal relationship between the author and the created work even if the creator does not own the copyright.
 
+For work created by others that you are incorporating into your own work you want to make it easy for others to know who created what parts of the work.
+
 In other words, acknowledgement of the reused materials through attribution is **always needed** (even if it is not a requirement of the license, such as the public domain licenses). One condition that is **required for all CC licenses** is attribution. 
 
 The **ideal attribution** follows the TASL approach:
@@ -91,7 +93,6 @@ The **ideal attribution** follows the TASL approach:
 
 If your work is a modification or adaptation of another work, indicate this and provide attribution to the creator of the original work. You should also include a link to the work you modified and indicate what license applies to that work.
 
-For work created by others that you are incorporating into your own work you want to make it easy for others to know who created what parts of the work using the TASL approach. For an example see the attribution in the previous section of this document.
 
 #### Citing
 
@@ -118,10 +119,6 @@ Depending on the country, the reproduction and communication of a protected work
     === "I want to reuse a small part of it"
 
         No problem, you can reuse any existing CC licensed material in your learning materials as long as the reused portion is used as a showcase or to make a specific point and it is not the core of your work. If the work is licensed with ND, do not modify it while reusing.
-    
-    === "Learn more about IPR"
-
-        [:octicons-arrow-right-24: How Intellectual Property Rights (IPR) protect the interests of the creators and owners by providing them with rights over their creation?](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%201%20%E2%80%93%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects/#intellectual-property-rights-ipr)
 
     [:octicons-arrow-right-24: Go to CC licensing FAQ](https://creativecommons.org/faq/#before-using-cc-licensed-material)
 
@@ -171,10 +168,6 @@ Depending on the country, the reproduction and communication of a protected work
 
             > “[Comcast protest](http://www.flickr.com/photos/ari/8503459/in/set-214952/)” by Flikr user [Steve Rhodes](http://www.flickr.com/photos/ari/) used under [Creative Commons Attribution 2.0 license](http://creativecommons.org/licenses/by/2.0/deed.en)
 
-    === "Learn more"
-
-        [:octicons-arrow-right-24: Attribution and Citing](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%201%20%E2%80%93%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects/#attribution-and-citing)
-
     [:octicons-arrow-right-24: How to handle attribution?](https://courses.lumenlearning.com/suny-oerguide/chapter/how-to-handle-attribution/)
 
 </div>
@@ -216,6 +209,8 @@ Summary
 ## Suggested Reading
 
 - [Creative Commons Certificate for Educators, Academic Librarians and GLAM](https://certificates.creativecommons.org/cccertedu/)
+- [How Intellectual Property Rights (IPR) protect the interests of the creators and owners by providing them with rights over their creation?](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%201%20%E2%80%93%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects/#intellectual-property-rights-ipr)
+- [Attribution and Citing](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%201%20%E2%80%93%20Prepare/02-Preparing%20FAIR%20Learning%20Objects/02-Preparing%20FAIR%20Learning%20Objects/#attribution-and-citing)
 
 
 
