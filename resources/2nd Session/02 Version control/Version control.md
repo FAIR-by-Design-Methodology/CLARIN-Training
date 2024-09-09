@@ -30,36 +30,12 @@ Below is a list of common Git related terminology which will be useful for the r
 
 
 
-### Filling out ==RELEASE==_NOTES.md
+### Filling out RELEASE_NOTES.md
 
-1. Open the `==RELEASE==_NOTES.md` file by clicking on its name from the left-hand directory tree.
+1. Open the RELEASE_NOTES.md` file by clicking on its name from the left-hand directory tree.
 2. The file uses a special Markdown syntax which allows its contents to be shown as collapsed on the syllabus home page, thus preserving space. 
-3. For the initial ==release==, alter the text below the `1.0.0` heading and make sure to also update the date of the ==release== in the heading itself.
-4. For all subsequent ==release==s, add a new level two heading using two hash symbols on a new line, (`##`) just below `<summary>Release ==Notes==</summary>`. Ideally, the `==RELEASE==_NOTES.md`file should list the various versions in a descending order, sorted by the ==release== date.
-
-## Incremental improvements 
-
-Learning materials are never completely finished. There is always room for improvement and many times need and requirement to keep up to date with the development and changes in the field of subject of the learning materials.
-
-Therefore a regular analysis of all QA aspects is necessary to identify potential elements for improvement. Based on the outcomes of the feedback analysis, the authors of the learning materials should make a plan for the development of a new version of the learning materials. 
- 
-### Feedback analysis 
-
-As discussed in the previous learning unit, there are multiple sources that can serve for feedback gathering and QA:
-
-- feedback form
-- external QA recommendations
-- self-reflection after training 
-- GitHub issues
-- gathered comments from external contributors
-- direct mail contact 
-- any other means of communication (e.g. feedback from workshops, discussions, team meetings, etc.)
-
-The input from all of these sources should be gathered and analysed. The results of the analysis should be a list of potential improvements, each marked with an impact level (high, moderate, low). 
-
-The next step is to decide which of the improvements will be addressed in the next version and how will this be achieved. Note that depending on the number of identified improvements, you might need to go through the improvement cycle multiple times. It is recommended that the changes are done in an incremental fashion and that changes done in one version are logically related. This help both developers and users to better understand the differences between the versions.
-
-![continuous improvement cycle](./attachments/improvement.png){: style="height:350px;"}
+3. For the initial release, alter the text below the `1.0.0` heading and make sure to also update the date of the release in the heading itself.
+4. For all subsequent releases, add a new level two heading using two hash symbols on a new line, (`##`) just below `<summary>Release Notes <summary>`. Ideally, the RELEASE_NOTES.md file should list the various versions in a descending order, sorted by the release date.
 
 
 ### New iteration
