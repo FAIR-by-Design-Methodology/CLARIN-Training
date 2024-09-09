@@ -1,0 +1,32 @@
+1. Did you remember about accessibility while designing the content? What did you need to think about?
+    - [X] alternative text for image/video
+    - [X] use headings
+    - use text in bright colors
+    - nothing
+
+2. Which method did you use to attribute?
+    - TASL
+    - as provided by authors
+    - other
+    - ups, I forgot that part
+
+3. Which part was the most difficult one?
+    - content
+    - plan
+    - activity
+    - assessment
+
+4. Where is the full RDA metadata schema stored?
+    - content
+    - plan
+    - [] syllabus
+    - facilitation guide
+    - feedback
+
+5. What would you have in the root of your hierarchical learning units structure?
+    - plan
+    - [X] facilitation guide
+    - [X] syllabus
+    - slides
+    - [X] LICENSE
+    - [X] CITATION.cff
