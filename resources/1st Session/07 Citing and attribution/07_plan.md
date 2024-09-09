@@ -29,8 +29,8 @@ up to 100
 ### Plan
 | Duration | Topic          | Key points/Teaching Method/Questions                 | Activities | Resources   |
 |----------|----------------|------------------------------------------------------|------------|-------------|
-| 5 mins   | IPR            | intro to copyright and licenses                      |            | pptx        |
-| 12 mins  | Attribution    | how to acknowledge reused work, tips and tricks      | questions  | pptx, Menti |
+| 3 mins   | IPR            | intro to copyright and licenses                      |            | pptx        |
+| 9 mins   | Attribution    | how to acknowledge reused work, tips and tricks      | questions  | pptx, Menti |
 | 3 mins   | How to cite me | CITATION.CFF                                         | example    | pptx, links |
 
 ### Reflection - TBD
