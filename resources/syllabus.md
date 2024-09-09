@@ -157,11 +157,9 @@ Sonja Filiposka[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org
 
 Skills4EOSC is dedicated to ensuring that all produced learning materials are accessible to as many visitors as possible regardless of their ability or technology. We have an active commitment to increasing our learning materials accessibility. The main standards that we aim to comply with are WCAG v.2.1 Level AA criteria and PDF/UA (ISO 14289).
 
-### Acknowledgement
+## Acknowledgement
 
 These learning materials have been developed by following the [FAIR-by-Design Methodology](https://doi.org/10.5281/zenodo.7875540).
-
-## Attribution
 
 The FAIR-by-Design methodology learning materials provided in this training are based on:
 
