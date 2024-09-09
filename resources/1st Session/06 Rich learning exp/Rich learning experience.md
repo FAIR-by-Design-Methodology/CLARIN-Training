@@ -324,6 +324,35 @@ Decorative images should have blank alternative text. A decorative image is an i
 - is used for layout or non-informative purposes
 - does not have a function (e.g. is not a link)
 
+<div class="grid cards" markdown>
+
+-   :material-human:{ .lg .middle } __Use accessibility evaluation tools!__
+
+    ---
+
+    Accessibility evaluation tools are not perfect. Even if they say that all is ok, it does not mean that your content is truly accessible. But they are a very good starting point.
+
+    === "Slides"
+
+        Use the integrated accessibility checker in Power Point:
+
+        1. Open an existing presentation in PowerPoint and review the content. 
+        2. Select the Review tab. 
+        3. Select Check Accessibility.
+        4. An Accessibility Checker pane will appear on the right with 'Inspection Results' displayed.
+
+    === "Web content"
+
+        Choose from the [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/test-evaluate/tools/list/) developed by W3C.
+
+    === "PDF document"
+
+        Check accessibility in Adobe Acrobat Pro.
+
+        Open the PDF and then from the All tools menu on the left, select View more and then select Prepare for accessibility.
+
+</div>
+
 ## Summary 
 
 To create an engaging and inclusive learning experience, it’s essential to understand and integrate various learning modalities, incorporate multimedia effectively, and ensure accessibility. Learning modalities include visual, auditory, kinesthetic, and read/write styles, each catering to different ways individuals process information. By incorporating multimedia elements such as images, videos, audio, and interactive content, educators can address diverse learning preferences and enrich the educational experience. This not only helps in accommodating various learning styles but also makes the content more engaging and dynamic.
