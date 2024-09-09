@@ -1,17 +1,17 @@
 ---
-title: "Metadata and Controled Vocabularies"
+title: "Metadata and Controlled Vocabularies"
 author: "Skills4EOSC"
 tags: 
     - Metadata
-    - Contoled Vocabularies
+    - Controlled Vocabularies
 ---
 
-# Slides (new)
+# Metadata and Controlled Vocabularies
 
-[Download the slides regarding the FAIR-by-Design Methodology here](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
+## Slides (new)
 
+[Download the slides here TBD](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
 
-# Introduction
 
 ## Metadata and Metadata Schema
 
@@ -451,9 +451,9 @@ As syllabus is one of the required documents for the FAIR-by-Design learning mat
 
 
 
-# Summary
+## Summary
 
 
-# Suggested Reading
+## Suggested Reading
 
 - [Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development](https://zenodo.org/records/8419242)
