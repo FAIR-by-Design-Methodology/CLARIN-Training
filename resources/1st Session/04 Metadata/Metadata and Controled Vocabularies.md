@@ -333,6 +333,61 @@ Note that in many cases controlled vocabularies are suggested, but at this stage
 Later on during this training, you will learn how and where to define the metadata for your learning resources.
 
 
+
+
+## Backward instructional design process
+
+The backward design first focuses on the learning outcomes that one wants to achieve and then works backward to the topics that need to be covered in order to achieve the learning objectives. 
+
+![Three steps of the backward design model: determine goal and objectives, plan assessments, plan learning activities](./attachments/backward_design_model_april_2020.png)
+"[Backward design model](http://campdesign.online/documents/backward_design_model_april_2020.pdf)" from [Muhlenberg College](http://campdesign.online/backwarddesign.html) licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). 
+
+By following this process, the learner becomes the focal point of the training, making the developed learning materials learner-centric.
+
+### Ideating a learning resource
+
+According to best practices for the [instructional design process](https://www.skillcast.com/blog/instructional-design-best-practices) in the initial preparation phase (step 1) there should be a clear definition of the **overarching aspects and considerations** related to the learning materials that are going to be created. 
+
+The aspects that need to be defined first are:
+
+- **Purpose** of learning material
+    - when and how the learning materials can be used and for what purposes
+- **Target Audience**
+    – the primary audience for the learning materials 
+    - is there anything specific that needs to be taken into account, such as cultural context
+- **Prerequisites**
+    - what does the target audience need to know or understand before starting the learning process
+    - it is suggested to use names and links to other learning materials if possible
+- **Overall Scope of the learning materials**
+    - is it going to be a single learning object, or an aggregation of some sort such as a course
+- **Learning Objectives** 
+    - what competences will be gained after successful completing of the learning process
+
+If possible, the choice of a delivery platform should be postponed to the design step as to ensure that the choice is compatible with the types of learning objects identified for potential reuse.
+
+### Defining learning objectives
+
+Learning objectives should describe what new knowledge and skills will be obtained in a specific, measurable, attainable, relevant and time-bound (SMART) way. 
+
+The learning objectives are used to organize specific topics or individual learning activities so that the learner can most effectively achieve the overall learning outcome.
+
+To ensure standardization and wide understanding of the learning objective, it is best practice to define the learning objectives using a well-known taxonomy such as the [Bloom’s taxonomy](https://cmapspublic2.ihmc.us/rid=1Q2PTM7HL-26LTFBX-9YN8/Krathwohl%202002.pdf). 
+
+The Bloom's Taxonomy is a classification of the different objectives and skills that educators set for their students (learning outcomes). The cognitive domain categorizes the human learning process into 6 hierarchical levels: Remember, Understand, Apply, Analyze, Evaluate, and Create. 
+
+![Description of the complexity levels for the cognitive domain](./attachments/Bloom's_Revised_Taxonomy.jpg)
+"[Bloom's Revised Taxonomy](https://www.flickr.com/photos/vandycft/29428436431)" by [Vanderbilt University Center for Teaching](https://cft.vanderbilt.edu) licensed under the terms of the [CC-BY-2.0](https://creativecommons.org/licenses/by/2.0/).
+
+When defining learning objectives using the Bloom's taxonomy, correct verbs should be used for each objective based on the level the learners needs to achieve. For these purposes the example verbs provided in the image can be used.
+
+![List of verbs on each complexity level in the cognitive domain](./attachments/Bloom’s_Taxonomy_Verbs.png)
+[Bloom's taxonomy](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy#/media/File:Bloom%E2%80%99s_Taxonomy_Verbs.png) by [Fractus Learning](https://www.fractuslearning.com/). (2023, July 10). In [Wikipedia](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy) licensed under the terms of [CC BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/).  
+
+This approach will significantly improve the findability of the produced resources, as well as the potential reuse of individual learning objects in different aggregations.
+
+The number of learning objectives depends on the aggregation level of the learning resource that is being developed. 
+
+
 ## Syllabus 
 
 Once you have identified your learning concepts, the next step is to sequence them into an instructional sequence (agenda). This instructional sequence will become your blueprint for the organisation of the learning materials and the definition of the syllabus.
@@ -393,59 +448,6 @@ The following is a **list of all required syllabus fields**:
 As syllabus is one of the required documents for the FAIR-by-Design learning materials, you must ensure that your syllabus contains **all elements** provided in this section. Only in this way you will ensure that your learning materials contain all necessary metadata information together with the traditional syllabus information that is provided.
 
 
-
-
-## Backward instructional design process
-
-The backward design first focuses on the learning outcomes that one wants to achieve and then works backward to the topics that need to be covered in order to achieve the learning objectives. 
-
-![Three steps of the backward design model: determine goal and objectives, plan assessments, plan learning activities](./attachments/backward_design_model_april_2020.png)
-"[Backward design model](http://campdesign.online/documents/backward_design_model_april_2020.pdf)" from [Muhlenberg College](http://campdesign.online/backwarddesign.html) licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). 
-
-By following this process, the learner becomes the focal point of the training, making the developed learning materials learner-centric.
-
-### Ideating a learning resource
-
-According to best practices for the [instructional design process](https://www.skillcast.com/blog/instructional-design-best-practices) in the initial preparation phase (step 1) there should be a clear definition of the **overarching aspects and considerations** related to the learning materials that are going to be created. 
-
-The aspects that need to be defined first are:
-
-- **Purpose** of learning material
-    - when and how the learning materials can be used and for what purposes
-- **Target Audience**
-    – the primary audience for the learning materials 
-    - is there anything specific that needs to be taken into account, such as cultural context
-- **Prerequisites**
-    - what does the target audience need to know or understand before starting the learning process
-    - it is suggested to use names and links to other learning materials if possible
-- **Overall Scope of the learning materials**
-    - is it going to be a single learning object, or an aggregation of some sort such as a course
-- **Learning Objectives** 
-    - what competences will be gained after successful completing of the learning process
-
-If possible, the choice of a delivery platform should be postponed to the design step as to ensure that the choice is compatible with the types of learning objects identified for potential reuse.
-
-### Defining learning objectives
-
-Learning objectives should describe what new knowledge and skills will be obtained in a specific, measurable, attainable, relevant and time-bound (SMART) way. 
-
-The learning objectives are used to organize specific topics or individual learning activities so that the learner can most effectively achieve the overall learning outcome.
-
-To ensure standardization and wide understanding of the learning objective, it is best practice to define the learning objectives using a well-known taxonomy such as the [Bloom’s taxonomy](https://cmapspublic2.ihmc.us/rid=1Q2PTM7HL-26LTFBX-9YN8/Krathwohl%202002.pdf). 
-
-The Bloom's Taxonomy is a classification of the different objectives and skills that educators set for their students (learning outcomes). The cognitive domain categorizes the human learning process into 6 hierarchical levels: Remember, Understand, Apply, Analyze, Evaluate, and Create. 
-
-![Description of the complexity levels for the cognitive domain](./attachments/Bloom's_Revised_Taxonomy.jpg)
-"[Bloom's Revised Taxonomy](https://www.flickr.com/photos/vandycft/29428436431)" by [Vanderbilt University Center for Teaching](https://cft.vanderbilt.edu) licensed under the terms of the [CC-BY-2.0](https://creativecommons.org/licenses/by/2.0/).
-
-When defining learning objectives using the Bloom's taxonomy, correct verbs should be used for each objective based on the level the learners needs to achieve. For these purposes the example verbs provided in the image can be used.
-
-![List of verbs on each complexity level in the cognitive domain](./attachments/Bloom’s_Taxonomy_Verbs.png)
-[Bloom's taxonomy](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy#/media/File:Bloom%E2%80%99s_Taxonomy_Verbs.png) by [Fractus Learning](https://www.fractuslearning.com/). (2023, July 10). In [Wikipedia](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy) licensed under the terms of [CC BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/).  
-
-This approach will significantly improve the findability of the produced resources, as well as the potential reuse of individual learning objects in different aggregations.
-
-The number of learning objectives depends on the aggregation level of the learning resource that is being developed. 
 
 
 
