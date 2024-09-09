@@ -25,7 +25,7 @@ As we are not sure that all of you have sufficient experience with GitHub and MD
 
 ## Step-by-Step Guide
 
-1. Go to the CLARIN Training Session 1 Hands-on folder on Google drive
+1. Go to the [CLARIN Training Session 1 Hands-on folder](https://drive.google.com/drive/folders/1__wsHxfQL_bydPGQZASovlWneoIHCVrj?usp=sharing) on Google drive
 2. You will find a folder with your name on it, this is your playground
 3. Inside there are several files that make up a template unit
     - content - the main learning content accessible to learners
@@ -36,8 +36,8 @@ As we are not sure that all of you have sufficient experience with GitHub and MD
     - content
         - add min 1 learning objective using the Blooms taxonomy 
         - reuse min 1 image or video with attribution
-            - example source https://open-science-training-handbook.gitbook.io/book/02opensciencebasics/01openconceptsandprinciples 
-            - example source https://zenodo.org/records/10564861 
+            - example source: [The Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/02opensciencebasics/01openconceptsandprinciples) 
+            - example source: [OS Training Video](https://zenodo.org/records/10564861)
         - add min 1 paragraph of text (with attribution if reused)
     - assessment
         - add min 1 multi choice question
