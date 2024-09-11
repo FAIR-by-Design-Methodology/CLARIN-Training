@@ -111,40 +111,6 @@ There may be different detail levels of the learning unit plan:
 
 It is recommended that you follow the **Hunter's model** for developing a learning unit plan:
 
-1. Set the learning objectives
-    - These are lower level learning objectives for the particular learning unit. Combining all learning objectives from all units should lead to the high level learning objectives defined in the syllabus.
-	- Ensure these are clear and follow a logical order that is easy to understand and help identify meaningful concepts and ideas.
-	- Follow the Bloom's taxonomy again.
-2. Identify the needs of the target audience
-    - Make sure you are prepared to help learners along the way
-3. Plan your training material
-    - Create a list of all the resources. From stationary like a pen or paper to technology equipment like laptops, software, or gamified learning tools like apps or any website, all these can help you get the most out of what you intend to do.
-4. Present the outline of the unit - the Hook
-    - Throughout the training, the goal is to keep learners engaged. 
-	- An outline can help them develop a context around the subject, letting them know what is coming next, and encourage them to relate to the learning materials at hand. 
-	- Don’t forget to draw relevant examples of events or develop creative activities that spark interest and attention.
-5. Instruct the lesson
-    - Follow the order and present the resources you need, but also make sure to involve the learners in this process. 
-	- You may use as much multimedia as you want to facilitate engagement and give a wealth of examples learners can relate to easily –  most important is to present the information in a meaningful way.
-6. Provide time to practice
-    - Once you finish your instruction, it’s the learners’ turn to take the lead. 
-	- Ask them to show what they have learned through practice. 
-	- For an example start with a guided practice – allowing learners to make sense of the information they have just received. 
-	- Then you can follow up with a collaborative process – let them work in groups to explore main concepts. 
-	- Finish with independent practice – giving each time to work on their own through an assignment.
-7. Wrap-up
-    - Do an overview of what has been discussed and what has been learned. 
-	- Ask learners to tell you the key takeaways, identifying main ideas and conclusions. 
-	- Give a preview of the next unit to prepare them.
-8. Evaluate
-    - Determine whether the learning objectives have been met, and ensure that learners understood what you taught through a small quiz, test, or exam.
-9. Reflection
-    - Did everything do as planned or something needs to be improved?
-
-
-
-<a href="https://www.csun.edu/sites/default/files/Holle-Lesson-Planning.pdf" class="btn btn-primary btn-lg btn-block">Read more about the Hunter Model</a>
-
 <div class="grid cards" markdown>
 
 - <i class="fa fa-bullseye" aria-hidden="true"></i> __1. Set Learning Objectives__ ... what is the goal
@@ -158,6 +124,8 @@ It is recommended that you follow the **Hunter's model** for developing a learni
 - <i class="fa fa-info-circle" aria-hidden="true"></i> __9. Reflect__ ... how did it go?
 
 </div>
+
+<a href="https://www.csun.edu/sites/default/files/Holle-Lesson-Planning.pdf" class="btn btn-primary btn-lg btn-block">Read more about the Hunter Model</a>
 
 
 ### Learning Unit Plan Development
