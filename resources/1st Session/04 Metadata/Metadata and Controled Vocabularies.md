@@ -181,6 +181,7 @@ The number of learning objectives depends on the aggregation level of the learni
 
 ## Summary
 
+Using metadata has crucial importance when producing learning resources that need to be findable and reusable. Skills4EOSC supports the usage of RDA Minimal Metadata for Learning Resources. In addition the usage of controlled vocabularies helps in  standardizing terms for consistency. A syllabus organizes learning concepts into a structured instructional sequence, and learning objectives should be defined clearly using frameworks like Bloom's Taxonomy to ensure they are specific and measurable.
 
 ## Suggested Reading
 
