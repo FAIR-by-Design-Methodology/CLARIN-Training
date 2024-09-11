@@ -86,6 +86,7 @@ Such examples are
 
 
 In the Skills4EOSC project, a specific example of using controlled vocabularies are different lists of OS Skills Terms
+
 - t4FS: 223 'data stewardship activity' terms
 - CSCCE  Glossary: 45 terms listed according to 5 dimensions, selecting those included in 'skills wheel' for scientific community managers
 - [ResearchComp](https://research-and-innovation.ec.europa.eu/system/files/2023-04/ec_rtd_research-competence-presentation.pdf)
