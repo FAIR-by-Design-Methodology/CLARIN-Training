@@ -12,6 +12,13 @@ tags:
 [Download the slides here TBD](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
 
 
+## Learning objectives
+
+Upon completing this module the learner should be able to:
+
+- understand the elements of the learning unit plan 
+- develop the instructors kit
+
 ## Learning Unit Plan
 
 To ensure rich learning experience it is imperative to develop a learning unit plan. This document incorporates all aspects that should lead to a high quality learning experience as it defines the plan on how to use teaching methods and the learning content together with activities to achieve the defined learning objectives. 
