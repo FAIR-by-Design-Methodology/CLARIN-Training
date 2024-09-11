@@ -143,6 +143,22 @@ It is recommended that you follow the **Hunter's model** for developing a learni
 
 
 
+<a href="https://www.csun.edu/sites/default/files/Holle-Lesson-Planning.pdf" class="btn btn-primary btn-lg btn-block">Read more about the Hunter Model</a>
+
+<div class="grid cards" markdown>
+
+- <i class="fa fa-bullseye" aria-hidden="true"></i> __1. Set Learning Objectives__ ... what is the goal
+- <i class="fa fa-question-circle" aria-hidden="true"></i> __2. Identify Needs__ ... how to get there 
+- <i class="fa fa-list-alt" aria-hidden="true"></i> __3. Plan__ ... share the agenda
+- <i class="fa fa-heartbeat" aria-hidden="true"></i> __4. Hook__ ... why is the content important
+- <i class="fa fa-user-secret" aria-hidden="true"></i> __5. Instruct__ ... watch how I do it
+- <i class="fa fa-code-fork" aria-hidden="true"></i> __6. Practise__ ... you help me do it, I'll watch you do it
+- <i class="fa-solid fa-hand-point-right" aria-hidden="true"></i> __7. Wrap-Up__ ... foster retention and reinforcement
+- <i class="fa fa-question-circle" aria-hidden="true"></i> __8. Evaluate__ ... monitor progress
+- <i class="fa fa-info-circle" aria-hidden="true"></i> __9. Reflect__ ... how did it go?
+
+</div>
+
 
 ### Learning Unit Plan Development
 
@@ -208,21 +224,7 @@ The **slide deck should follow the stages of the HUNTER model**:
 	- feedback gathering
 
 
-<a href="https://www.csun.edu/sites/default/files/Holle-Lesson-Planning.pdf" class="btn btn-primary btn-lg btn-block">Read more about the Hunter Model</a>
 
-<div class="grid cards" markdown>
-
-- <i class="fa fa-bullseye" aria-hidden="true"></i> __1. Set Learning Objectives__ ... what is the goal
-- <i class="fa fa-question-circle" aria-hidden="true"></i> __2. Identify Needs__ ... how to get there 
-- <i class="fa fa-list-alt" aria-hidden="true"></i> __3. Plan__ ... share the agenda
-- <i class="fa fa-heartbeat" aria-hidden="true"></i> __4. Hook__ ... why is the content important
-- <i class="fa fa-user-secret" aria-hidden="true"></i> __5. Instruct__ ... watch how I do it
-- <i class="fa fa-code-fork" aria-hidden="true"></i> __6. Practise__ ... you help me do it, I'll watch you do it
-- <i class="fa-solid fa-hand-point-right" aria-hidden="true"></i> __7. Wrap-Up__ ... foster retention and reinforcement
-- <i class="fa fa-question-circle" aria-hidden="true"></i> __8. Evaluate__ ... monitor progress
-- <i class="fa fa-info-circle" aria-hidden="true"></i> __9. Reflect__ ... how did it go?
-
-</div>
 
 
 
