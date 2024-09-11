@@ -186,3 +186,6 @@ Using metadata has crucial importance when producing learning resources that nee
 ## Suggested Reading
 
 - [Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development](https://zenodo.org/records/8419242)
+- [Skills4EOSC FAIR-by-Design Microlearning Stage 1](https://fair-by-design-methodology.github.io/microlearning/latest/01%20Prepare/prepare/)
+- [Skills4EOSC FAIR-by-Design Methodology Describing learning materials](https://fair-by-design-methodology.github.io/FAIR-by-Design_Book/3%20-%20Learning%20materials%20description%20and%20modelling/31-Describing_learning_materials/)
+- [Skills4EOSC FAIR-by-Design Methodology Design stage](https://fair-by-design-methodology.github.io/FAIR-by-Design_Book/4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/413-design/)
