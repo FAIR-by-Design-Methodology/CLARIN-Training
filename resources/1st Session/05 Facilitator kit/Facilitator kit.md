@@ -19,6 +19,83 @@ Upon completing this module the learner should be able to:
 - understand the elements of the learning unit plan 
 - develop the instructors kit
 
+
+
+## The Instructor Kit
+
+The main goal of the instructor kit is to support the trainers and instructors in the delivery of the learning materials.
+It is also essential for high quality reusability of the learning materials by other trainers and/or instructional designers. 
+
+The **complete instructor kit** consists of learning materials that are developed and used to support the learning process, but are not directly visible by learners. These include the following items:
+
+- learning unit plan
+- activity details
+- quiz question banks
+- quiz strategies
+- facilitation guide
+- feedback questions
+
+
+??? info "Available facilitation guide kit"
+
+    The <a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%203%20–%20Design/07-Facilitation/07-Facilitation/'> facilitation guide </a> should help prepare for the actual training. If you don't want to develop your own, use something that is already available such as the [TRIPLE project TRAINING TOOLKIT](https://project.gotriple.eu/project-deliverables/triple-training-toolkit/).
+
+
+## Structure is everything
+
+<div class="grid cards" markdown>
+
+- <i class="fa fa-cogs" aria-hidden="true"></i> Create an intuitive logical organisation of all learning materials. 
+- <i class="fa fa-cubes" aria-hidden="true"></i> The goal is for other people to easily reuse a single item (plan, activity, unit, assessment, ...).
+- <i class="fa fa-sitemap" aria-hidden="true"></i> Use a hierarchical structure to combine learning units into larger compositions.
+
+</div>
+
+!!! example "How to organise the files"
+
+    The diagram shows how to organise all files in folders and subfolders. Click on the links to discover and use pre-prepared templates.
+
+``` mermaid
+graph LR
+  r[root] --> res;
+  r --> rm[<a href='https://www.makeareadme.com/'>README</a>];
+  r --> l[<a href='https://creativecommons.org/licenses/by/4.0/legalcode.txt'>LICENSE</a>];
+  r --> c[<a href='https://citation-file-format.github.io/'>CITATION.cff</a>];
+  r --> misc[opt miscellaneous files];
+
+  res[resources] --> att[attachments];
+  att --> mf[multimedia files];
+  res --> f[Feedback];
+  f --> fq[<b>Survey</b><br><a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Feedback/training_feedback_template.md'>Git MD Format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/feedback/Training%20Evaluation%20Form.docx'>Office format</a>];
+  res --> s1[opt 01 Section Name];
+  res --> s[<b>Syllabus</b><br><a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/syllabus.md'>Git MD format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/syllabus.docx'>Office format</a>];
+  res --> fg[<b>Facilitator Guide</b> <br> <a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/template_facilitator_guide.md'>Git MD format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/Training%20Facilitator%20Guide.docx'>Office format</a>];
+
+  s1 --> m1[opt 01 Module Name];
+  m1 --> lu1[01 Learning Unit Name];
+  m1 --> lux[...];
+  m1 --> luN[N Learning Unit Name];
+
+  lu1 --> act[Activities];
+  lu1 --> ass[Assessment];
+  lu1 --> at[attachments];
+  at --> mff[multimedia files];
+  lu1 --> lc[<b>Learning Content</b><br><a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Learning%20Unit/template_content.md'>Git MD format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/XX%20module%20name/Module%20Name_notes.docx'>Office format</a>];
+  lu1 --> sd[<a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Learning%20Unit/Learning_unit_content.pptx'>Slide Deck</a>];
+  lu1 --> lp[<b>Learning Unit Plan</b><br><a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Learning%20Unit/template_unit_lesson_plan.md'>Git MD format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/XX%20module%20name/Module%20Plan.docx'>Office format</a>];
+
+  act --> a1[<b>01 activity desc</b><br><a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Learning%20Unit/Activities/activity_details_template.md'>Git MD format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/XX%20module%20name/activities/Activity%20Name_description.docx'>Office format</a>];
+  act --> ax[...];
+  act --> aK[<b>K activity desc</b><br><a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Learning%20Unit/Activities/activity_details_template.md'>Git MD format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/XX%20module%20name/activities/Activity%20Name_description.docx'>Office format</a>];
+
+  ass --> qb[<b>Questions</b><br><a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Learning%20Unit/Assessment/assessment_template.md'>Git MD format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/XX%20module%20name/assessment/quiz_gift_template.txt'>Office format</a>];
+  ass --> st[<a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Learning%20Unit/Assessment/assessment_template.md'>opt strategy</a>];
+
+```
+
+
+
+
 ## Learning Unit Plan
 
 To ensure rich learning experience it is imperative to develop a learning unit plan. This document incorporates all aspects that should lead to a high quality learning experience as it defines the plan on how to use teaching methods and the learning content together with activities to achieve the defined learning objectives. 
@@ -64,6 +141,9 @@ It is recommended that you follow the **Hunter's model** for developing a learni
 9. Reflection
     - Did everything do as planned or something needs to be improved?
 
+
+
+
 ### Learning Unit Plan Development
 
 In a nutshell, the **required information** that you need to provide in your learning plan is:
@@ -81,24 +161,10 @@ In a nutshell, the **required information** that you need to provide in your lea
 
 Remember that although some parts of this information may seem repetitive with the overall syllabus, the plan is much more detailed and the repetition provides the much needed context for reuse. 
 
+!!! info "Syllabus is ready" 
 
-### Method(s)
+    You should by now have the first draft of your <a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%203%20–%20Design/04-Conceptualisation/04-Conceptualisation/'>syllabus</a>. It contains all the fields from the RDA min metadata set plus the high level topics covered by the learning material.
 
-When developing the plan you will need to think about the teaching methods that will be used during the training. 
-
-One or more preferred teaching methods should be utilised during the training for maximum effect. Some typical teaching methods that can be employed are presented in the following image
-
-![teaching methods comparison based on level od technology involved (low to high) and type of centeredness (teacher vs student)](./attachments/2u-teach-teaching-styles-v4_2.png)
-
-Image by [edX](https://www.edx.org) from [teach.com](https://teach.com/what/teachers-know/teaching-methods/), &copy; 2U
-
-### Activity
-
-Analyse the [Example Learning Plan](./attachments/02-Preparing%20FAIR%20Learning%20Objects_plan.html) that has been created for one of the learning units that are part of this training. 
-
-Are you able to prepape a learning unit plan for the identified units in your Open Science training?
-
-Note that the development process is iterative. As you develop the content later on you might come back to the plan and make changes. Don't forget that larger changes might also affect the syllabus. 
 
 ## Learning Content
 
@@ -140,6 +206,32 @@ The **slide deck should follow the stages of the HUNTER model**:
 	- final Q&A
 	- assessment information
 	- feedback gathering
+
+
+<a href="https://www.csun.edu/sites/default/files/Holle-Lesson-Planning.pdf" class="btn btn-primary btn-lg btn-block">Read more about the Hunter Model</a>
+
+<div class="grid cards" markdown>
+
+- <i class="fa fa-bullseye" aria-hidden="true"></i> __1. Set Learning Objectives__ ... what is the goal
+- <i class="fa fa-question-circle" aria-hidden="true"></i> __2. Identify Needs__ ... how to get there 
+- <i class="fa fa-list-alt" aria-hidden="true"></i> __3. Plan__ ... share the agenda
+- <i class="fa fa-heartbeat" aria-hidden="true"></i> __4. Hook__ ... why is the content important
+- <i class="fa fa-user-secret" aria-hidden="true"></i> __5. Instruct__ ... watch how I do it
+- <i class="fa fa-code-fork" aria-hidden="true"></i> __6. Practise__ ... you help me do it, I'll watch you do it
+- <i class="fa-solid fa-hand-point-right" aria-hidden="true"></i> __7. Wrap-Up__ ... foster retention and reinforcement
+- <i class="fa fa-question-circle" aria-hidden="true"></i> __8. Evaluate__ ... monitor progress
+- <i class="fa fa-info-circle" aria-hidden="true"></i> __9. Reflect__ ... how did it go?
+
+</div>
+
+
+
+
+??? question "What about instructor notes?"
+
+    Need to be detailed enough so that anyone can reuse the slides properly. Don't put them in the slide deck. This is what the learning content file is for.
+
+
 
 ## Activity details
 
@@ -196,17 +288,7 @@ where
 - MAT - Matching
 - ORD - Ordering
 
-The easiest way to define the quiz questions in a reusable format is to use the GIFT quiz format that can then be imported in the Skills4EOSC learning platform (the other way around is also possible, export the questions created on the platform in GIFT for others to reuse).
 
-The provided [Quiz GIFT Template](./attachments/quiz_gift_template.txt) contains examples of the different types of questions. 
-
-Detailed instructions on how to write quiz questions in the GIFT format can be found on the Moodle site: [GIFT format](https://docs.moodle.org/402/en/GIFT_format).
-
-You can use the [GIFT Question Editor](https://fuhrmanator.github.io/GIFT-grammar-PEG.js/editor/editor.html) to validate or generate your own GIFT formatted quiz questions.
-
-### Create a quiz
-
-Try to create a quiz that has at least 3 different questions of different types for one of the learning units of your Open Science course. Validate your quiz using the [GIFT Question Editor](https://fuhrmanator.github.io/GIFT-grammar-PEG.js/editor/editor.html).
 
 ### Assessment Strategy
 
@@ -222,19 +304,6 @@ In the first case, a separate strategy document needs to be developed for each l
 
 If each learning unit has its own quiz strategy then it should be provided together with the learning unit. 
 
-The **assessment strategy** needs to describe the following items:
-
-- how many questions should be used from the questions pool
-- is there any weight that should be given to the questions
-- questions order (random or specific)
-- answers order
-- quiz duration
-- when the quiz starts and finishes
-- how many times it can be taken
-- grading method
-- completion rules
-- results publication guide
-
 
 To summarise, a **complete learning unit** consists of several parts:
 
@@ -243,26 +312,8 @@ To summarise, a **complete learning unit** consists of several parts:
 - optional slide deck or similar type of instructional material
 - activities description
 - assessment quiz and strategy
+ 
 
-Note that in the next stage, Prepare, you will train on how to create the content from scratch. At this point in the Design stage the goal is only to introduce you to the type of information that needs to be provided in each of the defined documents. 
-
-
-
-## The Instructor Kit
-
-The main goal of the instructor kit is to support the trainers and instructors in the delivery of the learning materials.
-It is also essential for high quality reusability of the learning materials by other trainers and/or instructional designers. 
-
-The **complete instructor kit** consists of learning materials that are developed and used to support the learning process, but are not directly visible by learners. These include the following items:
-
-- learning unit plan
-- activity details
-- quiz question banks
-- quiz strategies
-- facilitation guide
-- feedback questions
-
-Most of the items were already introduced and discussed in [06 - Learning Unit Development](../06-Learning%20unit%20development/06-LearningUnitDevelopment.md). Here we will only focus on the last documents: the facilitation guide and the feedback questions.
 
 ### Facilitation Guide
 
@@ -297,135 +348,16 @@ At the end of the learning process you should gather feedback from the learners 
 - physically by filling out a feedback sheet
 - digitally using a feedback form created on the learning platform or using some other survey system
 
-An example Training Evaluation form is presented in the next subsection. A similar evaluation form can be created using the feedback tool in the Skills4EOSC platform. 
-
-Do not forget to set the following **settings** of the defined feedback used for training evaluation:
-
-- availability from - to
-- anonymous
-- no multiple submissions
-- show analysis page (for transparent review of the results) 
-
-#### Training Evaluation Form
-
-In Skills4EOSC we strive to provide high quality training and continuous improve our training activities. 
-To be able to achieve that your feedback is very important to us. 
-
-Please take a moment of your time to fill out the evaluation of the [insert training title]. It will only take a minute.
-
-##### Training rating
-
-Overall, the training provided was
-
-- Excellent
-- Very good
-- Good
-- Fair
-- Poor
-
-##### Training aspects rating
-
-Let us know what was your experience regarding different training aspects:
-
-|                                                     | Strongly disagree | Disagree | Neutral | Agree | Strongly agree |
-|-----------------------------------------------------|-------------------|----------|---------|-------|----------------|
-| I achieved the learning objectives.                 |                   |          |         |       |                |
-| The training was clear and easy to follow.          |                   |          |         |       |                |
-| The learning materials were clear.                  |                   |          |         |       |                |
-| The learning content was relevant.                  |                   |          |         |       |                |
-| The time allotted for the training was well chosen. |                   |          |         |       |                |
-| The trainers were well prepared.                    |                   |          |         |       |                |
-| The training activities were relevant.              |                   |          |         |       |                |
-
-##### Acquired knowledge rating
-How would you rate your level of knowledge on the topic before and after the training.
-
-|                                     | None | Newbie | Basic | Advanced | Expert |
-|-------------------------------------|------|--------|-------|----------|--------|
-| My skills level before the training |      |        |       |          |        |
-| My skills level after the training  |      |        |       |          |        |
-
-##### Insights
-
-In your opinion 
-
-- the most useful part of the training is [free text]
-- the least useful part of the training is [free text]
-- the training could have been improved by [free text]
-
-
-
-## Structure is everything
-
-<div class="grid cards" markdown>
-
-- <i class="fa fa-cogs" aria-hidden="true"></i> Create an intuitive logical organisation of all learning materials. 
-- <i class="fa fa-cubes" aria-hidden="true"></i> The goal is for other people to easily reuse a single item (plan, activity, unit, assessment, ...).
-- <i class="fa fa-sitemap" aria-hidden="true"></i> Use a hierarchical structure to combine learning units into larger compositions.
-
-</div>
-
-!!! example "How to organise the files"
-
-    The diagram shows how to organise all files in folders and subfolders. Click on the links to discover and use pre-prepared templates.
-
-``` mermaid
-graph LR
-  r[root] --> res;
-  r --> rm[<a href='https://www.makeareadme.com/'>README</a>];
-  r --> l[<a href='https://creativecommons.org/licenses/by/4.0/legalcode.txt'>LICENSE</a>];
-  r --> c[<a href='https://citation-file-format.github.io/'>CITATION.cff</a>];
-  r --> misc[opt miscellaneous files];
-
-  res[resources] --> att[attachments];
-  att --> mf[multimedia files];
-  res --> f[Feedback];
-  f --> fq[<b>Survey</b><br><a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Feedback/training_feedback_template.md'>Git MD Format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/feedback/Training%20Evaluation%20Form.docx'>Office format</a>];
-  res --> s1[opt 01 Section Name];
-  res --> s[<b>Syllabus</b><br><a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/syllabus.md'>Git MD format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/syllabus.docx'>Office format</a>];
-  res --> fg[<b>Facilitator Guide</b> <br> <a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/template_facilitator_guide.md'>Git MD format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/Training%20Facilitator%20Guide.docx'>Office format</a>];
-
-  s1 --> m1[opt 01 Module Name];
-  m1 --> lu1[01 Learning Unit Name];
-  m1 --> lux[...];
-  m1 --> luN[N Learning Unit Name];
-
-  lu1 --> act[Activities];
-  lu1 --> ass[Assessment];
-  lu1 --> at[attachments];
-  at --> mff[multimedia files];
-  lu1 --> lc[<b>Learning Content</b><br><a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Learning%20Unit/template_content.md'>Git MD format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/XX%20module%20name/Module%20Name_notes.docx'>Office format</a>];
-  lu1 --> sd[<a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Learning%20Unit/Learning_unit_content.pptx'>Slide Deck</a>];
-  lu1 --> lp[<b>Learning Unit Plan</b><br><a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Learning%20Unit/template_unit_lesson_plan.md'>Git MD format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/XX%20module%20name/Module%20Plan.docx'>Office format</a>];
-
-  act --> a1[<b>01 activity desc</b><br><a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Learning%20Unit/Activities/activity_details_template.md'>Git MD format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/XX%20module%20name/activities/Activity%20Name_description.docx'>Office format</a>];
-  act --> ax[...];
-  act --> aK[<b>K activity desc</b><br><a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Learning%20Unit/Activities/activity_details_template.md'>Git MD format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/XX%20module%20name/activities/Activity%20Name_description.docx'>Office format</a>];
-
-  ass --> qb[<b>Questions</b><br><a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Learning%20Unit/Assessment/assessment_template.md'>Git MD format</a><br><a href='https://github.com/FAIR-by-Design-Methodology/microlearning/blob/main/resources/attachments/Root/XX%20module%20name/assessment/quiz_gift_template.txt'>Office format</a>];
-  ass --> st[<a href='https://github.com/FAIR-by-Design-Methodology/templates/blob/main/resources/Learning%20Unit/Assessment/assessment_template.md'>opt strategy</a>];
-
-```
-!!! info "Syllabus is ready" 
-
-    You should by now have the first draft of your <a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%203%20–%20Design/04-Conceptualisation/04-Conceptualisation/'>syllabus</a>. It contains all the fields from the RDA min metadata set plus the high level topics covered by the learning material.
 
 ??? info "Available feedback form"
 
     The <a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%203%20–%20Design/07-Facilitation/07-Facilitation/'> feedback form template </a> is ready to be used as is. All you need to do is change the name of the training. It should be shared with training participants after the training, to gather quantitative and qualitative feedback.
 
-??? info "Available facilitation guide kit"
 
-    The <a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%203%20–%20Design/07-Facilitation/07-Facilitation/'> facilitation guide </a> should help prepare for the actual training. If you don't want to develop your own, use something that is already available such as the [TRIPLE project TRAINING TOOLKIT](https://project.gotriple.eu/project-deliverables/triple-training-toolkit/).
 
 ??? info "Don't worry, we got you covered with templates"
 
     All templates are readily available for use in the specialised [templates repository](https://github.com/FAIR-by-Design-Methodology/templates). See the detailed training on how to use it step by step.
-
-??? question "What about instructor notes?"
-
-    Need to be detailed enough so that anyone can reuse the slides properly. Don't put them in the slide deck. This is what the learning content file is for.
-
 
 
 
