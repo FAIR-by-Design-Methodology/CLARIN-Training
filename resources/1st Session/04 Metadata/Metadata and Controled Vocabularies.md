@@ -12,6 +12,14 @@ tags:
 
 [Download the slides here TBD](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
 
+## Learning objectives
+
+Upon completing this module the learner should be able to:
+
+- understand the need for metadata of learning resources 
+- understand the concept of controlled vocabularies
+- define the syllabus and the learning objective of a learning unit
+
 
 ## Metadata and Metadata Schema
 
