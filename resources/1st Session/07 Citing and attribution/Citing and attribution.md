@@ -14,8 +14,6 @@ tags:
 
 ## Learning Objectives
 
-
-Upon completing this module the learner should be able to:
 - Identify permissible licenses
 - Provide attribution for reused content
 - Define how others should cite your work
