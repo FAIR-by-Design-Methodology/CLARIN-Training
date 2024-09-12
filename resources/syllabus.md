@@ -38,6 +38,8 @@ expertiseLevel: "Beginner"
 
 # Introducing the FAIR-by-Design Methodology to the CLARIN community 
 
+{!RELEASE_NOTES.md!}
+
 # Workshop
 
 ## Date/Time: 
