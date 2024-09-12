@@ -2,6 +2,7 @@
 title: "QA"
 author: "Skills4EOSC"
 tags: 
+    - FAIR Learning Objects
     - Quality Assurance
     - Measure Fairness
     - Framework
