@@ -29,7 +29,7 @@ As discussed in the previous learning unit, there are multiple sources that can 
 - feedback form
 - external QA recommendations
 - self-reflection after training 
-- GitHub issues
+- GitHub issues and discussions 
 - gathered comments from external contributors
 - direct mail contact 
 - any other means of communication (e.g. feedback from workshops, discussions, team meetings, etc.)
