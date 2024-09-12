@@ -16,6 +16,8 @@ tags:
 
 ## Learning objectives
 
+Upon completing this module the learner should be able to:
+
 - identify different learning modalities
 - design multimedia rich content
 - develop accessible learning content
