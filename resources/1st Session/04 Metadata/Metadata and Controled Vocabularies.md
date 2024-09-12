@@ -4,6 +4,7 @@ author: "Skills4EOSC"
 tags: 
     - Metadata
     - Controlled Vocabularies
+    - Syllabus
 ---
 
 # Metadata and Controlled Vocabularies
