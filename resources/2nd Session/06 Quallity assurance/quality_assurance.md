@@ -30,7 +30,11 @@ Upon completing this module the learner should be able to:
 
 ## Self-check QA
 
-The final goal of the FAIR-by-Design instructional design process is to create FAIR learning materials for both learners and instructors. Therefore, it is imperative that you first go through a self-check phase to ensure everything is as intended. For these purposes you can use the [QA guidelines and checklists developed by T2.4](https://doi.org/10.5281/zenodo.8305482).
+??? tip "Go through the QA checklists"
+
+    In Skills4EOSC T2.4 has developed a number of QA checklists that you and your external reviewer need to go through so that you can ensure high-quality learning materials.
+
+The final goal of the FAIR-by-Design instructional design process is to create FAIR learning materials for both learners and instructors. Therefore, it is imperative that you first go through a self-check phase to ensure everything is as intended. For these purposes you can use the [QA guidelines and checklists developed by Skills4EOSC](https://doi.org/10.5281/zenodo.8305482).
 
 ![checklist icon](./attachments/checklist-1622517_1280.png){: style="height:200px;"}
 
@@ -140,7 +144,12 @@ To guarantee the quality of the learning resource, it's important to score at le
 
 ## External QA
 
-To truly view the produced learning materials through the lenses of learners and other instructors, you need to perform a QA check with the help of an external party. This external party should be someone who has not been involved in any step of the materials design, better yet has not seen the materials ever before. In this way, you will have a pair of fresh eyes that will review the learning materials without any cognitive bias. 
+!!! danger "A fresh set of eyes"
+
+    Have someone who has not participated in the development of the learning materials review the final work. This will guarantee a review free of cognitive bias.
+
+
+To truly view the produced learning materials through the lenses of learners and other instructors, you need to perform a QA check with the help of an external party. 
 
 ![Quality control approved logo](./attachments/approved-147677_1280.png){: style="height:200px;"}
 
