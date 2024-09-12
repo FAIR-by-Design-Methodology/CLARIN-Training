@@ -33,7 +33,8 @@ up to 100
 | Duration | Topic | Key points/Teaching Method/Questions | Activities | Resources |
 |----------|-------|--------------------------------------|------------|-----------|
 | 5 mins   | Goals | importance of metadata, controlled vocabularies and syllabus        |            | pptx      |
-| 10 mins  | Metadata, controlled vocabularies, syllabus and learning objectives | RDA metadata, controlled vocabularies, syllabus and learning objectives         |            | pptx      |
+| 5 mins   | Metadata and controlled vocabularies, syllabus and learning objectives | RDA metadata elements, controlled vocabularies examples         |            | pptx      |
+| 5 mins   | Syllabus and learning objectives | Elements of the syllabus and well defined learning objectives         |            | pptx      |
 | 5 mins   | Recap | key takeaways, group discussion      | assessment | Menti     |
 
 
