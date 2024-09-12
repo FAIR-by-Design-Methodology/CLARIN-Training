@@ -12,7 +12,7 @@ tags:
 
 ## Slides
 
-[Download the slides here TBD](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/1st%20Session/06%20Rich%20learning%20exp/Rich_learning_exp.pptx){:download}
+[Download the slides here](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/2nd%20Session/06%20Quality%20assurance%20/QA.pptx){:download}
 
 
 Once the learning materials are made available for both the learners' and instructors' communities it is prudent to verify that all is as it should be including the FAIR aspects of the learning materials. This is a good moment when an external quality assurance (QA) can be engaged to assess the produced learning materials from both the learners' and instructors' perspective.
