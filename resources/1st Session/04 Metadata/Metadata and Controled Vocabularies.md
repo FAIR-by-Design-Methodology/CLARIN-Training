@@ -4,6 +4,7 @@ author: "Skills4EOSC"
 tags: 
     - Metadata
     - Controlled Vocabularies
+    - Syllabus
 ---
 
 # Metadata and Controlled Vocabularies
@@ -132,7 +133,7 @@ The following is a **list of all required syllabus fields**:
 - Date/Time: when it will be offered (available from date if it is self-paced)
 - Location - where it will be available
     - physical location
-    - URL link to resources (and virtual room if online) should lead to the learning Skills4EOSC platform
+    - URL link to resources (and virtual room if online) should lead to the learning  platform
 - Training Description - what is the main goal/purpose of this training
 - Target audience: target audience description 
 - Expertise Level / Skill Level: Beginner / Intermediate / Advanced

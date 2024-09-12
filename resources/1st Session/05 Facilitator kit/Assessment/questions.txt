@@ -1,0 +1,19 @@
+1. Which of the following are part of a complete instructor kit?
+    - [X] activity details
+    - [X] quiz question banks
+    - [X] quiz strategies
+    - instructors qualification
+    - learning platform
+
+2. Which of the following are required information in a learning unit plan?
+    - [X] Unit name
+    - [X] Location
+    - [X] Assessment
+    - [X] Duration
+    - Instructors name
+    - Primary language
+
+3. What is the best location to keep the instructors notes for the slides?
+    - [X] The learning content file
+    - Lecture notes of each slide
+    - both

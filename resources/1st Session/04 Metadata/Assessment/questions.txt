@@ -1,0 +1,21 @@
+1. Which of the following are valid RDA metadata fields?
+    - [X] Abstract
+    - [X] Access cost
+    - [X] Version date
+    - [X] Learning outcome
+    - Duration
+    - Purpose
+    - Agenda
+
+2. Which of the following are elements of a syllabus?
+    - [X] Target audience
+    - [X] Purpose
+    - [X] Duration
+    - Feedback questions
+    - Assessment strategy
+
+3. Which of the following are considered good learning objectives
+    - [X] Differentiate between good and bad learning objectives
+    - [X] Explain the RDA metadata fields
+    - Understand the controlled vocabularies
+    - Know the content of the syllabus 
