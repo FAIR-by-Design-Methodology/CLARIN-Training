@@ -16,8 +16,8 @@ tags:
 
 Upon completing this module the learner should be able to:
 
-- understand the need for metadata of learning resources 
-- understand the concept of controlled vocabularies
+- apply the RDA metadata schema for learning resources 
+- use controlled vocabularies
 - define the syllabus and the learning objective of a learning unit
 
 
@@ -93,8 +93,6 @@ In the Skills4EOSC project, a specific example of using controlled vocabularies 
 
 
 Note that in many cases controlled vocabularies are suggested, but at this stage they are not strictly defined.
-
-Later on during this training, you will learn how and where to define the metadata for your learning resources.
 
 
 ## Syllabus 
