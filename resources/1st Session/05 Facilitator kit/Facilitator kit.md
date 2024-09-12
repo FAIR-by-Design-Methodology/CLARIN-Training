@@ -16,12 +16,16 @@ tags:
 
 Upon completing this module the learner should be able to:
 
-- understand the elements of the learning unit plan 
+- define the elements of the learning unit plan 
 - develop the instructors kit
 
 
 
 ## The Instructor Kit
+
+!!! info "Syllabus is ready" 
+
+    You should by now have the first draft of your <a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%203%20–%20Design/04-Conceptualisation/04-Conceptualisation/'>syllabus</a>. It contains all the fields from the RDA min metadata set plus the high level topics covered by the learning material.
 
 The main goal of the instructor kit is to support the trainers and instructors in the delivery of the learning materials.
 It is also essential for high quality reusability of the learning materials by other trainers and/or instructional designers. 
@@ -36,12 +40,7 @@ The **complete instructor kit** consists of learning materials that are develope
 - feedback questions
 
 
-??? info "Available facilitation guide kit"
-
-    The <a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%203%20–%20Design/07-Facilitation/07-Facilitation/'> facilitation guide </a> should help prepare for the actual training. If you don't want to develop your own, use something that is already available such as the [TRIPLE project TRAINING TOOLKIT](https://project.gotriple.eu/project-deliverables/triple-training-toolkit/).
-
-
-## Structure is everything
+### Structure is everything
 
 <div class="grid cards" markdown>
 
@@ -93,10 +92,12 @@ graph LR
 
 ```
 
+??? info "Don't worry, we got you covered with templates"
+
+    All templates are readily available for use in the specialised [templates repository](https://github.com/FAIR-by-Design-Methodology/templates). See the detailed training on how to use it step by step.
 
 
-
-## Learning Unit Plan
+### Learning Unit Plan
 
 To ensure rich learning experience it is imperative to develop a learning unit plan. This document incorporates all aspects that should lead to a high quality learning experience as it defines the plan on how to use teaching methods and the learning content together with activities to achieve the defined learning objectives. 
 
@@ -111,24 +112,20 @@ There may be different detail levels of the learning unit plan:
 
 It is recommended that you follow the **Hunter's model** for developing a learning unit plan:
 
-<div class="grid cards" markdown>
+1. **Set Learning Objectives** ... what is the goal
+2. **Identify Needs** ... how to get there 
+3. **Plan** ... share the agenda
+4. **Hook** ... why is the content important
+5. **Instruct** ... watch how I do it
+6. **Practise** ... you help me do it, I'll watch you do it
+7. **Wrap-Up** ... foster retention and reinforcement
+8. **Evaluate** ... monitor progress
+9. **Reflect** ... how did it go?
 
-- <i class="fa fa-bullseye" aria-hidden="true"></i> __1. Set Learning Objectives__ ... what is the goal
-- <i class="fa fa-question-circle" aria-hidden="true"></i> __2. Identify Needs__ ... how to get there 
-- <i class="fa fa-list-alt" aria-hidden="true"></i> __3. Plan__ ... share the agenda
-- <i class="fa fa-heartbeat" aria-hidden="true"></i> __4. Hook__ ... why is the content important
-- <i class="fa fa-user-secret" aria-hidden="true"></i> __5. Instruct__ ... watch how I do it
-- <i class="fa fa-code-fork" aria-hidden="true"></i> __6. Practise__ ... you help me do it, I'll watch you do it
-- <i class="fa-solid fa-hand-point-right" aria-hidden="true"></i> __7. Wrap-Up__ ... foster retention and reinforcement
-- <i class="fa fa-question-circle" aria-hidden="true"></i> __8. Evaluate__ ... monitor progress
-- <i class="fa fa-info-circle" aria-hidden="true"></i> __9. Reflect__ ... how did it go?
-
-</div>
-
-<a href="https://www.csun.edu/sites/default/files/Holle-Lesson-Planning.pdf" class="btn btn-primary btn-lg btn-block">Read more about the Hunter Model</a>
+[Read more about the Hunter Model](https://www.csun.edu/sites/default/files/Holle-Lesson-Planning.pdf)
 
 
-### Learning Unit Plan Development
+#### Learning Unit Plan Development
 
 In a nutshell, the **required information** that you need to provide in your learning plan is:
 
@@ -145,12 +142,8 @@ In a nutshell, the **required information** that you need to provide in your lea
 
 Remember that although some parts of this information may seem repetitive with the overall syllabus, the plan is much more detailed and the repetition provides the much needed context for reuse. 
 
-!!! info "Syllabus is ready" 
 
-    You should by now have the first draft of your <a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%203%20–%20Design/04-Conceptualisation/04-Conceptualisation/'>syllabus</a>. It contains all the fields from the RDA min metadata set plus the high level topics covered by the learning material.
-
-
-## Learning Content
+#### Learning Content
 
 Once you have a plan, it is time to start developing the learning content. Remember to design the content so that it appeals learners with different modalities (verbal, audio, read/write, kinesthetic) including different multimedia. 
 
@@ -172,30 +165,11 @@ Remember to add different types of media to the content, supporting an integrate
 
 For pure self-based learning the complete notebook should be enough to present all of the learning content in one place.
 
-However, for trainer led environments, usually a slide deck is also necessary so that the trainer can lead the trainees across the learning content and work with them through the activities. 
-
-The **slide deck should follow the stages of the HUNTER model**:
-
-- title slide
-- introduction (trainers and trainees)
-- Housekeeping information
-- Learning Objectives
-- Training Outline
-- Training Topic
-	- information
-	- example
-	- guided activity
-- Wrap up
-	- key takeaways
-	- final Q&A
-	- assessment information
-	- feedback gathering
-
-
-
-
-
-
+??? tip "Slides"
+	
+	For trainer led environments, usually a slide deck is also necessary so that the trainer can lead the trainees across the learning content and work with them through the activities. 
+	
+	The slide deck should follow the stages of the HUNTER model.
 
 ??? question "What about instructor notes?"
 
@@ -203,7 +177,7 @@ The **slide deck should follow the stages of the HUNTER model**:
 
 
 
-## Activity details
+### Activity description
 
 All activities that are planned to be performed with or by the learners as part of the learning unit plan should be described in enough details so that they can be executed by any trainer or facilitator no matter if they are part of the original instructional design team or not. They could be only tasked with training implementation, or they could be simply reusing the learning material.
 
@@ -228,7 +202,7 @@ A set of well described and reusable activities can be found at the [Session lab
 Another source of activities is [25 activities for making lecture-based training active](https://www.businesstrainingworks.com/training-resource/25-activities-for-making-lecture-based-training-active/).
 
 
-## Assessment
+### Assessment
 
 Thinking about how you can assess the learners obtained knowledge is part of step 2 of the backward instructional design process. Traditionally, there are many different types of assessments that can be performed, but the most typically used in professional training and certification is the quiz form.
 
@@ -260,7 +234,7 @@ where
 
 
 
-### Assessment Strategy
+#### Assessment Strategy
 
 Once you have defined your quiz questions, the next step is to define the quiz strategy.
 
@@ -274,6 +248,7 @@ In the first case, a separate strategy document needs to be developed for each l
 
 If each learning unit has its own quiz strategy then it should be provided together with the learning unit. 
 
+### Learning Unit Structure
 
 To summarise, a **complete learning unit** consists of several parts:
 
@@ -282,8 +257,6 @@ To summarise, a **complete learning unit** consists of several parts:
 - optional slide deck or similar type of instructional material
 - activities description
 - assessment quiz and strategy
- 
-
 
 ### Facilitation Guide
 
@@ -311,7 +284,11 @@ In the case of a summative or common quiz strategy it can contain this informati
 
 For best visibility, the guide should also contain shortcuts to all activities planned. However, any specific details and notes should be available in the learning unit plan.
 
-### Feedback questions
+??? info "Available facilitation guide kit"
+
+    The <a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%203%20–%20Design/07-Facilitation/07-Facilitation/'> facilitation guide </a> should help prepare for the actual training. If you don't want to develop your own, use something that is already available such as the [TRIPLE project TRAINING TOOLKIT](https://project.gotriple.eu/project-deliverables/triple-training-toolkit/).
+
+### Feedback 
 
 At the end of the learning process you should gather feedback from the learners so that they can provide feedback on what worked well and what should be improved in the training and learning materials. For these purposes a set of feedback questions should be drafted. The feedback can be gathered by enabling the learners to answer the questions using different modalities:
 
@@ -323,11 +300,6 @@ At the end of the learning process you should gather feedback from the learners 
 
     The <a href='https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%203%20–%20Design/07-Facilitation/07-Facilitation/'> feedback form template </a> is ready to be used as is. All you need to do is change the name of the training. It should be shared with training participants after the training, to gather quantitative and qualitative feedback.
 
-
-
-??? info "Don't worry, we got you covered with templates"
-
-    All templates are readily available for use in the specialised [templates repository](https://github.com/FAIR-by-Design-Methodology/templates). See the detailed training on how to use it step by step.
 
 
 
@@ -345,7 +317,7 @@ Lastly, a facilitation guide is essential for instructors, offering clear guidel
 ## Suggested Reading
 
 - [Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development](https://zenodo.org/records/8419242)
-- - [Skills4EOSC FAIR-by-Design Microlearning Stage 1](https://fair-by-design-methodology.github.io/microlearning/latest/01%20Prepare/prepare/)
-- [Skills4EOSC FAIR-by-Design Methodology Design stage](https://fair-by-design-methodology.github.io/FAIR-by-Design_Book/4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/413-design/)
+- [Skills4EOSC FAIR-by-Design Microlearning Stage 1 Prepare](https://fair-by-design-methodology.github.io/microlearning/latest/01%20Prepare/prepare/)
+- [Skills4EOSC FAIR-by-Design Methodology Stage 2 Design](https://fair-by-design-methodology.github.io/FAIR-by-Design_Book/4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/413-design/)
 
 
