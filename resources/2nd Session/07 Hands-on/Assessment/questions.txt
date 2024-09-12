@@ -1,0 +1,8 @@
+1. What score did you achieve in the Generic framework for the first learning resource?
+    = open numeric input
+
+2. What score did you achieve in the FAIR-by-Design framework for the second learning resource?
+    = open numeric input
+
+3. What are your impressions in a word after this QA practice session?
+    = word cloud
