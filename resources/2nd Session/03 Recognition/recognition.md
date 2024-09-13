@@ -142,3 +142,5 @@ The Skills4EOSC Recognition Framework aims to standardize the use of digital cre
 ## Suggested Reading
 
 - Weisteen Bjerde, K., Green, D., Bjønnes, L., van Leersum, N., Filiposka, S., Kjorveziroski, V., Janik, J., Hadrossek, C., Bernier, M., Sowinski, C., Torres-Ramos, G., Antoine, D., Mendez Rodriguez, E. M., Lavitrano, M., Whyte, A., Di Giorgio, S., & Lazzeri, E. (2023). [D2.4 Skills4EOSC Recognition Framework first iteration](https://doi.org/10.5281/zenodo.10447619). Zenodo. https://doi.org/10.5281/zenodo.10447619
+- [Open Badges Home](https://openbadges.org/)
+- [EDC for learning](https://europass.europa.eu/en/europass-tools/european-digital-credentials)
