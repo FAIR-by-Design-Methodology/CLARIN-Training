@@ -87,18 +87,22 @@ Open Digital Badges are digital representations of achievements, skills, or know
 
 Each Open Digital Badge contains metadata that includes information about the issuing organization, the criteria for earning the badge, the date of issue, and sometimes evidence of the achievement (such as a project or assessment). Badges are issued through a digital credentialing platform and can be verified by anyone viewing the badge, ensuring authenticity and credibility.
 
+![Open badge metadata](./attachments/badge_meta.png)
+[Open Badge content by 1EdTech](https://openbadges.org/), licensed under [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
+
+
 Pros:
 
-    - Portability: Easily shared and displayed across multiple platforms.
-	- Transparency: Contains detailed metadata that verifies the achievement.
-	- Motivational: Encourages learners by providing tangible recognition of their accomplishments.
-	- Flexibility: Can represent a wide range of achievements, from formal education to micro-credentials.
+    - **Portability**: Easily shared and displayed across multiple platforms.
+	- **Transparency**: Contains detailed metadata that verifies the achievement.
+	- **Motivational**: Encourages learners by providing tangible recognition of their accomplishments.
+	- **Flexibility**: Can represent a wide range of achievements, from formal education to micro-credentials.
 
 Cons:
 
-	- Varied Standards: Different issuers may have different criteria for awarding badges, leading to inconsistencies.
-	- Recognition: Not all employers or institutions may recognize or value badges equally.
-	- Overwhelming: The proliferation of badges can make it difficult for employers to assess their true value.
+	- **Varied Standards**: Different issuers may have different criteria for awarding badges, leading to inconsistencies.
+	- **Recognition**: Not all employers or institutions may recognize or value badges equally.
+	- **Overwhelming**: The proliferation of badges can make it difficult for employers to assess their true value.
 
 ### European Digital Credentials
 
@@ -106,25 +110,28 @@ European Digital Credentials (EDCs) are a standardized form of digital certifica
 
 EDCs are issued by accredited institutions and include standardized metadata, ensuring consistency and interoperability across the EU. The credentials are verified through a secure digital infrastructure supported by the European Commission, making them trustworthy and easily portable between EU countries.
 
+![EDC Content](./attachments/EDC.png)
+Image taken from [https://europa.eu/europass/en/stakeholders/european-digital-credentials](https://europa.eu/europass/en/stakeholders/european-digital-credentials) 
+
 Pros:
 
-	- Standardization: Provides a consistent framework for recognizing qualifications across Europe.
-	- Trustworthy: Issued and verified by accredited institutions, ensuring high credibility.
-	- Interoperability: Recognized across all EU member states, facilitating mobility and cross-border employment.
-	- Integration: Can be integrated into national and EU-level qualifications frameworks.
+	- **Standardization**: Provides a consistent framework for recognizing qualifications across Europe.
+	- **Trustworthy**: Issued and verified by accredited institutions, ensuring high credibility.
+	- **Interoperability**: Recognized across all EU member states, facilitating mobility and cross-border employment.
+	- **Integration**: Can be integrated into national and EU-level qualifications frameworks.
 
 Cons:
 
-	- Limited Scope: Primarily focused on formal qualifications and may not cover informal or micro-credentials as effectively as badges.
-	- Bureaucracy: The process of issuing and verifying EDCs can be more complex and time-consuming.
-	- Flexibility: Less flexible compared to open digital badges, particularly for informal learning achievements.
+	- **Limited Scope**: Primarily focused on formal qualifications and may not cover informal or micro-credentials as effectively as badges.
+	- **Bureaucracy**: The process of issuing and verifying EDCs can be more complex and time-consuming.
+	- **Flexibility**: Less flexible compared to open digital badges, particularly for informal learning achievements.
 
 ### Comparison
 
-	- Recognition and Scope: EDCs are more standardized and recognized across the EU, especially for formal qualifications, while Open Digital Badges are more flexible and can represent a broader range of achievements, including informal learning.
-	- Flexibility: Open Digital Badges are more adaptable to various types of learning and achievements, whereas EDCs are more rigid but offer higher standardization.
-	- Portability: Both are portable, but EDCs have an edge in cross-border recognition within the EU due to their standardized framework.
-	- Credibility: EDCs generally have higher credibility due to their issuance by accredited institutions and standardized verification process, while Open Digital Badges’ credibility can vary depending on the issuer.
+	- **Recognition and Scope**: EDCs are more standardized and recognized across the EU, especially for formal qualifications, while Open Digital Badges are more flexible and can represent a broader range of achievements, including informal learning.
+	- **Flexibility**: Open Digital Badges are more adaptable to various types of learning and achievements, whereas EDCs are more rigid but offer higher standardization.
+	- **Portability**: Both are portable, but EDCs have an edge in cross-border recognition within the EU due to their standardized framework.
+	- **Credibility**: EDCs generally have higher credibility due to their issuance by accredited institutions and standardized verification process, while Open Digital Badges’ credibility can vary depending on the issuer.
 
 Open Digital Badges and European Digital Credentials both serve as digital representations of skills and achievements but cater to different needs. Open Digital Badges are versatile, allowing for recognition of a wide array of learning experiences, but they may suffer from inconsistency and varying levels of recognition. European Digital Credentials, on the other hand, provide a highly standardized and credible form of certification recognized across the EU, making them ideal for formal qualifications but less adaptable to informal or micro-credentials. The choice between the two depends on the specific needs for recognition, portability, and the type of learning being credentialed.
 
