@@ -141,6 +141,8 @@ Open Digital Badges and European Digital Credentials both serve as digital repre
 
 The Skills4EOSC Recognition Framework aims to standardize the use of digital credentials to provide Open Science professionals, both instructors and learners, with verifiable proof of their skills. This framework also enables employers across Europe to recognize and validate these competencies, ensuring consistent standards and fostering professional development in the field of Open Science.
 
+Do not forget that the final version of the Recognition Framework is due to be out in March 2025.
+
 ## Suggested Reading
 
 - Weisteen Bjerde, K., Green, D., Bjønnes, L., van Leersum, N., Filiposka, S., Kjorveziroski, V., Janik, J., Hadrossek, C., Bernier, M., Sowinski, C., Torres-Ramos, G., Antoine, D., Mendez Rodriguez, E. M., Lavitrano, M., Whyte, A., Di Giorgio, S., & Lazzeri, E. (2023). [D2.4 Skills4EOSC Recognition Framework first iteration](https://doi.org/10.5281/zenodo.10447619). Zenodo. https://doi.org/10.5281/zenodo.10447619
