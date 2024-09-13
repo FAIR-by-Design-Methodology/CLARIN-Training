@@ -29,7 +29,6 @@ To create FAIR-by-Design learning materials, consider the following:
     - provide information in files such as README, CITATION, CODE_OF_CONDUCT, LICENSE, CONTRIBUTORS, RELEASE_NOTES, etc.
 8. **Version Control**: Use version control systems like GitHub to manage updates and track changes, ensuring that the most current and relevant materials are always accessible.
 
-
 ## Let us co-create
 
 The FAIR-by-Design methodology is a living document, continuously evolving as we refine and enhance it based on new insights and feedback from our community. We’re committed to ensuring that it remains relevant, effective, and aligned with the latest developments in instructional design.
