@@ -16,7 +16,18 @@ tags:
 
 ## Takeaways
 
+To create FAIR-by-Design learning materials, consider the following:
 
+1. **Ensure Findability**: Structure content with clear metadata, tags, and descriptions to make it easily searchable. Use consistent terminology across materials. Get a PID for your materials.
+2. **Promote Accessibility**: Design materials to be accessible to all users, including those with disabilities. Use open licenses and ensure content is available in multiple formats (e.g., PDFs, HTML).
+3. **Foster Interoperability**: Use standard open formats and frameworks that allow materials to be easily integrated into different systems. Ensure compatibility with various platforms.
+4. **Encourage Reusability**: Design modular content that can be repurposed for different contexts. Provide clear documentation and guidelines for reuse, ensuring that others can adapt the materials without losing the original intent.
+    - this includes plans, assessment details, activities description and facilitation guide
+5. **Engage the Community**: Involve users in the development and refinement of materials. Use feedback loops, such as surveys and discussions, to continually improve the resources.
+6. **Use Open Tools**: Leverage open-source tools for content creation and dissemination to align with FAIR principles and ensure that materials can be widely shared and adapted.
+7. **Document Your Process**: Keep thorough documentation of the creation process, including decisions made regarding content structure, licensing, and technical implementation. This transparency helps others understand and build upon your work.
+    - provide information in files such as README, CITATION, CODE_OF_CONDUCT, LICENSE, CONTRIBUTORS, RELEASE_NOTES, etc.
+8. **Version Control**: Use version control systems like GitHub to manage updates and track changes, ensuring that the most current and relevant materials are always accessible.
 
 
 ## Let us co-create
