@@ -11,6 +11,11 @@ tags:
 
 # Skills4EOSC Recognition Framework
 
+## Slides
+
+[Download the slides here](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/2nd%20Session/03%20Recognition/recognition_OB_EDC.pptx){:download}
+
+
 Recognising the newly obtained skills is of great importance in the life long learning process. It is essential that there are mechanisms in place that can help learners obtain digital credentials reflecting their current skillsets.
 
 ## Learning Objectives
