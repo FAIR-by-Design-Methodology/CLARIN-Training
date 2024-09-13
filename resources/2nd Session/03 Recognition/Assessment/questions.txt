@@ -1,1 +1,9 @@
-1. 
+1. What type of digital credential you think best suits your needs?
+    - Digital Credentials for Attendance Only
+    - Digital Credentials for Successful Completion of Assessment
+    - Both types of Credentials
+
+2. What type of digital credentials would you choose to implement?
+    - Open Badges
+    - EDCs
+    - other
