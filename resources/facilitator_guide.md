@@ -8,41 +8,82 @@ tags:
 
 # Training Facilitator Guide
 
-The purpose of this document is to include all necessary information regarding the preparation and planning of the workshop.
+The purpose of this document is to include all necessary information regarding the preparation and planning of the training.
 
-# Pre-workshop
+The training is organized as an online two-day webinar using a zoom room and Menti questions. 
 
-A couple of questions are sent out to the registered participants before the event. The purpose is to understand their current level of knowledge and interest in the topic of using Git-like repos for software development, metadata for software and training materials, making FAIR training materials, making FAIR software, evaluating the FAIRness of training materials and software objects.
+The document is based on the recommendations by the TRIPLE project for Open Science training events organisation available [here](https://zenodo.org/record/6256198). The training organisation relies on three roles: organisers, moderators and trainers, where one person can have multiple roes
 
-Based on the answer analysis three groups of participants are identified
-- group focused on development of FAIR training materials
-- group focused on FAIR software with novice skills in GitHub and similar repos
-- group focused on FAIR software familiar with GitHub that should be more focused on FAIR assessment
+>NOTE: it is always a good practice to separate the roles of trainer and moderator, providing better interactivity of the training. If the training has more trainers, then they can interchangeably take the role of moderators when not speaking. 
 
-For the online presenters, a backup recording has been made in case there is a problem with the online presentation.
+## Materials, resources and equipment
 
-# During the workshop
+### Learning materials
 
-The first part of the workshop is organised in a classical presentation style where information about both projects and activities is presented.
+The learning materials for the trainees are available on the Git repo and Git pages. One day before the training they are published on Zenodo. 
 
-After the coffee break, in the second part of the workshop a hands-on activity is performed.
 
-## Hands-on activity organisation 
+### Resources
 
-The room is organised in a cabaret style and participants are using their laptops to perform the activity.
+- Menti prepared according to the activities
+    - if Menti is not available, use internal zoom quiz by copy-pasting the questions
+- Zoom room with host, co-host priviledges
 
-The workshop organisers act as facilitators during this stage.
+## Before the training
+### Organisers
 
-All necessary materials and how-tos are shared with the participants at the beginning of part two.
+- [ ] Send out save-the-date email
+- [ ] Setup registration and summary pages for the training
+- [ ] Send out call for training including the syllabus
+- [ ] Prepare for activities (write questions in Menti and test) 
+- [ ] Schedule testing in the zoom room for trainers (3-4 days before training)
+- [ ] Contact speakers and moderators
+- [ ] Assign moderator that will follow the chat and help with technical issues, Menti, etc.
 
-Participants are divided according to group, then split into smaller groups of 3-5 people.
+### Moderators 
 
-Each small group needs to choose a representative that will give a brief overview of their experience at the end of part two.
+- [ ] Have access to training platform
+- [ ] Have access to Menti to enter the questions
+- [ ] Participate at the testing for trainers
 
-After the retrospection of the groups, an interactive Q&A session is held using Menti.
+### Trainers/speakers
 
-At the end, the workshop is concluded.
+- [ ] Verify access to the delivery platform
+- [ ] Publish the training materials 
+- [ ] Participate at the testing for trainers
 
-# After the workshop
+## During the training
+### Organisers
 
-Links to all relevant materials are shared with the participants.
+- [ ] Monitor the training delivery
+
+### Moderators
+
+- [ ] Monitor the training activities
+- [ ] Monitor the Menti
+- [ ] Monitor the chat and Q&A, convey questions to the trainers
+- [ ] Prepare the hands-on enviroments based on participants list after training has started
+
+### Trainers
+
+- [ ] Use 00 to welcome participants, introduce people and define expectations and rules
+- [ ] Ask people to jump in during the training at any time using chat or mic (moderator will follow and prompt the trainer if needed)
+- [ ] Create a discussion environment by having multiple trainers talking together about tips and tricks and encouraging others to join
+- [ ] Use anonymous online tools for the practical activities to overcome shyness or fear of failure
+- [ ] Encourage co-creation, ask others to recommend an action or tool or resource that may be used to accomplish a goal
+
+
+## After the training
+### Organisers
+- [ ] Send out a reminder for feedback gathering and badge collecting
+- [ ] Analyze the feedback
+- [ ] Initiate work on a new version of the training materials 
+
+### Moderators
+- [ ] Gather the feedback and convey it to the organisers
+- [ ] Gather recordings and other results and send it to the organisers
+
+### Trainers
+- [ ] Analyse feedback for their performance
+- [ ] Improve the training
+- [ ] Write down reflection comments for each training unit

@@ -1,17 +1,17 @@
 ---
-title: "Training Evaluation Template"
+title: "Training Evaluation"
 author: "Skills4EOSC T2.3"
 tags: 
     - FAIR-by-Design Learning Materials
     - FAIR Learning Objects
-    - Training Evaluation Template
+    - Training Evaluation
 ---
 
 # Training Evaluation Form
 In Skills4EOSC we strive to provide high quality training and continuous improve our training activities. 
 To be able to achieve that your feedback is very important to us. 
 
-Please take a moment of your time to fill out the evaluation of the [insert training title]. It will only take a minute.
+Please take a moment of your time to fill out the evaluation of the FAIR-by-Design Training for the CLARIN Community. It will only take a minute.
 
 ## Training rating
 Overall, the training provided was
