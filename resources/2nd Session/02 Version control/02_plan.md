@@ -9,7 +9,7 @@ tags:
 
 ## Version control
 
-Goal: introduce the versioning control implementation in the  Skills4EOSC Fair by Desing Methodology
+Goal: introduce the versioning control implementation in the  Skills4EOSC Fair by Design Methodology
 
 ### Location
 Online
@@ -28,9 +28,8 @@ up to 100
 ### Plan
 | Duration | Topic | Key points/Teaching Method/Questions | Activities | Resources |
 |----------|-------|--------------------------------------|------------|-----------|
-| 5 mins   | Goals | Why do we need facilitator kit and learning unit plan      |            | pptx      |
-| 5 mins   | Unit plan | Elements of the unit plan         |            | pptx      |
-| 5 mins   | Instructors kit | Instructor kit content        |            | pptx      |
+| 5 mins   | Goals | The importance of versioning      |            | pptx      |
+| 10 mins  | Version management | Skills4EOSC FBD Version management         |            | pptx      |
 | 5 mins   | Recap | key takeaways, group discussion      | assessment | Menti     |
 
 
