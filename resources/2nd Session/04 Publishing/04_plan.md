@@ -9,7 +9,7 @@ tags:
 
 ## Facilitator kit
 
-Goal: introduce the publishing workflow of the Skills4EOSC Fair by Desing Methodology
+Goal: introduce the publishing workflow of the Skills4EOSC Fair by Design Methodology, the required accompanying files and the implementation of the FAIR Signposting. 
 
 ### Location
 Online
@@ -28,9 +28,8 @@ up to 100
 ### Plan
 | Duration | Topic | Key points/Teaching Method/Questions | Activities | Resources |
 |----------|-------|--------------------------------------|------------|-----------|
-| 5 mins   | Goals | Why do we need facilitator kit and learning unit plan      |            | pptx      |
-| 5 mins   | Unit plan | Elements of the unit plan         |            | pptx      |
-| 5 mins   | Instructors kit | Instructor kit content        |            | pptx      |
+| 5 mins   | Goals | Automated publishing workflow elements      |            | pptx      |
+| 10 mins  | Unit plan | Accompanying files, workflow and signposting        |            | pptx      |
 | 5 mins   | Recap | key takeaways, group discussion      | assessment | Menti     |
 
 
