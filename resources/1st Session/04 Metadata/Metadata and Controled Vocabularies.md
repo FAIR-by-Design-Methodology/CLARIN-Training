@@ -9,7 +9,7 @@ tags:
 
 # Metadata and Controlled Vocabularies
 
-## Slides (new)
+## Slides
 
 [Download the slides here](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/blob/main/resources/1st%20Session/04%20Metadata/Metadata.pptx){:download}
 

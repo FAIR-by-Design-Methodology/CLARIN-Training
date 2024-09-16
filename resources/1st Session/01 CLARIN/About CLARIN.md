@@ -9,7 +9,7 @@ tags:
 
 ## Slides
 
-[Download the slides here]((https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/1st%20Session/01%20CLARIN/Intro_to_CLARIN.pptx){:download}
+[Download the slides here](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/1st%20Session/01%20CLARIN/Intro_to_CLARIN.pptx){:download}
 
 
 ## Introduction
