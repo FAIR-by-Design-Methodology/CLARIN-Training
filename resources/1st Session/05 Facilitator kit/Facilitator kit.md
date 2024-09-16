@@ -9,7 +9,7 @@ tags:
 
 ## Slides
 
-[Download the slides here TBD](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
+[Download the slides here](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/blob/main/resources/1st%20Session/05%20Facilitator%20kit/Facilitator%20kit.pptx){:download}
 
 
 ## Learning objectives

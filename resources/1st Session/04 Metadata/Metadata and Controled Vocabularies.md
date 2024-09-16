@@ -11,7 +11,7 @@ tags:
 
 ## Slides (new)
 
-[Download the slides here TBD](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
+[Download the slides here](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/blob/main/resources/1st%20Session/04%20Metadata/Metadata.pptx){:download}
 
 ## Learning objectives
 
@@ -88,8 +88,8 @@ Such examples are
 
 In the Skills4EOSC project, a specific example of using controlled vocabularies are different lists of OS Skills Terms
 
-- t4FS: 223 'data stewardship activity' terms
-- CSCCE  Glossary: 45 terms listed according to 5 dimensions, selecting those included in 'skills wheel' for scientific community managers
+- [t4FS: 223 'data stewardship activity' terms](https://ontobee.org/ontology/T4FS)
+- [CSCCE  Glossary: 45 terms listed according to 5 dimensions, selecting those included in 'skills wheel' for scientific community managers](https://www.cscce.org/resources/glossary/)
 - [ResearchComp](https://research-and-innovation.ec.europa.eu/system/files/2023-04/ec_rtd_research-competence-presentation.pdf)
 
 
