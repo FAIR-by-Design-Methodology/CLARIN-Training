@@ -8,22 +8,16 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
-        <meta name="author" content="Skills4EOSC">
-      
       
       <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-8.5.7">
     
   
-    <meta name="title" content="Version control"/>
-  
-  
-    <meta name="tags" content="['Version control', None]"/>
   
 
     
       
-        <title>Version control - FAIR-by-Design Training for CLARIN Community</title>
+        <title>Co creation - FAIR-by-Design Training for CLARIN Community</title>
       
     
     
@@ -114,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Version control
+              Co creation
             
           </span>
         </div>
@@ -637,14 +631,14 @@
       
       
         <label class="md-nav__link" for="__nav_3">
-          2nd Session
+          2nd Session   Under Development
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="2nd Session" data-md-level="1">
+      <nav class="md-nav" aria-label="2nd Session   Under Development" data-md-level="1">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
-          2nd Session
+          2nd Session   Under Development
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -699,14 +693,12 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
       
       
       
@@ -727,21 +719,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../02%20Version%20control/Version%20control/" class="md-nav__link">
         Version control
       </a>
-      
     </li>
   
 
@@ -852,12 +834,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5" type="checkbox" id="__nav_3_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5" type="checkbox" id="__nav_3_5" checked>
       
       
       
@@ -878,11 +862,21 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../05%20Co-creation/Co-creation/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Co creation
       </a>
+      
     </li>
   
 
@@ -1075,49 +1069,40 @@
                   
   
 
-  <nav class="md-tags" >
-    
-      
-      
-        <span class="md-tag">Version control</span>
-      
-    
-      
-      
-        <span class="md-tag">None</span>
-      
-    
-  </nav>
 
 
 
-
+<pre><code>---
+</code></pre>
+<p>title: "Co-creation"
+author: "Skills4EOSC"
+tags: 
+    - Co-creation
+    - Feedback analysis</p>
+<hr />
 <h1 id="slides-new">Slides (new)</h1>
-<p><a download="download" href="https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx">Download the slides regarding  here TBD</a></p>
+<p><a download="download" href="https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx">Download the slides regarding the FAIR-by-Design Methodology here</a></p>
 <h1 id="introduction">Introduction</h1>
-<h2 id="version-management">Version Management</h2>
-<p>Git is the most popular version management system in use today. It is available for all popular platforms either as a first-party command line utility or through third-party graphical user interface (GUI) clients. Git uses the concept of repositories which can granularly manage the versions of all objects placed within it. File changes are <strong>committed</strong> to a repository and each commit is automatically associated a unique and random identifier. In addition to this identifier, each commit is also described by its author, commit title and commit description. A single Git repository can be used by multiple users, each contributing and committing their changes. 
-To produce a new training material, one should fork the template repository, or the repository of any other ready made training material. 
-It is important to note that each commit to the repository, triggers the actions needed to update the associated Gitbook. 
-Each new Github release produces a new version of the learning material.</p>
-<p>The release notes for each new version are intended to help the users of these materials to better understand the changes brought by each version. They can be useful both for the learners and for the instructors using the materials. 
-Using the release notes enables tracking of all the versions of a learning material. They are written in a special Markdown file called <code>RELEASE_NOTES.md</code>. The content of this file is embedded as is on the Git book homepage (the syllabus) in a collapsible block.
-For the initial release, alter the text below the <code>1.0.0</code> heading and make sure to also update the date of the release in the heading itself.
-For all subsequent releases, add a new level two heading using two hash symbols on a new line, (<code>##</code>) just below <code>&lt;summary&gt;Release Notes &lt;summary&gt;</code>. Ideally, the RELEASE_NOTES.md file should list the various versions in a descending order, sorted by the release date.</p>
-<p>By default, the Gitbook shows the latest version (visible also in the URL as /latest). The dropdown list on the top of every Gitbook page enables quick access to all previous versions. </p>
-<h3 id="new-iteration">New iteration</h3>
-<p>The work on a new iteration starts once the list of identified improvements that will be incorporated into the new version is finalised.</p>
-<p>The next step is to organise the work regarding the required changes to the learning materials. Depending on the identified improvements, the changes may bring you back to the Produce stage implementing changes in learning units, or even to Design if restructuring of the learning material is needed.</p>
-<p>The <strong>version number</strong> is one of the things that you will need to provide when activating a new release. The recommendation based on best practices is to keep the versioning in the Major.Minor.Patch version number sequence.</p>
+<h2 id="incremental-improvements">Incremental improvements</h2>
+<p>Learning materials are never completely finished. There is always room for improvement and many times need and requirement to keep up to date with the development and changes in the field of subject of the learning materials.</p>
+<p>Therefore a regular analysis of all QA aspects is necessary to identify potential elements for improvement. Based on the outcomes of the feedback analysis, the authors of the learning materials should make a plan for the development of a new version of the learning materials. </p>
+<h3 id="feedback-analysis">Feedback analysis</h3>
+<p>As discussed in the previous learning unit, there are multiple sources that can serve for feedback gathering and QA:</p>
+<p>(write a paragraph per each bullet point)
+(learners vs instructors channels)</p>
 <ul>
-<li>You will <strong>increment the minor number</strong> if the incremental improvement does not change the overall structure of the learning materials.</li>
-<li>You will <strong>increment the major number</strong> if the changes include change in the overall structure of the learning materials.</li>
-<li><strong>Increment the Patch number</strong> in case of only technical fixes. </li>
+<li>feedback form</li>
+<li>external QA recommendations</li>
+<li>self-reflection after training </li>
+<li>GitHub issues and discussions </li>
+<li>gathered comments from external contributors</li>
+<li>direct mail contact </li>
+<li>any other means of communication (e.g. feedback from workshops, discussions, team meetings, etc.)</li>
 </ul>
-<p>The image below depicts the best practices of semantic versioning.</p>
-<p><img alt="A simple diagram of Semantic Versioning" src="../attachments/Semantic-versioning.png" style="height:250px;" /></p>
-<p><a href="https://commons.wikimedia.org/wiki/File:Semantic-versioning.svg">Semantic Versioning</a> by <a href="https://commons.wikimedia.org/w/index.php?title=User:SurjBains&amp;action=edit&amp;redlink=1">Surjit Bains</a> on <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution-Share Alike 4.0 International</a> license.</p>
-<p>Note that the provided automated workflow will not create a new independent record on Zenodo, but will <strong>add a new version to the already existing Zenodo record</strong>. </p>
+<p>The input from all of these sources should be gathered and analysed. The results of the analysis should be a list of potential improvements, each marked with an impact level (high, moderate, low). </p>
+<h2 id="continuous-improvement">Continuous improvement</h2>
+<p>The next step is to decide which of the improvements will be addressed in the next version and how will this be achieved. Note that depending on the number of identified improvements, you might need to go through the improvement cycle multiple times. It is recommended that the changes are done in an incremental fashion and that changes done in one version are logically related. This help both developers and users to better understand the differences between the versions.</p>
+<p><img alt="continuous improvement cycle" src="../attachments/improvement.png" style="height:350px;" /></p>
 <h1 id="summary">Summary</h1>
 <h1 id="suggested-reading">Suggested Reading</h1>
 <ul>
@@ -1144,8 +1129,8 @@ For all subsequent releases, add a new level two heading using two hash symbols
   <nav class="md-footer__inner md-grid" aria-label="" >
     
     
-    <a href="../../01%20Recap/recap/" class="md-footer__link md-footer__link--prev"
-      aria-label="Previous: Reminder" rel="prev">
+    <a href="../../04%20Publishing/Publishing%20considerations/" class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: Publishing consideration" rel="prev">
       <div class="md-footer__button md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </div>
@@ -1154,21 +1139,21 @@ For all subsequent releases, add a new level two heading using two hash symbols
           Previous
         </span>
         <div class="md-ellipsis">
-          Reminder
+          Publishing consideration
         </div>
       </div>
     </a>
     
     
     
-    <a href="../../03%20Recognition/recognition/" class="md-footer__link md-footer__link--next"
-      aria-label="Next: Recognition framework" rel="next">
+    <a href="../../06%20Quallity%20assurance/quality_assurance/" class="md-footer__link md-footer__link--next"
+      aria-label="Next: QA" rel="next">
       <div class="md-footer__title">
         <span class="md-footer__direction">
           Next
         </span>
         <div class="md-ellipsis">
-          Recognition framework
+          QA
         </div>
       </div>
       <div class="md-footer__button md-icon">
