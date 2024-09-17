@@ -1,4 +1,4 @@
----
+	---
 title: "Co-creation"
 author: "Skills4EOSC"
 tags: 
@@ -26,6 +26,9 @@ Therefore a regular analysis of all QA aspects is necessary to identify potentia
 
 As discussed in the previous learning unit, there are multiple sources that can serve for feedback gathering and QA:
 
+(write a paragraph per each bullet point)
+(learners vs instructors channels)
+
 - feedback form
 - external QA recommendations
 - self-reflection after training 
@@ -35,6 +38,9 @@ As discussed in the previous learning unit, there are multiple sources that can 
 - any other means of communication (e.g. feedback from workshops, discussions, team meetings, etc.)
 
 The input from all of these sources should be gathered and analysed. The results of the analysis should be a list of potential improvements, each marked with an impact level (high, moderate, low). 
+
+## Continuous improvement 
+
 
 The next step is to decide which of the improvements will be addressed in the next version and how will this be achieved. Note that depending on the number of identified improvements, you might need to go through the improvement cycle multiple times. It is recommended that the changes are done in an incremental fashion and that changes done in one version are logically related. This help both developers and users to better understand the differences between the versions.
 
