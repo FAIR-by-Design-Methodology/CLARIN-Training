@@ -16,7 +16,7 @@ tags:
 Upon completing this module the learner should be able to:
 
 - examine the content of the accompanying files for publishing 
-- define the publishing steps from the Skills4EOSC FAIR by design methodology
+- define the publishing steps from the Skills4EOSC FAIR by Design Methodology
 - use the FAIR signposting to include metadata in the resulting html pages
 
 
