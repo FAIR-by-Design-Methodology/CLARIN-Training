@@ -13,6 +13,7 @@ tags:
 
 # Introduction
 
+Training materials should always be considered as a living and constantly changing object. It is very important to keep them updating and improving. But doing so, creates other challenges such as version management. The FAIR-by-Design Methodology uses Git as a versioning system, providing industry standard version management. Each new Git release is considered a new version of the learning materials. When doing so, it is very important to keep track of the changes made, as well as to have consistent version numbering system. 
 
 ## Version Management
 
@@ -53,11 +54,12 @@ Note that the provided automated workflow will not create a new independent reco
 
 # Summary 
 
-
+Using version management, as well as clearly documented changes between the versions help both learners and instructors using a specific learning material. Producing a new version might include changes from quite small to quite significant ones. These should be reflected in the proper version numbering, and clearly explained in the accompanied files. The automated workflows that are part of the Methodology enable consistency between the Git repositories and the published releases on the Zenodo platform. 
 
 # Suggested Reading
 
 - [Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development](https://zenodo.org/records/8419242)
+- [Skills4EOSC FAIR-by-Design Methodology Continuous Impovement](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%206%20–%20Verify/20-Continuous%20Improvement/20-CI/?h=major+version#new-iteration)
 
 
 
