@@ -69,12 +69,14 @@ Important to note is that any other fields also present in the `CITATION.cff` fi
 
 # Summary 
 
-
+FAIR-by-Design Methodology pays special attention to the publishing of the learning materials, making sure that they conform to the FAIR principles. Several accompanying files are needed to ensure that the required elements are present. Using the Signposting technique, the published html version of the training materials are made understandable not only to humans, but also to the machines - crawlers that process web learning resources. The methodology provides a specific workflow that enables each new release to be clearly visible and added to the Zenodo repository as a new version of the learning materials.  
 
 # Suggested Reading
 
 - [Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development](https://zenodo.org/records/8419242)
 - [FAIR Signposting](https://signposting.org/FAIR/)
+- [Skills4EOSC FAIR-by-Design Methodology Publishing Preparations](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%205%20–%20Publish/16-Publishing%20Preparations/16-Publishing%20Preparations/)
+- [Skills4EOSC FAIR-by-Design Methodology Zenodo Publishing](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%205%20–%20Publish/17-Zenodo%20Publishing/17-Zenodo%20Publishing/)
 
 
 
