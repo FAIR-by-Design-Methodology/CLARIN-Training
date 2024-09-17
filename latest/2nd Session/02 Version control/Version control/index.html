@@ -881,7 +881,7 @@
   
     <li class="md-nav__item">
       <a href="../../05%20Co-creation/Co-creation/" class="md-nav__link">
-        Co-creation
+        Co creation
       </a>
     </li>
   
@@ -1095,37 +1095,19 @@
 <h1 id="slides-new">Slides (new)</h1>
 <p><a download="download" href="https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx">Download the slides regarding  here TBD</a></p>
 <h1 id="introduction">Introduction</h1>
-<p>The Skills4EOSC workflow
-- clone repo
-- github versions
-- release
-- connection to Zenodo
-- Zenodo version</p>
 <h2 id="version-management">Version Management</h2>
-<p>Git is the most popular version management system in use today. It is available for all popular platforms either as a first-party command line utility or through third-party graphical user interface (GUI) clients. Git uses the concept of repositories which can granularly manage the versions of all objects placed within it. File changes are <strong>committed</strong> to a repository and each commit is automatically associated a unique and random identifier. In addition to this identifier, each commit is also described by its author, commit title and commit description. A single Git repository can be used by multiple users, each contributing and committing their changes. To facilitate remote collaboration, a Git repository can be shared publicly or privately. Git hosting services, such as GitHub and GitLab offer this functionality today for free. While Git can also be used independently from such hosting services, either completely locally and offline or by devising a custom synchronization workflow with third parties, in reality this is rarely the case. </p>
-<p>Git repositories can also be <strong>forked</strong>, meaning that their current state is copied to a brand new repository, preserving all history. The user who has initiated the fork can then make any desired changes directly to their own fork of the repository. If desired, such changes can optionally be reconciled and added to the original repository from which the fork was created, provided that they are accepted by the original owner. This is possible due to the fact that the repositories will have a shared history at least up until the point when the fork was made. In case their files have diverged (e.g., both the original and forked repository contain changes to the same files), and if these changes are conflicting (e.g., changes to the same part of a given document), Git will mark these changes and leave it up to the owner of the repository to decide how to proceed, and what version to accept. </p>
-<p>Below is a list of common Git related terminology which will be useful for the remaining of the training:</p>
-<ul>
-<li><strong>Git repository</strong> – a collaborative space where files can be versioned</li>
-<li><strong>Git commit</strong> – a granular change of a single or multiple files in the repository, identified by a random unique identifier, the committer's name, email address, short commit title and an optional longer commit description. A commit can contain file additions, modifications, removal, or relocation to a different directory.</li>
-<li><strong>Git clone</strong> – an action to download locally an existing Git repository. A repository hosted on a public Git hosting service such as GitHub can be cloned by anyone (assuming it is public) on their local machines. Once downloaded, users can explore the repository and optionally send their contributed changes upstream, if they have been assigned the necessary permissions.</li>
-<li><strong>Git fork</strong> – a 1:1 copy of an existing Git repository. A fork of an existing repository results with the creation of a brand new repository which will have a shared history with the original one up until the fork was made. The owner of the forked repository will be the user who initiated the fork. The original owner of the repository does not have any right in the forked repository by default. </li>
-<li><strong>Pull request/Merge request</strong> – when changes are made to a forked repository, they can be contributed back to the original repository by creating a merge request or a pull request (the terms are synonyms, depending on the platform either one can be used). With this approach a privileged user from the original repository from which the fork was initiated can review the changes and decide whether to accept them, modify them, or outright reject them. Forks can exist independently of the original repository forever.</li>
-</ul>
-<h3 id="filling-out-release_notesmd">Filling out RELEASE_NOTES.md</h3>
-<ol>
-<li>Open the RELEASE_NOTES.md` file by clicking on its name from the left-hand directory tree.</li>
-<li>The file uses a special Markdown syntax which allows its contents to be shown as collapsed on the syllabus home page, thus preserving space. </li>
-<li>For the initial release, alter the text below the <code>1.0.0</code> heading and make sure to also update the date of the release in the heading itself.</li>
-<li>For all subsequent releases, add a new level two heading using two hash symbols on a new line, (<code>##</code>) just below <code>&lt;summary&gt;Release Notes &lt;summary&gt;</code>. Ideally, the RELEASE_NOTES.md file should list the various versions in a descending order, sorted by the release date.</li>
-</ol>
+<p>Git is the most popular version management system in use today. It is available for all popular platforms either as a first-party command line utility or through third-party graphical user interface (GUI) clients. Git uses the concept of repositories which can granularly manage the versions of all objects placed within it. File changes are <strong>committed</strong> to a repository and each commit is automatically associated a unique and random identifier. In addition to this identifier, each commit is also described by its author, commit title and commit description. A single Git repository can be used by multiple users, each contributing and committing their changes. 
+To produce a new training material, one should fork the template repository, or the repository of any other ready made training material. 
+It is important to note that each commit to the repository, triggers the actions needed to update the associated Gitbook. 
+Each new Github release produces a new version of the learning material.</p>
+<p>The release notes for each new version are intended to help the users of these materials to better understand the changes brought by each version. They can be useful both for the learners and for the instructors using the materials. 
+Using the release notes enables tracking of all the versions of a learning material. They are written in a special Markdown file called <code>RELEASE_NOTES.md</code>. The content of this file is embedded as is on the Git book homepage (the syllabus) in a collapsible block.
+For the initial release, alter the text below the <code>1.0.0</code> heading and make sure to also update the date of the release in the heading itself.
+For all subsequent releases, add a new level two heading using two hash symbols on a new line, (<code>##</code>) just below <code>&lt;summary&gt;Release Notes &lt;summary&gt;</code>. Ideally, the RELEASE_NOTES.md file should list the various versions in a descending order, sorted by the release date.</p>
+<p>By default, the Gitbook shows the latest version (visible also in the URL as /latest). The dropdown list on the top of every Gitbook page enables quick access to all previous versions. </p>
 <h3 id="new-iteration">New iteration</h3>
 <p>The work on a new iteration starts once the list of identified improvements that will be incorporated into the new version is finalised.</p>
 <p>The next step is to organise the work regarding the required changes to the learning materials. Depending on the identified improvements, the changes may bring you back to the Produce stage implementing changes in learning units, or even to Design if restructuring of the learning material is needed.</p>
-<hr />
-<p>When all planned changes are implemented following the requirements and recommendations of the (<a href="../../Stage%203%20–%20Design/04-Conceptualisation/04-Conceptualisation.md">Design</a> and) <a href="../../Stage%204%20–%20Produce/08-Development%20Tools/08-Introduction%20to%20Markdown%20and%20Git.md">Produce</a> stage(s), you can then move again through the <a href="../../Stage%205%20–%20Publish/16-Publishing%20Preparations/16-Publishing%20Preparations.md">Publish</a> stage and create a new release with a new version number that will then be added as a new version on Zenodo. </p>
-<p>Note that the provided automated workflow will not create a new independent record on Zenodo, but will <strong>add a new version to the already existing Zenodo record</strong>. For the specific steps of the publication process please refer back to the <a href="../../Stage%205%20–%20Publish/17-Zenodo%20Publishing/17-Zenodo%20Publishing.md">respective lesson unit</a> in the Publish stage. </p>
-<hr />
 <p>The <strong>version number</strong> is one of the things that you will need to provide when activating a new release. The recommendation based on best practices is to keep the versioning in the Major.Minor.Patch version number sequence.</p>
 <ul>
 <li>You will <strong>increment the minor number</strong> if the incremental improvement does not change the overall structure of the learning materials.</li>
@@ -1135,8 +1117,7 @@
 <p>The image below depicts the best practices of semantic versioning.</p>
 <p><img alt="A simple diagram of Semantic Versioning" src="../attachments/Semantic-versioning.png" style="height:250px;" /></p>
 <p><a href="https://commons.wikimedia.org/wiki/File:Semantic-versioning.svg">Semantic Versioning</a> by <a href="https://commons.wikimedia.org/w/index.php?title=User:SurjBains&amp;action=edit&amp;redlink=1">Surjit Bains</a> on <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution-Share Alike 4.0 International</a> license.</p>
-<p>Don't forget to update the resource on the Learning Platform. This is a requirement if the learning material is provided as a self-paced course for an example, but might not be needed if it was a one-time training workshop event after which it is not expected that the learners will keep coming back to the learning content.</p>
-<p>Note that if you are using the <code>/latest</code> links when adding the resources to the learning platform, you don't need to update any of the external links on the learning platform. However, be careful if the new iteration changes involved changes in the assessment or slide decks. </p>
+<p>Note that the provided automated workflow will not create a new independent record on Zenodo, but will <strong>add a new version to the already existing Zenodo record</strong>. </p>
 <h1 id="summary">Summary</h1>
 <h1 id="suggested-reading">Suggested Reading</h1>
 <ul>
