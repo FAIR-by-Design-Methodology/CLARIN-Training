@@ -1160,9 +1160,17 @@
 <h2 id="fair-signposting">FAIR Signposting</h2>
 <p><a href="http://signposting.org/">Signposting</a>, presents a lightweight, but powerful approach to increase the FAIRness of learning materials. <br />
 Landing pages of learning materials support humans interaction with learning materials on the web, by providing descriptive metadata and links to content. Signposting helps machine agents by providing this information, and more, in a standards-based way. It contributes to FAIR's Findable, Accessible, and Reusable by uniformly conveying to machines what the persistent identifier of a scholarly object is, where its landing page is, where and what its content is, where metadata that describes it is, and what the persistent identifier of its author is. It conveys this by means of meaningful links that have web locations (HTTP URIs) as their target.</p>
-<p>There are two levels of compliance to FAIR Signposting. Level 1 provide a minimal set of typed links with the landing page as the link origin. Level 2 elevates the compliance by providing a comprehensive set of typed links for landing pages, content, and metadata resources.</p>
-<p>The publishing workflow of the Methodology described in the next chapter provides an easy way of implementing Signposting for the developed content.</p>
+<p>There are two levels of compliance to FAIR Signposting. 
+- Level 1 provide a minimal set of typed links with the landing page as the link origin. 
+- Level 2 elevates the compliance by providing a comprehensive set of typed links for landing pages, content, and metadata resources.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The publishing workflow of the Methodology described below provides an easy way of implementing Signposting for the developed content. Note that the signposting is not mandatory part of the Methodology, but a very useful addition to it. </p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
 <p>As a result of running the Signposting workflow a <code>linkset.json</code> file is placed in the root of the repository.</p>
+</div>
 <h2 id="automated-publishing-workflow">Automated publishing workflow</h2>
 <p>The <a href="https://github.com/FAIR-by-Design-Methodology/templates">templates</a> repository of the FAIR-by-design Methodology includes a set of Git actions that implement the publishing workflow. The workflow is triggered with each new Github release. When triggered they automate the complete Zenodo publishing process. The steps performed by these actions include validation of the information provided in the accompanying files, implementation of the signposting, draft entry creation in Zenodo, updating the DOI in all files that reference it, including slides and syllabus, rebuilding and releasing a new version of the Git book. </p>
 <p>Important to note is that any other fields also present in the <code>CITATION.cff</code> file such as: <code>version</code>, <code>doi</code>, <code>date-released</code> <strong>should not be manually edited</strong>. They will be updated automatically when publishing the repository to Zenodo.</p>
