@@ -7,17 +7,17 @@ tags:
 
 # Version control 
 
+## Slides (new)
+
+[Download the slides regarding  here TBD](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
+
+
 ## Learning objectives
 
 Upon completing this module the learner should be able to:
 
 - utilise the versioning management system for the learning materials
 - develop the structure of the RELEASE_NOTES.md file
-
-
-## Slides (new)
-
-[Download the slides regarding  here TBD](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
 
 
 ## Introduction
