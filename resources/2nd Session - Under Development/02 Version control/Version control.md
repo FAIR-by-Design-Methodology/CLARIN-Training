@@ -3,7 +3,6 @@ title: "Version control"
 author: "Skills4EOSC"
 tags: 
     - Version control
-    - 
 ---
 
 # Version control 
