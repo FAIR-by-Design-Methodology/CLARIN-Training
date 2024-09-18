@@ -83,6 +83,7 @@ There are two levels of compliance to FAIR Signposting.
 
 
 The [templates](https://github.com/FAIR-by-Design-Methodology/templates) repository of the FAIR-by-design Methodology includes a set of Git actions that implement the publishing workflow. The workflow is triggered with each new Github release. When triggered they automate the complete Zenodo publishing process. 
+
 The steps performed by these actions include:
 - validation of the information provided in the accompanying files, 
 - implementation of the signposting, 
@@ -99,11 +100,18 @@ The steps performed by these actions include:
 	In the accompanying files, some of the fields should be edited manually, while others are automatically updated by the publishing workflow and should not be manually changed. Examples of such field are `version`, `doi`, `date-released` from the `CITATION.cff`.
 
 
+As as result of the successful completion of this workflow
+- new or updated entry in the Zenodo repository
+- updated citation in the Gitpages
+- updated `citation.cff` file
+- updated FAIR signposting metadata
+- updated citation in the PowerPoint slides (if used)
+
 ## Summary 
 
 FAIR-by-Design Methodology pays special attention to the publishing of the learning materials, making sure that they conform to the FAIR principles. Several accompanying files are needed to ensure that the required elements are present. Using the Signposting technique, the published html version of the training materials are made understandable not only to humans, but also to the machines - crawlers that process web learning resources. The methodology provides a specific workflow that enables each new release to be clearly visible and added to the Zenodo repository as a new version of the learning materials.  
 
-# Suggested Reading
+## Suggested Reading
 
 - [Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development](https://zenodo.org/records/8419242)
 - [FAIR Signposting](https://signposting.org/FAIR/)
