@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#slides-new" class="md-skip">
+        <a href="#version-control" class="md-skip">
           Skip to content
         </a>
       
@@ -738,9 +738,95 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Version control
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Version control
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    Learning objectives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slides-new" class="md-nav__link">
+    Slides (new)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-management" class="md-nav__link">
+    Version Management
+  </a>
+  
+    <nav class="md-nav" aria-label="Version Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#release-notes" class="md-nav__link">
+    Release Notes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#new-iteration" class="md-nav__link">
+    New iteration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1062,6 +1148,76 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    Learning objectives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slides-new" class="md-nav__link">
+    Slides (new)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-management" class="md-nav__link">
+    Version Management
+  </a>
+  
+    <nav class="md-nav" aria-label="Version Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#release-notes" class="md-nav__link">
+    Release Notes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#new-iteration" class="md-nav__link">
+    New iteration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1092,21 +1248,47 @@
 
 
 
-<h1 id="slides-new">Slides (new)</h1>
+<h1 id="version-control">Version control</h1>
+<h2 id="learning-objectives">Learning objectives</h2>
+<p>Upon completing this module the learner should be able to:</p>
+<ul>
+<li>utilise the versioning management system</li>
+<li>develop the structure of the RELEASE_NOTES.md file</li>
+</ul>
+<h2 id="slides-new">Slides (new)</h2>
 <p><a download="download" href="https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx">Download the slides regarding  here TBD</a></p>
-<h1 id="introduction">Introduction</h1>
+<h2 id="introduction">Introduction</h2>
 <p>Training materials should always be considered as a living and constantly changing object. It is very important to keep them updating and improving. But doing so, creates other challenges such as version management. The FAIR-by-Design Methodology uses Git as a versioning system, providing industry standard version management. Each new Git release is considered a new version of the learning materials. When doing so, it is very important to keep track of the changes made, as well as to have consistent version numbering system. </p>
 <h2 id="version-management">Version Management</h2>
-<p>Git is the most popular version management system in use today. It is available for all popular platforms either as a first-party command line utility or through third-party graphical user interface (GUI) clients. Git uses the concept of repositories which can granularly manage the versions of all objects placed within it. File changes are <strong>committed</strong> to a repository and each commit is automatically associated a unique and random identifier. In addition to this identifier, each commit is also described by its author, commit title and commit description. A single Git repository can be used by multiple users, each contributing and committing their changes. 
-To produce a new training material, one should fork the template repository, or the repository of any other ready made training material. 
-It is important to note that each commit to the repository, triggers the actions needed to update the associated Gitbook. 
-Each new Github release produces a new version of the learning material.</p>
+<p>Git is the most popular version management system in use today. It is available for all popular platforms either as a first-party command line utility or through third-party graphical user interface (GUI) clients. Git uses the concept of repositories which can granularly manage the versions of all objects placed within it. File changes are <strong>committed</strong> to a repository and each commit is automatically associated a unique and random identifier. In addition to this identifier, each commit is also described by its author, commit title and commit description. A single Git repository can be used by multiple users, each contributing and committing their changes. </p>
+<ul>
+<li>To produce a new training material, one should fork the template repository, or the repository of any other ready made training material. </li>
+<li>It is important to note that each commit to the repository, triggers the actions needed to update the associated Gitbook. </li>
+<li>Each new Github release produces a new version of the learning material.</li>
+</ul>
+<p>By default, the Gitbook shows the latest version (visible also in the URL as /latest). The dropdown list on the top of every Gitbook page enables quick access to all previous versions. </p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>Git commit</strong> – a granular change of a single or multiple files in the repository, identified by a random unique identifier, the committer's name, email address, short commit title and an optional longer commit description. A commit can contain file additions, modifications, removal, or relocation to a different directory. </p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>Git clone</strong> – an action to download locally an existing Git repository. A repository hosted on a public Git hosting service such as GitHub can be cloned by anyone (assuming it is public) on their local machines. Once downloaded, users can explore the repository and optionally send their contributed changes upstream, if they have been assigned the necessary permissions.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>Git fork</strong> – a 1:1 copy of an existing Git repository. A fork of an existing repository results with the creation of a brand new repository which will have a shared history with the original one up until the fork was made. The owner of the forked repository will be the user who initiated the fork. The original owner of the repository does not have any right in the forked repository by default.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>Git release</strong> - easch git release creates a new observable version of the Gitpages, as well as a new record (for the first release), or an updated record in Zenodo. </p>
+</div>
+<h3 id="release-notes">Release Notes</h3>
 <p>The release notes for each new version are intended to help the users of these materials to better understand the changes brought by each version. They can be useful both for the learners and for the instructors using the materials. 
 Using the release notes enables tracking of all the versions of a learning material. They are written in a special Markdown file called <code>RELEASE_NOTES.md</code>. The content of this file is embedded as is on the Git book homepage (the syllabus) in a collapsible block.
-For the initial release, alter the text below the <code>1.0.0</code> heading and make sure to also update the date of the release in the heading itself.
-For all subsequent releases, add a new level two heading using two hash symbols on a new line, (<code>##</code>) just below <code>&lt;summary&gt;Release Notes &lt;summary&gt;</code>. Ideally, the RELEASE_NOTES.md file should list the various versions in a descending order, sorted by the release date.</p>
-<p>By default, the Gitbook shows the latest version (visible also in the URL as /latest). The dropdown list on the top of every Gitbook page enables quick access to all previous versions. </p>
-<h3 id="new-iteration">New iteration</h3>
+Ideally, the RELEASE_NOTES.md file should list the various versions in a descending order, sorted by the release date.
+<a href="https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/">Example of a RELEASE_NOTES.md content</a>. </p>
+<h2 id="new-iteration">New iteration</h2>
 <p>The work on a new iteration starts once the list of identified improvements that will be incorporated into the new version is finalised.</p>
 <p>The next step is to organise the work regarding the required changes to the learning materials. Depending on the identified improvements, the changes may bring you back to the Produce stage implementing changes in learning units, or even to Design if restructuring of the learning material is needed.</p>
 <p>The <strong>version number</strong> is one of the things that you will need to provide when activating a new release. The recommendation based on best practices is to keep the versioning in the Major.Minor.Patch version number sequence.</p>
@@ -1119,9 +1301,9 @@ For all subsequent releases, add a new level two heading using two hash symbols
 <p><img alt="A simple diagram of Semantic Versioning" src="../attachments/Semantic-versioning.png" style="height:250px;" /></p>
 <p><a href="https://commons.wikimedia.org/wiki/File:Semantic-versioning.svg">Semantic Versioning</a> by <a href="https://commons.wikimedia.org/w/index.php?title=User:SurjBains&amp;action=edit&amp;redlink=1">Surjit Bains</a> on <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution-Share Alike 4.0 International</a> license.</p>
 <p>Note that the provided automated workflow will not create a new independent record on Zenodo, but will <strong>add a new version to the already existing Zenodo record</strong>. </p>
-<h1 id="summary">Summary</h1>
+<h2 id="summary">Summary</h2>
 <p>Using version management, as well as clearly documented changes between the versions help both learners and instructors using a specific learning material. Producing a new version might include changes from quite small to quite significant ones. These should be reflected in the proper version numbering, and clearly explained in the accompanied files. The automated workflows that are part of the Methodology enable consistency between the Git repositories and the published releases on the Zenodo platform. </p>
-<h1 id="suggested-reading">Suggested Reading</h1>
+<h2 id="suggested-reading">Suggested Reading</h2>
 <ul>
 <li><a href="https://zenodo.org/records/8419242">Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development</a></li>
 <li><a href="https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%206%20–%20Verify/20-Continuous%20Improvement/20-CI/?h=major+version#new-iteration">Skills4EOSC FAIR-by-Design Methodology Continuous Impovement</a></li>
