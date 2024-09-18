@@ -88,7 +88,6 @@ Such examples are
 Examples of relevant control vocabularies for the CLARIN community, available at [SSH Vocabulary Commons SKOSMOS instance](https://vocabs.sshopencloud.eu/browse/en/) include:
 
 - SSH Training Discovery Toolkit
-
 	- [Formats of training resources](https://vocabs.sshopencloud.eu/browse/sshoc-training-resource-format/en/)
 	- [Intended audience](https://vocabs.sshopencloud.eu/browse/sshoc-audience/en/)
 	- [Status of training resources](https://vocabs.sshopencloud.eu/browse/sshoc-training-resource-status/en/)
