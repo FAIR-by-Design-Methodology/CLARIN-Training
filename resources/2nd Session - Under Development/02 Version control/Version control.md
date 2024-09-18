@@ -11,7 +11,7 @@ tags:
 
 Upon completing this module the learner should be able to:
 
-- utilise the versioning management system
+- utilise the versioning management system for the learning materials
 - develop the structure of the RELEASE_NOTES.md file
 
 
