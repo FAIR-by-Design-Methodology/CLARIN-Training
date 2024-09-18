@@ -51,11 +51,15 @@ Contributors.....
 [Signposting](http://signposting.org/), presents a lightweight, but powerful approach to increase the FAIRness of learning materials.   
 Landing pages of learning materials support humans interaction with learning materials on the web, by providing descriptive metadata and links to content. Signposting helps machine agents by providing this information, and more, in a standards-based way. It contributes to FAIR's Findable, Accessible, and Reusable by uniformly conveying to machines what the persistent identifier of a scholarly object is, where its landing page is, where and what its content is, where metadata that describes it is, and what the persistent identifier of its author is. It conveys this by means of meaningful links that have web locations (HTTP URIs) as their target.
 
-There are two levels of compliance to FAIR Signposting. Level 1 provide a minimal set of typed links with the landing page as the link origin. Level 2 elevates the compliance by providing a comprehensive set of typed links for landing pages, content, and metadata resources.
+There are two levels of compliance to FAIR Signposting. 
+- Level 1 provide a minimal set of typed links with the landing page as the link origin. 
+- Level 2 elevates the compliance by providing a comprehensive set of typed links for landing pages, content, and metadata resources.
 
-The publishing workflow of the Methodology described in the next chapter provides an easy way of implementing Signposting for the developed content.
+!!!note
+	The publishing workflow of the Methodology described below provides an easy way of implementing Signposting for the developed content. Note that the signposting is not mandatory part of the Methodology, but a very useful addition to it. 
 
-As a result of running the Signposting workflow a `linkset.json` file is placed in the root of the repository.
+!!!info
+	As a result of running the Signposting workflow a `linkset.json` file is placed in the root of the repository.
 
 
 ## Automated publishing workflow
