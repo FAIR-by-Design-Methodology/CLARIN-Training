@@ -1,4 +1,4 @@
-	---
+---
 title: "Co-creation"
 author: "Skills4EOSC"
 tags: 
@@ -6,12 +6,19 @@ tags:
     - Feedback analysis
 ---
 
-# Slides (new)
+# Co-creation
+
+## Slides (new)
 
 [Download the slides regarding the FAIR-by-Design Methodology here](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
 
+## Learning objectives
 
-# Introduction
+Upon completing this module the learner should be able to:
+
+- examine 
+
+## Introduction
 
 
 
@@ -50,11 +57,11 @@ The next step is to decide which of the improvements will be addressed in the ne
 ![continuous improvement cycle](./attachments/improvement.png){: style="height:350px;"}
 
 
-# Summary 
+## Summary 
 
 Keeping the training materials live and constantly updating them gives them added value. Changes in the material should be the result of the co-creation process, based on the various forms of feedback gathered both from the learners, but also from the fellow teachers and other users of the materials. The continuous improvement process, done incrementally and in steps that are logically related guarantees that the developed materials will have even more impact and be usable by wider audience. 
 
-# Suggested Reading
+## Suggested Reading
 
 - [Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development](https://zenodo.org/records/8419242)
 - [Skills4EOSC FAIR-by-Design Methodology Continuous Improvement](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%206%20–%20Verify/20-Continuous%20Improvement/20-CI/)
