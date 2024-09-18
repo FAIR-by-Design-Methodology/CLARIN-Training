@@ -39,7 +39,7 @@ We deeply value your thoughts and ideas. Your feedback is crucial in shaping the
 
 **How You Can Contribute**:
 
-- **EC Survey Form**: Your voice matters, and the EC Survey form is always open for your input. Share your thoughts anytime.
+- **[EC Survey Form](https://ec.europa.eu/eusurvey/runner/FAIR-by-Design_Open_Survey)**: Your voice matters, and the EC Survey form is always open for your input. Share your thoughts anytime.
 - **GitHub Issues**: Have an idea for a new feature or notice something that needs fixing? Create a GitHub Issue to bring it to our attention.
 - **GitHub Discussions**: Engage with the community by asking questions, sharing comments, or starting a discussion on GitHub. Every perspective helps us grow.
 - **Pull Requests**: If you have specific suggestions for improvement, why not take it a step further and submit a pull request? Your contribution can directly shape the next version.
