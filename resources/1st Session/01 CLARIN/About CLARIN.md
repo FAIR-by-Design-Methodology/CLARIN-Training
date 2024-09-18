@@ -22,6 +22,8 @@ The CLARIN community is a collaborative network of national consortia and center
 
 CLARIN ERIC (European Research Infrastructure Consortium) is the governing body that coordinates the efforts of the CLARIN community at the European level. Established as a legal entity in 2012, CLARIN ERIC ensures the sustainability and long-term viability of the infrastructure. It facilitates the integration of national efforts into a unified European framework, allowing researchers to access resources and tools across borders seamlessly. CLARIN ERIC also plays a key role in advocating for the importance of language resources and technologies in research, promoting open access, and supporting the development of standards and best practices in the field. Through its activities, CLARIN ERIC contributes to the advancement of digital humanities, linguistics, and social sciences research across Europe.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lfDWBaaAcIw?si=_aFgEsq2vcGjWWaj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 CLARIN’s goals focus on advancing research in the humanities and social sciences by providing comprehensive access to language resources and tools. The key goals include:
 
 1. **Facilitating Access to Language Resources and Tools**: CLARIN aims to make a wide range of digital language data, tools, and services easily accessible to researchers, educators, and cultural institutions across Europe. This includes developing a standardized, user-friendly platform where these resources can be accessed and utilized effectively.
