@@ -52,7 +52,7 @@ The **complete instructor kit** consists of learning materials that are develope
 
 !!! example "How to organise the files"
 
-    The diagram shows how to organise all files in folders and subfolders. Click on the links to discover and use pre-prepared templates.
+    The diagram shows how to organise all files in folders and subfolders. Click on the links to discover and use pre-prepared templates. To download the files, use the "Download raw file" button at the upper right corner [![[Download.png]]]
 
 ``` mermaid
 graph LR
