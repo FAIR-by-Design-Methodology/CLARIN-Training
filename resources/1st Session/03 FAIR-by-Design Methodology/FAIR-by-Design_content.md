@@ -66,6 +66,12 @@ This is the initial stage of the learning materials development process and thus
 
 Once the vision of what needs to be created is clear, the next step is to discover **any existing learning materials that can be reused** or simply serve as inspiration. For these purposes the designer needs to search different types of repositories that might host similar learning materials including OER repositories, learning platforms, general repositories and catalogues, as well as multimedia repositories that can provide sources of audio/visual props that are essential in multi-modal learning.
 
+- :material-book-open-variant:{ .lg .middle }SSH Training Materials
+    - [CLARIN Learning Hub](https://www.clarin.eu/content/learning-hub)
+    - [UPSKILLS Learning Content](https://upskillsproject.eu/deliverables/io3/upskills_learning_materials/)
+    - [SSH Open Marketplace](https://marketplace.sshopencloud.eu/)
+    - [DARIAH Campus](https://campus.dariah.eu/)
+
 - :material-open-source-initiative:{ .lg .middle } OER
     - [DOAB](https://directory.doabooks.org/)
     - [MERLOT](https://www.merlot.org/merlot/index.htm)
@@ -156,6 +162,16 @@ A satisfactory completion of the internal QA leads to the publication steps. Bef
 !!! tip "Provide to learners"
 
     Provide the final non-editable versions to the learners on a learning platform of your choice.
+
+Some additional guidelines on FAIR repositories are available at [Find a FAIR repository](https://incf.org/find-fair-repository).
+
+One of the available options is to use
+
+- [fairsharing.org](https://fairsharing.org/) to search for a suitable FAIR repository.
+- [fair-checker](https://fair-checker.france-bioinformatique.fr/check) to check the FAIRness of a given repository.
+
+It is important to also consider adding a reference to the repo in a corresponding catalogue such as the [SSH Open Marketplace](https://sshopencloud.eu/ssh-open-marketplace) if this is not done by automatic harvesting of the chosen repository.
+
 
 ### Verify
 

@@ -43,6 +43,11 @@ CLARIN aims to advance humanities and social sciences research by providing easy
 ## Suggested Reading
 
 - [CLARIN web site](https://www.clarin.eu/)
+- Fišer, Darja and Witt, Andreas. CLARIN: The Infrastructure for Language Resources, Berlin, Boston: De Gruyter, 2022. [https://doi.org/10.1515/9783110767377](https://doi.org/10.1515/9783110767377)
+
+## Learn more
+
+- learn more about CLARIN by following the [Intro to CLARIN tutorial](https://www.clarin.eu/content/tutorial-intro-clarin).
 
 
 
