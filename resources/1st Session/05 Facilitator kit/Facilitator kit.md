@@ -52,7 +52,7 @@ The **complete instructor kit** consists of learning materials that are develope
 
 !!! example "How to organise the files"
 
-    The diagram shows how to organise all files in folders and subfolders. Click on the links to discover and use pre-prepared templates. To download the file from Github, use the "Download raw file" button at the upper right corner ![Download raw file](./attachments/Download.png | width=100)
+    The diagram shows how to organise all files in folders and subfolders. Click on the links to discover and use pre-prepared templates. To download the file from Github, use the "Download raw file" button at the upper right corner ![Download raw file](./attachments/Download.png)
 
 ``` mermaid
 graph LR
