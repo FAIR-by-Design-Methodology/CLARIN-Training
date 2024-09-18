@@ -3,6 +3,8 @@ title: "Publishing consideration"
 author: "Skills4EOSC"
 tags: 
     - Publishing
+    - Machine readable metadata
+    - Signposting
 ---
 
 # Slides (new)
@@ -17,10 +19,10 @@ Upon completing this module the learner should be able to:
 
 - examine the content of the accompanying files for publishing 
 - define the publishing steps from the Skills4EOSC FAIR by Design Methodology
-- use the FAIR signposting to include metadata in the resulting html pages
+- use the FAIR signposting to include machine readable metadata in the resulting html pages
 
 
-# Introduction
+## Introduction
 
 The Skills4EOSC FAIR-by-design Methodology defines a set of steps to make sure that the produced learning materials are published respecting the FAIR principles. To prepare for this, a set of files needs to be manually edited, making sure all the necessary information needed to accompany the materials is present. The methodology also uses the FAIR signposting, enabling metadata to be present in the resulting html files. 
 
@@ -43,7 +45,22 @@ The `CODE_OF_CONDUCT.md`, as its name suggests, describes the contributors' code
 
 The `Licence.txt` file contains the description of the license under which the training material is released. If you have been creating your own repo from scratch or cloned the templates repo, most probably the current license you have in your repo at the moment is CC0. If you have decided that you will use another license (compatible with the reused material, derived using the adapter's license rules, etc.) then you need to replace the LICENSE file in your repository with the correct one. The contente of the license file can be downloaded from the [Plaintext versions of Creative Commons 4.0 licenses](https://creativecommons.org/2014/01/07/plaintext-versions-of-creative-commons-4-0-licenses/)
 
-Contributors.....
+The FAIR-by-Design Methodology does not use any separate files and roles for the contributors, other than the ones in the RDA Metadata. However, even thou there is not a standardised taxonomy for the contributors and roles, [Contributor Role Taxonomy (CRediT)](https://credit.niso.org) can be helpful. The [All Contributors specification](https://allcontributors.org/docs/en/specification) defines that Open source projects should include the following mandatory items to support the All Contributors specification:
+
+1. A "Contributors" section in a prominent site of the project repository documentation that includes a list of all project contributors
+    - The goal should be to use the most prominent site of the project documentation when feasible. In many cases, this is the project README file
+    - Consider [using a CONTRIBUTORS file](https://allcontributors.org/docs/en/bot/configuration#moving-the-all-contributors-table-into-a-different-file) in the top level of the repository when the number of project contributors exceeds a level at which it is unfeasible to use the README file to acknowledge contributions. In this case, a prominent link to the CONTRIBUTORS file should be included on the README page under the "Contributors" heading
+2. The listings should be formatted as a table with the following information about the project contributors:
+    - Name
+    - URL link to a site where more information can be learned about the contributor. This URL may be determined by the contributor at the project's discretion.
+    - An indication of the Contribution Category in text or icon image format using the defined Contribution Categories and/or Contribution Categories emoji images (see below).
+    - A link to the Contribution Category in text or emoji format using the defined Contribution Categories and/or [Contribution Categories emoji](https://allcontributors.org/docs/en/emoji-key).
+        - The list of contributors can be spread across multiple lines (each technically being its table) as needed.
+        - The order of contributors is immaterial to the spec. Order them how you wish.
+
+
+!!!tip
+	Example use of contributors and their roles can be seen in the [Galaxy Project Training Network - GTN](https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial-content/tutorial.html#listing-contributors). 
 
 
 ## FAIR Signposting 
@@ -65,13 +82,24 @@ There are two levels of compliance to FAIR Signposting.
 ## Automated publishing workflow
 
 
-The [templates](https://github.com/FAIR-by-Design-Methodology/templates) repository of the FAIR-by-design Methodology includes a set of Git actions that implement the publishing workflow. The workflow is triggered with each new Github release. When triggered they automate the complete Zenodo publishing process. The steps performed by these actions include validation of the information provided in the accompanying files, implementation of the signposting, draft entry creation in Zenodo, updating the DOI in all files that reference it, including slides and syllabus, rebuilding and releasing a new version of the Git book. 
+The [templates](https://github.com/FAIR-by-Design-Methodology/templates) repository of the FAIR-by-design Methodology includes a set of Git actions that implement the publishing workflow. The workflow is triggered with each new Github release. When triggered they automate the complete Zenodo publishing process. 
+The steps performed by these actions include:
+- validation of the information provided in the accompanying files, 
+- implementation of the signposting, 
+- draft entry creation in Zenodo, 
+- updating the DOI in all files that reference it, including slides and syllabus, 
+- rebuilding and 
+- releasing a new version of the Git book. 
 
-Important to note is that any other fields also present in the `CITATION.cff` file such as: `version`, `doi`, `date-released` **should not be manually edited**. They will be updated automatically when publishing the repository to Zenodo.
+!!!tip
+	The FAIR-by-Design Methodology opted for using Zenodo as a open access repository, but other communities and users can use different repositories, suitable for their purpose. 
 
 
+!!!note
+	In the accompanying files, some of the fields should be edited manually, while others are automatically updated by the publishing workflow and should not be manually changed. Examples of such field are `version`, `doi`, `date-released` from the `CITATION.cff`.
 
-# Summary 
+
+## Summary 
 
 FAIR-by-Design Methodology pays special attention to the publishing of the learning materials, making sure that they conform to the FAIR principles. Several accompanying files are needed to ensure that the required elements are present. Using the Signposting technique, the published html version of the training materials are made understandable not only to humans, but also to the machines - crawlers that process web learning resources. The methodology provides a specific workflow that enables each new release to be clearly visible and added to the Zenodo repository as a new version of the learning materials.  
 
