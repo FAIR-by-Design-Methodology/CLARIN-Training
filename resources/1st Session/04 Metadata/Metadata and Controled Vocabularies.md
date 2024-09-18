@@ -85,7 +85,7 @@ Such examples are
 - Access Cost with possible values of Y, N and Maybe
 - Primary Language that can be a two letter code from the [ISO 639-1:2002 codeset](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 
-Examples of relevant control vocabularies for the CLARIN community, available [SSH Vocabulary Commons SKOSMOS instance](https://vocabs.sshopencloud.eu/browse/en/) include:
+Examples of relevant control vocabularies for the CLARIN community, available at [SSH Vocabulary Commons SKOSMOS instance](https://vocabs.sshopencloud.eu/browse/en/) include:
 
 - SSH Training Discovery Toolkit 
 	- [Formats of training resources](https://vocabs.sshopencloud.eu/browse/sshoc-training-resource-format/en/)
