@@ -27,8 +27,8 @@ As we are not sure that all of you have sufficient experience with GitHub and MD
 ## Step-by-Step Guide
 
 0. The learning materials which you will analyse in this session are
-    - [**Input from CLARIN needed**]()
-    - [**Input from CLARIN needed**]()
+    - [CLARIN Tools and Resources for Lexicographic Work](https://campus.dariah.eu/resource/posts/clarin-tools-and-resources-for-lexicographic-work) by Francesca Frontini, Andrea Bellandi, Valeria Quochi, Monica Monachini, Karlheinz Mörth, Susanne Zhanial, Matej Ďurčo and Anna Woldrich (2022). CLARIN Tools and Resources for Lexicographic Work. Version 1.0.0. DARIAH-Campus. 
+    - [Applied Language Technology](https://www.clarin.eu/content/applied-language-technology) by Tuomo Hiippala; Faculty of Arts, University of Helsinki, Finland
 1. Go to the [CLARIN Training Session 2 Hands-on folder](https://drive.google.com/drive/folders/1pqa_BksPu4oWtQficeGWwj2oHuuk4fRj?usp=sharing) on Google drive
 2. You will find a folder with your name on it, this is your playground
 3. Inside there are two google sheets documents that you can use to keep track of your checklists progress
