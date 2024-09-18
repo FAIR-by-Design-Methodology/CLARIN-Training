@@ -18,7 +18,7 @@
     <meta name="title" content="Publishing consideration"/>
   
   
-    <meta name="tags" content="['Publishing']"/>
+    <meta name="tags" content="['Publishing', 'Machine readable metadata', 'Signposting']"/>
   
 
     
@@ -863,6 +863,41 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#files-description" class="md-nav__link">
+    Files Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fair-signposting" class="md-nav__link">
+    FAIR Signposting
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automated-publishing-workflow" class="md-nav__link">
+    Automated publishing workflow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1106,6 +1141,41 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#files-description" class="md-nav__link">
+    Files Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fair-signposting" class="md-nav__link">
+    FAIR Signposting
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automated-publishing-workflow" class="md-nav__link">
+    Automated publishing workflow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1128,6 +1198,16 @@
         <span class="md-tag">Publishing</span>
       
     
+      
+      
+        <span class="md-tag">Machine readable metadata</span>
+      
+    
+      
+      
+        <span class="md-tag">Signposting</span>
+      
+    
   </nav>
 
 
@@ -1140,9 +1220,9 @@
 <ul>
 <li>examine the content of the accompanying files for publishing </li>
 <li>define the publishing steps from the Skills4EOSC FAIR by Design Methodology</li>
-<li>use the FAIR signposting to include metadata in the resulting html pages</li>
+<li>use the FAIR signposting to include machine readable metadata in the resulting html pages</li>
 </ul>
-<h1 id="introduction">Introduction</h1>
+<h2 id="introduction">Introduction</h2>
 <p>The Skills4EOSC FAIR-by-design Methodology defines a set of steps to make sure that the produced learning materials are published respecting the FAIR principles. To prepare for this, a set of files needs to be manually edited, making sure all the necessary information needed to accompany the materials is present. The methodology also uses the FAIR signposting, enabling metadata to be present in the resulting html files. </p>
 <h2 id="files-description">Files Description</h2>
 <p>The <a href="https://github.com/FAIR-by-Design-Methodology/templates">FAIR-by-Design templates repository</a> contains the accompanying files which we will need to alter:</p>
@@ -1156,7 +1236,29 @@
 <p><code>README.md</code> is a Markdown file which should briefly describe the repository, so that first time visitors can get an initial idea what it is about. The README.md file's content is shown immediately below the directory browser on the repository's homepage.</p>
 <p>The <code>CODE_OF_CONDUCT.md</code>, as its name suggests, describes the contributors' code of conduct which needs to be adhered to. It defines standards for how to engage in a community. It can also contain steps for resoling issues between members of the community. GitHub also shows a direct link to a repository's code of conduct (if available) above the citation information.</p>
 <p>The <code>Licence.txt</code> file contains the description of the license under which the training material is released. If you have been creating your own repo from scratch or cloned the templates repo, most probably the current license you have in your repo at the moment is CC0. If you have decided that you will use another license (compatible with the reused material, derived using the adapter's license rules, etc.) then you need to replace the LICENSE file in your repository with the correct one. The contente of the license file can be downloaded from the <a href="https://creativecommons.org/2014/01/07/plaintext-versions-of-creative-commons-4-0-licenses/">Plaintext versions of Creative Commons 4.0 licenses</a></p>
-<p>Contributors.....</p>
+<p>The FAIR-by-Design Methodology does not use any separate files and roles for the contributors, other than the ones in the RDA Metadata. However, even thou there is not a standardised taxonomy for the contributors and roles, <a href="https://credit.niso.org">Contributor Role Taxonomy (CRediT)</a> can be helpful. The <a href="https://allcontributors.org/docs/en/specification">All Contributors specification</a> defines that Open source projects should include the following mandatory items to support the All Contributors specification:</p>
+<ol>
+<li>A "Contributors" section in a prominent site of the project repository documentation that includes a list of all project contributors<ul>
+<li>The goal should be to use the most prominent site of the project documentation when feasible. In many cases, this is the project README file</li>
+<li>Consider <a href="https://allcontributors.org/docs/en/bot/configuration#moving-the-all-contributors-table-into-a-different-file">using a CONTRIBUTORS file</a> in the top level of the repository when the number of project contributors exceeds a level at which it is unfeasible to use the README file to acknowledge contributions. In this case, a prominent link to the CONTRIBUTORS file should be included on the README page under the "Contributors" heading</li>
+</ul>
+</li>
+<li>The listings should be formatted as a table with the following information about the project contributors:<ul>
+<li>Name</li>
+<li>URL link to a site where more information can be learned about the contributor. This URL may be determined by the contributor at the project's discretion.</li>
+<li>An indication of the Contribution Category in text or icon image format using the defined Contribution Categories and/or Contribution Categories emoji images (see below).</li>
+<li>A link to the Contribution Category in text or emoji format using the defined Contribution Categories and/or <a href="https://allcontributors.org/docs/en/emoji-key">Contribution Categories emoji</a>.<ul>
+<li>The list of contributors can be spread across multiple lines (each technically being its table) as needed.</li>
+<li>The order of contributors is immaterial to the spec. Order them how you wish.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Example use of contributors and their roles can be seen in the <a href="https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial-content/tutorial.html#listing-contributors">Galaxy Project Training Network - GTN</a>. </p>
+</div>
 <h2 id="fair-signposting">FAIR Signposting</h2>
 <p><a href="http://signposting.org/">Signposting</a>, presents a lightweight, but powerful approach to increase the FAIRness of learning materials. <br />
 Landing pages of learning materials support humans interaction with learning materials on the web, by providing descriptive metadata and links to content. Signposting helps machine agents by providing this information, and more, in a standards-based way. It contributes to FAIR's Findable, Accessible, and Reusable by uniformly conveying to machines what the persistent identifier of a scholarly object is, where its landing page is, where and what its content is, where metadata that describes it is, and what the persistent identifier of its author is. It conveys this by means of meaningful links that have web locations (HTTP URIs) as their target.</p>
@@ -1172,9 +1274,23 @@ Landing pages of learning materials support humans interaction with learning mat
 <p>As a result of running the Signposting workflow a <code>linkset.json</code> file is placed in the root of the repository.</p>
 </div>
 <h2 id="automated-publishing-workflow">Automated publishing workflow</h2>
-<p>The <a href="https://github.com/FAIR-by-Design-Methodology/templates">templates</a> repository of the FAIR-by-design Methodology includes a set of Git actions that implement the publishing workflow. The workflow is triggered with each new Github release. When triggered they automate the complete Zenodo publishing process. The steps performed by these actions include validation of the information provided in the accompanying files, implementation of the signposting, draft entry creation in Zenodo, updating the DOI in all files that reference it, including slides and syllabus, rebuilding and releasing a new version of the Git book. </p>
-<p>Important to note is that any other fields also present in the <code>CITATION.cff</code> file such as: <code>version</code>, <code>doi</code>, <code>date-released</code> <strong>should not be manually edited</strong>. They will be updated automatically when publishing the repository to Zenodo.</p>
-<h1 id="summary">Summary</h1>
+<p>The <a href="https://github.com/FAIR-by-Design-Methodology/templates">templates</a> repository of the FAIR-by-design Methodology includes a set of Git actions that implement the publishing workflow. The workflow is triggered with each new Github release. When triggered they automate the complete Zenodo publishing process. 
+The steps performed by these actions include:
+- validation of the information provided in the accompanying files, 
+- implementation of the signposting, 
+- draft entry creation in Zenodo, 
+- updating the DOI in all files that reference it, including slides and syllabus, 
+- rebuilding and 
+- releasing a new version of the Git book. </p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>The FAIR-by-Design Methodology opted for using Zenodo as a open access repository, but other communities and users can use different repositories, suitable for their purpose. </p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In the accompanying files, some of the fields should be edited manually, while others are automatically updated by the publishing workflow and should not be manually changed. Examples of such field are <code>version</code>, <code>doi</code>, <code>date-released</code> from the <code>CITATION.cff</code>.</p>
+</div>
+<h2 id="summary">Summary</h2>
 <p>FAIR-by-Design Methodology pays special attention to the publishing of the learning materials, making sure that they conform to the FAIR principles. Several accompanying files are needed to ensure that the required elements are present. Using the Signposting technique, the published html version of the training materials are made understandable not only to humans, but also to the machines - crawlers that process web learning resources. The methodology provides a specific workflow that enables each new release to be clearly visible and added to the Zenodo repository as a new version of the learning materials.  </p>
 <h1 id="suggested-reading">Suggested Reading</h1>
 <ul>
