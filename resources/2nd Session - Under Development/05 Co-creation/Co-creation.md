@@ -16,37 +16,28 @@ tags:
 
 Upon completing this module the learner should be able to:
 
-- examine 
+- appreciate the importance of incremental improvement
+- utilise the gathered feedback to further improve the materials 
 
 ## Introduction
 
-
-
+Continuous improvement is a crucial element of the FAIR-by-Design Methodology. There is always room for improvement and many times need and requirement to keep up to date with the development and changes in the field of subject of the learning materials. Collected feedback from different sources and channels should be a driving force toward the improvement and the release of new versions. 
 
 ## Incremental improvements 
 
-Continuous improvement is a crucial element of the FAIR-by-Design Methodology. There is always room for improvement and many times need and requirement to keep up to date with the development and changes in the field of subject of the learning materials.
-
-Therefore a regular analysis of all QA aspects is necessary to identify potential elements for improvement. Based on the outcomes of the feedback analysis, the authors of the learning materials should make a plan for the development of a new version of the learning materials. 
+A regular analysis of all QA aspects is necessary to identify potential elements for improvement. Based on the outcomes of the feedback analysis, the authors of the learning materials should make a plan for the development of a new version of the learning materials. 
  
 ### Feedback analysis 
 
-There are multiple sources that can serve for feedback gathering and Quality Assurance. Some sources provide feedback from the learners, some from the fellow instructors that use the training materials. Both are equally important for the further improvements of the learning materials.  
-Most frequently used feedback channel for learners is the feedback form. The form is presented to them just after the training to gather their impressions. In addition to this, learners might opt for direct email contact, as well as discussions and feedback related to more general events like workshops, trainings etc. 
-External Quality Assurance (QA) can provide very valuable input from peers with expertise in the area covered in the training materials. Externals contributors might also use GitHub issues or discussion forums to provide their view on the materials. Equally important is the own experience of the trainer when delivering the training based on these materials, called self reflection, containing the lessons learned while delivering the training. 
+There are multiple sources that can serve for feedback gathering and Quality Assurance. Some sources provide feedback from the learners, some from the fellow instructors that use the training materials. Both are equally important for the further improvements of the learning materials. 
 
----
-(write a paragraph per each bullet point)
-(learners vs instructors channels)
+- Most frequently used feedback channel for learners is the feedback form. The form is presented to them just after the training to gather their impressions. 
+- In addition to this, learners might opt for direct email contact, as well as discussions and feedback related to more general events like workshops, trainings etc. 
+- External Quality Assurance (QA) can provide very valuable input from peers with expertise in the area covered in the training materials. 
+- Comments gathered from external contributors bring additional information that can be used to further improve the materials. 
+- Externals contributors might also use GitHub issues or discussion forums to provide their view on the materials. 
+- Equally important is the own experience of the trainer when delivering the training based on these materials, called self reflection, containing the lessons learned while delivering the training. 
 
-- feedback form
-- external QA recommendations
-- self-reflection after training 
-- GitHub issues and discussions 
-- gathered comments from external contributors
-- direct mail contact 
-- any other means of communication (e.g. feedback from workshops, discussions, team meetings, etc.)
----
 
 The input from all of these sources should be gathered and analysed. The results of the analysis should be a list of potential improvements, each marked with an impact level (high, moderate, low). 
 
