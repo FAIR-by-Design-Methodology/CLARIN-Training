@@ -85,6 +85,18 @@ Such examples are
 - Access Cost with possible values of Y, N and Maybe
 - Primary Language that can be a two letter code from the [ISO 639-1:2002 codeset](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 
+Examples of relevant control vocabularies for the CLARIN community, available [SSH Vocabulary Commons SKOSMOS instance](https://vocabs.sshopencloud.eu/browse/en/) include:
+
+- SSH Training Discovery Toolkit 
+	- [Formats of training resources](https://vocabs.sshopencloud.eu/browse/sshoc-training-resource-format/en/)
+	- [Intended audience](https://vocabs.sshopencloud.eu/browse/sshoc-audience/en/)
+	- [Status of training resources](https://vocabs.sshopencloud.eu/browse/sshoc-training-resource-status/en/)
+- SSHOC
+	- [SSHOC Multilingual Data Stewardship Terminology](https://vocabs.sshopencloud.eu/browse/sshocterm/en/)
+	- [SSHOC Multilingual Metadata](https://vocabs.sshopencloud.eu/browse/sshocmm/en/)
+- CLARIN Service Description
+	- [CLARIN taxonomy for Linguistic subjects](https://vocabs.sshopencloud.eu/browse/csd-linguistic-subjects/en/)
+	- [CLARIN taxonomy for tools and services tasks](https://vocabs.sshopencloud.eu/browse/csd-tool-tasks/en/)
 
 In the Skills4EOSC project, a specific example of using controlled vocabularies are different lists of OS Skills Terms
 
