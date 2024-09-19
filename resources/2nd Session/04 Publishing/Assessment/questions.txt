@@ -1,0 +1,17 @@
+1. Which of the following could be considered OS repositories:
+    - [X] Zenodo
+    - [X] CLARIN Virtual Language Observatory
+    - IEEEXplore
+    - ACM Digital Library 
+
+2. What elements can be found in the CODE_OF_CONDUCT.md file in the repository?
+    - [X] Standards for how to engage in a community
+    - [X] Steps for resoling issues between members of the community
+    - List of version numbers
+    - Table of contributors and roles
+
+3. FAIR Signposting:
+    - [X] Has two levels of compliance 
+    - [X] Is used to enable better machine understanding of the materials
+    - Is intended to be read by humans
+    - It uses the post method to sign the pages
