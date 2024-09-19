@@ -30,23 +30,23 @@ The Skills4EOSC Recognition Framework is designed to support the professional de
 
 Key Aspects of the Skills4EOSC Recognition Framework:
 
-1. Digital Credentials:
+1. **Digital Credentials**:
     - The framework leverages digital credentials, such as badges and certificates, to provide tangible, verifiable proof of skills. These credentials are awarded based on specific achievements, such as completing training programs, passing assessments, or demonstrating particular competencies.
 	- Digital credentials are designed to be easily shareable, allowing professionals to include them in their CVs, LinkedIn profiles, or other online portfolios. This enhances the visibility and recognition of their skills across the European research community and beyond.
-2. Supporting Open Science Professionals:
+2. **Supporting Open Science Professionals**:
 	- The framework is tailored to meet the needs of various stakeholders in the Open Science ecosystem, including researchers, data stewards, librarians, and other research support staff.
 	- It recognizes both formal and informal learning, offering flexibility in how skills are acquired and validated. This is particularly important in a rapidly evolving field like Open Science, where new tools, methods, and practices are constantly emerging.
-3. For Instructors and Learners:
+3. **For Instructors and Learners**:
 	- Instructors: The framework provides instructors with a way to certify the competencies they impart to their learners, helping to establish their credibility and expertise in Open Science.
 	- Learners: For learners, the framework offers a clear pathway to gaining and demonstrating the skills necessary for working effectively in Open Science. The credentials serve as proof of their proficiency, whether they are early-career researchers or experienced professionals expanding their skill set.
-4. Employer Recognition Across Europe:
+4. **Employer Recognition Across Europe**:
 	- One of the core goals of the framework is to ensure that these digital credentials are recognized by employers across Europe. By establishing a common standard, the framework makes it easier for employers to assess and validate the skills of potential hires, regardless of their location or the specific training programs they have completed.
 	- This cross-border recognition is crucial for fostering mobility and collaboration within the European Research Area (ERA), enabling professionals to move between countries and institutions while maintaining the value of their credentials.
-5. Integration with Existing Initiatives:
+5. **Integration with Existing Initiatives**:
 	- The Skills4EOSC Recognition Framework is designed to align with other European initiatives, such as the European Open Science Cloud (EOSC), the European Skills, Competences, Qualifications, and Occupations (ESCO) framework, and the European Digital Credentials for Learning (EDCL) system. This integration helps ensure that the credentials are interoperable and widely accepted.
-6. Promoting Lifelong Learning:
+6. **Promoting Lifelong Learning**:
 	- The framework encourages lifelong learning by recognizing continuous professional development. Professionals can earn credentials as they acquire new skills over time, helping them stay current with the latest developments in Open Science and related fields.
-7. Contributing to a Sustainable Open Science Ecosystem:
+7. **Contributing to a Sustainable Open Science Ecosystem**:
 	- By promoting the recognition of skills and competencies, the Skills4EOSC Recognition Framework contributes to the sustainability of the Open Science ecosystem. It supports the development of a skilled workforce that can drive the adoption and implementation of Open Science practices across Europe.
 
 The [current version of the Recognition Framework](https://zenodo.org/records/10447619) is still in its draft phase and is available on Zenodo together with a link that asks for your [feedback](https://ec.europa.eu/eusurvey/runner/Skills4EOSCRecognitionFrameworkSurvey).
