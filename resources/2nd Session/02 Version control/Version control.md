@@ -7,9 +7,9 @@ tags:
 
 # Version control 
 
-## Slides (new)
+## Slides
 
-[Download the slides regarding  here TBD](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
+[Download the slides regarding  here TBD](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/2nd%20Session/01%20Recap/Recap_FAIR-by-Design_Methodology.pptx){:download}
 
 
 ## Learning objectives
@@ -28,35 +28,39 @@ Training materials should always be considered as a living and constantly changi
 
 Git is the most popular version management system in use today. It is available for all popular platforms either as a first-party command line utility or through third-party graphical user interface (GUI) clients. Git uses the concept of repositories which can granularly manage the versions of all objects placed within it. File changes are **committed** to a repository and each commit is automatically associated a unique and random identifier. In addition to this identifier, each commit is also described by its author, commit title and commit description. A single Git repository can be used by multiple users, each contributing and committing their changes. 
 
-- To produce a new training material, one should fork the template repository, or the repository of any other ready made training material. 
-- It is important to note that each commit to the repository, triggers the actions needed to update the associated Gitbook. 
-- Each new Github release produces a new version of the learning material.
+- To produce a new training material, one should **fork** the template repository, or the repository of any other ready made training material. 
+- It is important to note that each **commit** to the repository, triggers the actions needed to update the associated Gitbook. 
+- Each new Github **release** produces a new version of the learning material.
 
-By default, the Gitbook shows the latest version (visible also in the URL as /latest). The dropdown list on the top of every Gitbook page enables quick access to all previous versions. 
+By default, the Gitbook shows the latest version (visible also in the URL as /latest). The dropdown list on the top of every Git page enables quick access to all previous versions. 
 
-!!! tip 
+!!! tip "Git commit"
 
-    **Git commit** – a granular change of a single or multiple files in the repository, identified by a random unique identifier, the committer's name, email address, short commit title and an optional longer commit description. A commit can contain file additions, modifications, removal, or relocation to a different directory. 
+     A granular change of a single or multiple files in the repository, identified by a random unique identifier, the committer's name, email address, short commit title and an optional longer commit description. A commit can contain file additions, modifications, removal, or relocation to a different directory. 
 
 
-!!! tip
+!!! tip "Git clone"
 
-	 **Git clone** – an action to download locally an existing Git repository. A repository hosted on a public Git hosting service such as GitHub can be cloned by anyone (assuming it is public) on their local machines. Once downloaded, users can explore the repository and optionally send their contributed changes upstream, if they have been assigned the necessary permissions.
+	 An action to download locally an existing Git repository. A repository hosted on a public Git hosting service such as GitHub can be cloned by anyone (assuming it is public) on their local machines. Once downloaded, users can explore the repository and optionally send their contributed changes upstream, if they have been assigned the necessary permissions.
 
-!!!tip 
+!!!tip "Git fork"
 
-	 **Git fork** – a 1:1 copy of an existing Git repository. A fork of an existing repository results with the creation of a brand new repository which will have a shared history with the original one up until the fork was made. The owner of the forked repository will be the user who initiated the fork. The original owner of the repository does not have any right in the forked repository by default.
+	 A 1:1 copy of an existing Git repository. A fork of an existing repository results with the creation of a brand new repository which will have a shared history with the original one up until the fork was made. The owner of the forked repository will be the user who initiated the fork. The original owner of the repository does not have any right in the forked repository by default.
 
-!!!tip
+!!!tip "Git release"
 
-	**Git release** - easch git release creates a new observable version of the Gitpages, as well as a new record (for the first release), or an updated record in Zenodo. 
+	Each git release creates a new observable version of the Gitpages, as well as a new record (for the first release), or an updated record in Zenodo. 
 
 
 ### Release Notes
+
 The release notes for each new version are intended to help the users of these materials to better understand the changes brought by each version. They can be useful both for the learners and for the instructors using the materials. 
 Using the release notes enables tracking of all the versions of a learning material. They are written in a special Markdown file called `RELEASE_NOTES.md`. The content of this file is embedded as is on the Git book homepage (the syllabus) in a collapsible block.
+
 Ideally, the RELEASE_NOTES.md file should list the various versions in a descending order, sorted by the release date.
-[Example of a RELEASE_NOTES.md content](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/). 
+
+![Screenshot of the release notes for the FAIR-by-Design Training of Trainers](./attachments/release_notes_ex.png)
+[Example of a RELEASE_NOTES.md content for the FAIR-by-Design Training of Trainers course.](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/). 
 
 ## New iteration
 
@@ -75,9 +79,7 @@ The image below depicts the best practices of semantic versioning.
 ![A simple diagram of Semantic Versioning](./attachments/Semantic-versioning.png){: style="height:250px;"}
 
 [Semantic Versioning](https://commons.wikimedia.org/wiki/File:Semantic-versioning.svg) by [Surjit Bains](https://commons.wikimedia.org/w/index.php?title=User:SurjBains&action=edit&redlink=1) on [Wikimedia Commons](https://commons.wikimedia.org/) licensed under the [Creative Commons Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en) license.
-
-Note that the provided automated workflow will not create a new independent record on Zenodo, but will **add a new version to the already existing Zenodo record**. 
-
+ 
 
 ## Summary 
 
