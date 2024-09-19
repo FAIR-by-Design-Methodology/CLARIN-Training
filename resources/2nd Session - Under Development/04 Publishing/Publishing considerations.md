@@ -4,14 +4,14 @@ author: "Skills4EOSC"
 tags: 
     - Publishing
     - Machine readable metadata
-    - Signposting
+    - FAIR Signposting
 ---
 
 # Publishing considerations
 
-## Slides (new)
+## Slides
 
-[Download the slides regarding the FAIR-by-Design Methodology here](https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx){:download}
+[Download the slides here TBD]https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/2nd%20Session/03%20Recognition/recognition_OB_EDC.pptx){:download}
 
 
 ## Learning objectives
@@ -27,6 +27,8 @@ Upon completing this module the learner should be able to:
 
 The Skills4EOSC FAIR-by-design Methodology defines a set of steps to make sure that the produced learning materials are published respecting the FAIR principles. To prepare for this, a set of files needs to be manually edited, making sure all the necessary information needed to accompany the materials is present. The methodology also uses the FAIR signposting, enabling metadata to be present in the resulting html files. 
 
+!!!tip "Repository choice"
+	The FAIR-by-Design Methodology opted for using Zenodo as a open access repository, but other communities and users can use different repositories, suitable for their purpose. 
 
 ## Files Description
 
@@ -60,7 +62,7 @@ The FAIR-by-Design Methodology does not use any separate files and roles for the
         - The order of contributors is immaterial to the spec. Order them how you wish.
 
 
-!!!tip
+!!!tip "Contributors example"
 	Example use of contributors and their roles can be seen in the [Galaxy Project Training Network - GTN](https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial-content/tutorial.html#listing-contributors). 
 
 
@@ -69,15 +71,16 @@ The FAIR-by-Design Methodology does not use any separate files and roles for the
 [Signposting](http://signposting.org/), presents a lightweight, but powerful approach to increase the FAIRness of learning materials.   
 Landing pages of learning materials support humans interaction with learning materials on the web, by providing descriptive metadata and links to content. Signposting helps machine agents by providing this information, and more, in a standards-based way. It contributes to FAIR's Findable, Accessible, and Reusable by uniformly conveying to machines what the persistent identifier of a scholarly object is, where its landing page is, where and what its content is, where metadata that describes it is, and what the persistent identifier of its author is. It conveys this by means of meaningful links that have web locations (HTTP URIs) as their target.
 
-There are two levels of compliance to FAIR Signposting. 
+There are two levels of compliance to FAIR Signposting:
+
 - Level 1 provide a minimal set of typed links with the landing page as the link origin. 
 - Level 2 elevates the compliance by providing a comprehensive set of typed links for landing pages, content, and metadata resources.
 
-!!!note
+!!!note "FAIR Signposting implementation"
 	The publishing workflow of the Methodology described below provides an easy way of implementing Signposting for the developed content. Note that the signposting is not mandatory part of the Methodology, but a very useful addition to it. 
 
-!!!info
-	As a result of running the Signposting workflow a `linkset.json` file is placed in the root of the repository.
+!!!info "FAIR Signposting output"
+	As a result of running the Signposting workflow a `linkset.json` file is placed in the root of the repository. This file is accessible to crawlers as it is embedded in the meta information in the head of the landing HTML page.
 
 
 ## Automated publishing workflow
@@ -93,15 +96,13 @@ The steps performed by these actions include:
 - rebuilding and 
 - releasing a new version of the Git book. 
 
-!!!tip
-	The FAIR-by-Design Methodology opted for using Zenodo as a open access repository, but other communities and users can use different repositories, suitable for their purpose. 
 
-
-!!!note
+!!!note "Manual editing"
 	In the accompanying files, some of the fields should be edited manually, while others are automatically updated by the publishing workflow and should not be manually changed. Examples of such field are `version`, `doi`, `date-released` from the `CITATION.cff`.
 
 
-As as result of the successful completion of this workflow
+As as result of the successful completion of this workflow the following actions will be performed:
+
 - new or updated entry in the Zenodo repository
 - updated citation in the Gitpages
 - updated `citation.cff` file
