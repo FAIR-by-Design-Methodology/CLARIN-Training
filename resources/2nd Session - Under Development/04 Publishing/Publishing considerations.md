@@ -89,6 +89,7 @@ There are two levels of compliance to FAIR Signposting:
 The [templates](https://github.com/FAIR-by-Design-Methodology/templates) repository of the FAIR-by-design Methodology includes a set of Git actions that implement the publishing workflow. The workflow is triggered with each new Github release. When triggered they automate the complete Zenodo publishing process. 
 
 The steps performed by these actions include:
+
 - validation of the information provided in the accompanying files, 
 - implementation of the signposting, 
 - draft entry creation in Zenodo, 
