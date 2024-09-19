@@ -5,7 +5,7 @@
     - refers to a small change in the training materials 
 
 2. The RELEASE_NOTES.md file in the repository?
-    - [X] Contains information about the changes for each new verions
+    - [X] Contains information about the changes for each new versions
     - [X] Should be sorted by release date
     - Should not be manually edited
     - Is not mandatory in the FAIR-by-Design Methodology
