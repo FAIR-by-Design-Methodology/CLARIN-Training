@@ -18,7 +18,7 @@
     <meta name="title" content="Publishing consideration"/>
   
   
-    <meta name="tags" content="['Publishing', 'Machine readable metadata', 'Signposting']"/>
+    <meta name="tags" content="['Publishing', 'Machine readable metadata', 'FAIR Signposting']"/>
   
 
     
@@ -857,8 +857,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#slides-new" class="md-nav__link">
-    Slides (new)
+  <a href="#slides" class="md-nav__link">
+    Slides
   </a>
   
 </li>
@@ -1149,8 +1149,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#slides-new" class="md-nav__link">
-    Slides (new)
+  <a href="#slides" class="md-nav__link">
+    Slides
   </a>
   
 </li>
@@ -1233,7 +1233,7 @@
     
       
       
-        <span class="md-tag">Signposting</span>
+        <span class="md-tag">FAIR Signposting</span>
       
     
   </nav>
@@ -1242,8 +1242,8 @@
 
 
 <h1 id="publishing-considerations">Publishing considerations</h1>
-<h2 id="slides-new">Slides (new)</h2>
-<p><a download="download" href="https://github.com/FAIR-by-Design-Methodology/IDCC24workshop/raw/main/resources/02%20Skills4EOSC/Skills4EOSC-IDCCworkshop_FAIR-by-Design_Methodology.pptx">Download the slides regarding the FAIR-by-Design Methodology here</a></p>
+<h2 id="slides">Slides</h2>
+<p>[Download the slides here TBD]https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/2nd%20Session/03%20Recognition/recognition_OB_EDC.pptx){:download}</p>
 <h2 id="learning-objectives">Learning objectives</h2>
 <p>Upon completing this module the learner should be able to:</p>
 <ul>
@@ -1253,6 +1253,10 @@
 </ul>
 <h2 id="introduction">Introduction</h2>
 <p>The Skills4EOSC FAIR-by-design Methodology defines a set of steps to make sure that the produced learning materials are published respecting the FAIR principles. To prepare for this, a set of files needs to be manually edited, making sure all the necessary information needed to accompany the materials is present. The methodology also uses the FAIR signposting, enabling metadata to be present in the resulting html files. </p>
+<div class="admonition tip">
+<p class="admonition-title">Repository choice</p>
+<p>The FAIR-by-Design Methodology opted for using Zenodo as a open access repository, but other communities and users can use different repositories, suitable for their purpose. </p>
+</div>
 <h2 id="files-description">Files Description</h2>
 <p>The <a href="https://github.com/FAIR-by-Design-Methodology/templates">FAIR-by-Design templates repository</a> contains the accompanying files which we will need to alter:</p>
 <ul>
@@ -1285,46 +1289,48 @@
 </li>
 </ol>
 <div class="admonition tip">
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Contributors example</p>
 <p>Example use of contributors and their roles can be seen in the <a href="https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial-content/tutorial.html#listing-contributors">Galaxy Project Training Network - GTN</a>. </p>
 </div>
 <h2 id="fair-signposting">FAIR Signposting</h2>
 <p><a href="http://signposting.org/">Signposting</a>, presents a lightweight, but powerful approach to increase the FAIRness of learning materials. <br />
 Landing pages of learning materials support humans interaction with learning materials on the web, by providing descriptive metadata and links to content. Signposting helps machine agents by providing this information, and more, in a standards-based way. It contributes to FAIR's Findable, Accessible, and Reusable by uniformly conveying to machines what the persistent identifier of a scholarly object is, where its landing page is, where and what its content is, where metadata that describes it is, and what the persistent identifier of its author is. It conveys this by means of meaningful links that have web locations (HTTP URIs) as their target.</p>
-<p>There are two levels of compliance to FAIR Signposting. 
-- Level 1 provide a minimal set of typed links with the landing page as the link origin. 
-- Level 2 elevates the compliance by providing a comprehensive set of typed links for landing pages, content, and metadata resources.</p>
+<p>There are two levels of compliance to FAIR Signposting:</p>
+<ul>
+<li>Level 1 provide a minimal set of typed links with the landing page as the link origin. </li>
+<li>Level 2 elevates the compliance by providing a comprehensive set of typed links for landing pages, content, and metadata resources.</li>
+</ul>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">FAIR Signposting implementation</p>
 <p>The publishing workflow of the Methodology described below provides an easy way of implementing Signposting for the developed content. Note that the signposting is not mandatory part of the Methodology, but a very useful addition to it. </p>
 </div>
 <div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>As a result of running the Signposting workflow a <code>linkset.json</code> file is placed in the root of the repository.</p>
+<p class="admonition-title">FAIR Signposting output</p>
+<p>As a result of running the Signposting workflow a <code>linkset.json</code> file is placed in the root of the repository. This file is accessible to crawlers as it is embedded in the meta information in the head of the landing HTML page.</p>
 </div>
 <h2 id="automated-publishing-workflow">Automated publishing workflow</h2>
 <p>The <a href="https://github.com/FAIR-by-Design-Methodology/templates">templates</a> repository of the FAIR-by-design Methodology includes a set of Git actions that implement the publishing workflow. The workflow is triggered with each new Github release. When triggered they automate the complete Zenodo publishing process. </p>
-<p>The steps performed by these actions include:
-- validation of the information provided in the accompanying files, 
-- implementation of the signposting, 
-- draft entry creation in Zenodo, 
-- updating the DOI in all files that reference it, including slides and syllabus, 
-- rebuilding and 
-- releasing a new version of the Git book. </p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>The FAIR-by-Design Methodology opted for using Zenodo as a open access repository, but other communities and users can use different repositories, suitable for their purpose. </p>
-</div>
+<p>The steps performed by these actions include:</p>
+<ul>
+<li>validation of the information provided in the accompanying files, </li>
+<li>implementation of the signposting, </li>
+<li>draft entry creation in Zenodo, </li>
+<li>updating the DOI in all files that reference it, including slides and syllabus, </li>
+<li>rebuilding and </li>
+<li>releasing a new version of the Git book. </li>
+</ul>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Manual editing</p>
 <p>In the accompanying files, some of the fields should be edited manually, while others are automatically updated by the publishing workflow and should not be manually changed. Examples of such field are <code>version</code>, <code>doi</code>, <code>date-released</code> from the <code>CITATION.cff</code>.</p>
 </div>
-<p>As as result of the successful completion of this workflow
-- new or updated entry in the Zenodo repository
-- updated citation in the Gitpages
-- updated <code>citation.cff</code> file
-- updated FAIR signposting metadata
-- updated citation in the PowerPoint slides (if used)</p>
+<p>As as result of the successful completion of this workflow the following actions will be performed:</p>
+<ul>
+<li>new or updated entry in the Zenodo repository</li>
+<li>updated citation in the Gitpages</li>
+<li>updated <code>citation.cff</code> file</li>
+<li>updated FAIR signposting metadata</li>
+<li>updated citation in the PowerPoint slides (if used)</li>
+</ul>
 <h2 id="summary">Summary</h2>
 <p>FAIR-by-Design Methodology pays special attention to the publishing of the learning materials, making sure that they conform to the FAIR principles. Several accompanying files are needed to ensure that the required elements are present. Using the Signposting technique, the published html version of the training materials are made understandable not only to humans, but also to the machines - crawlers that process web learning resources. The methodology provides a specific workflow that enables each new release to be clearly visible and added to the Zenodo repository as a new version of the learning materials.  </p>
 <h2 id="suggested-reading">Suggested Reading</h2>
