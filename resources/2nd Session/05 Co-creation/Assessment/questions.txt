@@ -1,0 +1,11 @@
+1. Which of the following can be used to collect feedback?
+    - [X] Github comments
+    - [X] self-reflecion
+    - Telephone pols 
+    - Census data 
+
+2. Which of the following are elements of the Continuous Improvement cycle ?
+    - [X] Collect feedback
+    - [X] Analyse
+    - [X] Publish
+    - Signpost
