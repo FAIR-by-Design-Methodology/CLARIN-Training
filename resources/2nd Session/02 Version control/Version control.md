@@ -9,7 +9,7 @@ tags:
 
 ## Slides
 
-[Download the slides regarding  here TBD](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/2nd%20Session/02%20Version%20control/Version%20control.pptx){:download}
+[Download the slides regarding  here](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/2nd%20Session/02%20Version%20control/Version%20control.pptx){:download}
 
 
 ## Learning objectives
