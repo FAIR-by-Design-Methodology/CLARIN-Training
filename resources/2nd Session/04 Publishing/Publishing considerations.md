@@ -11,7 +11,7 @@ tags:
 
 ## Slides
 
-[Download the slides here TBD](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/2nd%20Session/04%20Publishing/Publishing%20considerations.pptx){:download}
+[Download the slides here](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/2nd%20Session/04%20Publishing/Publishing%20considerations.pptx){:download}
 
 
 ## Learning objectives
