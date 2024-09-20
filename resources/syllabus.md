@@ -40,7 +40,7 @@ expertiseLevel: "Beginner"
 
 {!RELEASE_NOTES.md!}
 
-# Workshop
+## Workshop
 
 ## Date/Time: 
 - Session 1: Fri, 20 Sep 2024 14:00 - 17:00 CEST
