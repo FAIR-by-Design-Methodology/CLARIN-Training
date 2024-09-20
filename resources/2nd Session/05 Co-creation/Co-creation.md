@@ -10,7 +10,7 @@ tags:
 
 ## Slides
 
-[Download the slides here TBD](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/2nd%20Session/03%20Recognition/recognition_OB_EDC.pptx){:download}
+[Download the slides here TBD](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/2nd%20Session/5%20Co-creation/Co-creation.pptx){:download}
 
 ## Learning objectives
 
