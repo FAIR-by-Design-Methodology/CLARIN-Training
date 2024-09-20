@@ -1,0 +1,1538 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+  
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Skills4EOSC">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-8.5.7">
+    
+  
+    <meta name="title" content="Publishing consideration"/>
+  
+  
+    <meta name="tags" content="['Publishing', 'Machine readable metadata', 'FAIR Signposting']"/>
+  
+
+    
+      
+        <title>Publishing consideration - FAIR-by-Design Training for CLARIN Community</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="custom" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#publishing-considerations" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="FAIR-by-Design Training for CLARIN Community" class="md-header__button md-logo" aria-label="FAIR-by-Design Training for CLARIN Community" data-md-component="logo">
+      
+  <img src="../../../attachments/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR-by-Design Training for CLARIN Community
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Publishing consideration
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="FAIR-by-Design Training for CLARIN Community" class="md-nav__button md-logo" aria-label="FAIR-by-Design Training for CLARIN Community" data-md-component="logo">
+      
+  <img src="../../../attachments/logo.png" alt="logo">
+
+    </a>
+    FAIR-by-Design Training for CLARIN Community
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        FAIR-by-Design training for the CLARIN community
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          1st Session
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1st Session" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          1st Session
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          01 CLARIN
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="01 CLARIN" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          01 CLARIN
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1st%20Session/01%20CLARIN/About%20CLARIN/" class="md-nav__link">
+        About CLARIN
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          02 Skills4EOSC
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="02 Skills4EOSC" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          02 Skills4EOSC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1st%20Session/02%20Skills4EOSC/About%20Skills4EOSC/" class="md-nav__link">
+        About Skills4EOSC
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          03 FAIR by Design Methodology
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="03 FAIR by Design Methodology" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          03 FAIR by Design Methodology
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1st%20Session/03%20FAIR-by-Design%20Methodology/FAIR-by-Design_content/" class="md-nav__link">
+        FAIR-by-Design Methodology
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          04 Metadata
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="04 Metadata" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          04 Metadata
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1st%20Session/04%20Metadata/Metadata%20and%20Controled%20Vocabularies/" class="md-nav__link">
+        Metadata and Controlled Vocabularies
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          05 Facilitator kit
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="05 Facilitator kit" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          05 Facilitator kit
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1st%20Session/05%20Facilitator%20kit/Facilitator%20kit/" class="md-nav__link">
+        Facilitator kit
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_6">
+          06 Rich learning exp
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="06 Rich learning exp" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          06 Rich learning exp
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1st%20Session/06%20Rich%20learning%20exp/Rich%20learning%20experience/" class="md-nav__link">
+        Rich learning experience
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7" type="checkbox" id="__nav_2_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_7">
+          07 Citing and attribution
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="07 Citing and attribution" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_7">
+          <span class="md-nav__icon md-icon"></span>
+          07 Citing and attribution
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1st%20Session/07%20Citing%20and%20attribution/Citing%20and%20attribution/" class="md-nav__link">
+        Citing and attribution
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_8" type="checkbox" id="__nav_2_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_8">
+          08 Hands on
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="08 Hands on" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_8">
+          <span class="md-nav__icon md-icon"></span>
+          08 Hands on
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1st%20Session/08%20Hands-on/hands-on/" class="md-nav__link">
+        Activity
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_9" type="checkbox" id="__nav_2_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_9">
+          09 Wrap up
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="09 Wrap up" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_9">
+          <span class="md-nav__icon md-icon"></span>
+          09 Wrap up
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1st%20Session/09%20Wrap-up/wrap-up/" class="md-nav__link">
+        Takeaways
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          2nd Session
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2nd Session" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          2nd Session
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          01 Recap
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="01 Recap" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          01 Recap
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01%20Recap/recap/" class="md-nav__link">
+        Reminder
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          02 Version control
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="02 Version control" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          02 Version control
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02%20Version%20control/Version%20control/" class="md-nav__link">
+        Version control
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          03 Recognition
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="03 Recognition" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          03 Recognition
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03%20Recognition/recognition/" class="md-nav__link">
+        Recognition framework
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4" type="checkbox" id="__nav_3_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_4">
+          04 Publishing
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="04 Publishing" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          04 Publishing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Publishing consideration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Publishing consideration
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#slides" class="md-nav__link">
+    Slides
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    Learning objectives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#files-description" class="md-nav__link">
+    Files Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fair-signposting" class="md-nav__link">
+    FAIR Signposting
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automated-publishing-workflow" class="md-nav__link">
+    Automated publishing workflow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5" type="checkbox" id="__nav_3_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_5">
+          05 Co creation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="05 Co creation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          05 Co creation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05%20Co-creation/Co-creation/" class="md-nav__link">
+        Co-creation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_6" type="checkbox" id="__nav_3_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_6">
+          06 Quallity assurance
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="06 Quallity assurance" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          06 Quallity assurance
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06%20Quallity%20assurance/quality_assurance/" class="md-nav__link">
+        QA
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_7" type="checkbox" id="__nav_3_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_7">
+          07 Hands on
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="07 Hands on" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_7">
+          <span class="md-nav__icon md-icon"></span>
+          07 Hands on
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07%20Hands-on/hands-on/" class="md-nav__link">
+        Activity
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_8" type="checkbox" id="__nav_3_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_8">
+          08 Wrap up
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="08 Wrap up" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_8">
+          <span class="md-nav__icon md-icon"></span>
+          08 Wrap up
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08%20Wrap-up/wrap-up/" class="md-nav__link">
+        Takeaways
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#slides" class="md-nav__link">
+    Slides
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    Learning objectives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#files-description" class="md-nav__link">
+    Files Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fair-signposting" class="md-nav__link">
+    FAIR Signposting
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automated-publishing-workflow" class="md-nav__link">
+    Automated publishing workflow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+  <nav class="md-tags" >
+    
+      
+      
+        <span class="md-tag">Publishing</span>
+      
+    
+      
+      
+        <span class="md-tag">Machine readable metadata</span>
+      
+    
+      
+      
+        <span class="md-tag">FAIR Signposting</span>
+      
+    
+  </nav>
+
+
+
+
+<h1 id="publishing-considerations">Publishing considerations</h1>
+<h2 id="slides">Slides</h2>
+<p><a download="download" href="https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/2nd%20Session/03%20Recognition/recognition_OB_EDC.pptx">Download the slides here TBD</a></p>
+<h2 id="learning-objectives">Learning objectives</h2>
+<p>Upon completing this module the learner should be able to:</p>
+<ul>
+<li>examine the content of the accompanying files for publishing </li>
+<li>define the publishing steps from the Skills4EOSC FAIR by Design Methodology</li>
+<li>use the FAIR signposting to include machine readable metadata in the resulting html pages</li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>The Skills4EOSC FAIR-by-design Methodology defines a set of steps to make sure that the produced learning materials are published respecting the FAIR principles. To prepare for this, a set of files needs to be manually edited, making sure all the necessary information needed to accompany the materials is present. The methodology also uses the FAIR signposting, enabling metadata to be present in the resulting html files. </p>
+<div class="admonition tip">
+<p class="admonition-title">Repository choice</p>
+<p>The FAIR-by-Design Methodology opted for using Zenodo as a open access repository, but other communities and users can use different repositories, suitable for their purpose. </p>
+</div>
+<h2 id="files-description">Files Description</h2>
+<p>The <a href="https://github.com/FAIR-by-Design-Methodology/templates">FAIR-by-Design templates repository</a> contains the accompanying files which we will need to alter:</p>
+<ul>
+<li>README.md</li>
+<li>CODE_OF_CONDUCT.md</li>
+<li>Licence.txt</li>
+<li>Contributors</li>
+</ul>
+<p>These files can be altered in any order desired, as long as making sure that they have all been covered. </p>
+<p><code>README.md</code> is a Markdown file which should briefly describe the repository, so that first time visitors can get an initial idea what it is about. The README.md file's content is shown immediately below the directory browser on the repository's homepage.</p>
+<p>The <code>CODE_OF_CONDUCT.md</code>, as its name suggests, describes the contributors' code of conduct which needs to be adhered to. It defines standards for how to engage in a community. It can also contain steps for resoling issues between members of the community. GitHub also shows a direct link to a repository's code of conduct (if available) above the citation information.</p>
+<p>The <code>Licence.txt</code> file contains the description of the license under which the training material is released. If you have been creating your own repo from scratch or cloned the templates repo, most probably the current license you have in your repo at the moment is CC0. If you have decided that you will use another license (compatible with the reused material, derived using the adapter's license rules, etc.) then you need to replace the LICENSE file in your repository with the correct one. The contente of the license file can be downloaded from the <a href="https://creativecommons.org/2014/01/07/plaintext-versions-of-creative-commons-4-0-licenses/">Plaintext versions of Creative Commons 4.0 licenses</a></p>
+<p>The FAIR-by-Design Methodology does not use any separate files and roles for the contributors, other than the ones in the RDA Metadata. However, even thou there is not a standardised taxonomy for the contributors and roles, <a href="https://credit.niso.org">Contributor Role Taxonomy (CRediT)</a> can be helpful. The <a href="https://allcontributors.org/docs/en/specification">All Contributors specification</a> defines that Open source projects should include the following mandatory items to support the All Contributors specification:</p>
+<ol>
+<li>A "Contributors" section in a prominent site of the project repository documentation that includes a list of all project contributors<ul>
+<li>The goal should be to use the most prominent site of the project documentation when feasible. In many cases, this is the project README file</li>
+<li>Consider <a href="https://allcontributors.org/docs/en/bot/configuration#moving-the-all-contributors-table-into-a-different-file">using a CONTRIBUTORS file</a> in the top level of the repository when the number of project contributors exceeds a level at which it is unfeasible to use the README file to acknowledge contributions. In this case, a prominent link to the CONTRIBUTORS file should be included on the README page under the "Contributors" heading</li>
+</ul>
+</li>
+<li>The listings should be formatted as a table with the following information about the project contributors:<ul>
+<li>Name</li>
+<li>URL link to a site where more information can be learned about the contributor. This URL may be determined by the contributor at the project's discretion.</li>
+<li>An indication of the Contribution Category in text or icon image format using the defined Contribution Categories and/or Contribution Categories emoji images (see below).</li>
+<li>A link to the Contribution Category in text or emoji format using the defined Contribution Categories and/or <a href="https://allcontributors.org/docs/en/emoji-key">Contribution Categories emoji</a>.<ul>
+<li>The list of contributors can be spread across multiple lines (each technically being its table) as needed.</li>
+<li>The order of contributors is immaterial to the spec. Order them how you wish.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Contributors example</p>
+<p>Example use of contributors and their roles can be seen in the <a href="https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial-content/tutorial.html#listing-contributors">Galaxy Project Training Network - GTN</a>. </p>
+</div>
+<h2 id="fair-signposting">FAIR Signposting</h2>
+<p><a href="http://signposting.org/">Signposting</a>, presents a lightweight, but powerful approach to increase the FAIRness of learning materials. <br />
+Landing pages of learning materials support humans interaction with learning materials on the web, by providing descriptive metadata and links to content. Signposting helps machine agents by providing this information, and more, in a standards-based way. It contributes to FAIR's Findable, Accessible, and Reusable by uniformly conveying to machines what the persistent identifier of a scholarly object is, where its landing page is, where and what its content is, where metadata that describes it is, and what the persistent identifier of its author is. It conveys this by means of meaningful links that have web locations (HTTP URIs) as their target.</p>
+<p>There are two levels of compliance to FAIR Signposting:</p>
+<ul>
+<li>Level 1 provide a minimal set of typed links with the landing page as the link origin. </li>
+<li>Level 2 elevates the compliance by providing a comprehensive set of typed links for landing pages, content, and metadata resources.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">FAIR Signposting implementation</p>
+<p>The publishing workflow of the Methodology described below provides an easy way of implementing Signposting for the developed content. Note that the signposting is not mandatory part of the Methodology, but a very useful addition to it. </p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">FAIR Signposting output</p>
+<p>As a result of running the Signposting workflow a <code>linkset.json</code> file is placed in the root of the repository. This file is accessible to crawlers as it is embedded in the meta information in the head of the landing HTML page.</p>
+</div>
+<h2 id="automated-publishing-workflow">Automated publishing workflow</h2>
+<p>The <a href="https://github.com/FAIR-by-Design-Methodology/templates">templates</a> repository of the FAIR-by-design Methodology includes a set of Git actions that implement the publishing workflow. The workflow is triggered with each new Github release. When triggered they automate the complete Zenodo publishing process. </p>
+<p>The steps performed by these actions include:</p>
+<ul>
+<li>validation of the information provided in the accompanying files, </li>
+<li>implementation of the signposting, </li>
+<li>draft entry creation in Zenodo, </li>
+<li>updating the DOI in all files that reference it, including slides and syllabus, </li>
+<li>rebuilding and </li>
+<li>releasing a new version of the Git book. </li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Manual editing</p>
+<p>In the accompanying files, some of the fields should be edited manually, while others are automatically updated by the publishing workflow and should not be manually changed. Examples of such field are <code>version</code>, <code>doi</code>, <code>date-released</code> from the <code>CITATION.cff</code>.</p>
+</div>
+<p>As as result of the successful completion of this workflow the following actions will be performed:</p>
+<ul>
+<li>new or updated entry in the Zenodo repository</li>
+<li>updated citation in the Gitpages</li>
+<li>updated <code>citation.cff</code> file</li>
+<li>updated FAIR signposting metadata</li>
+<li>updated citation in the PowerPoint slides (if used)</li>
+</ul>
+<h2 id="summary">Summary</h2>
+<p>FAIR-by-Design Methodology pays special attention to the publishing of the learning materials, making sure that they conform to the FAIR principles. Several accompanying files are needed to ensure that the required elements are present. Using the Signposting technique, the published html version of the training materials are made understandable not only to humans, but also to the machines - crawlers that process web learning resources. The methodology provides a specific workflow that enables each new release to be clearly visible and added to the Zenodo repository as a new version of the learning materials.  </p>
+<h2 id="suggested-reading">Suggested Reading</h2>
+<ul>
+<li><a href="https://zenodo.org/records/8419242">Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development</a></li>
+<li><a href="https://signposting.org/FAIR/">FAIR Signposting</a></li>
+<li><a href="https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%205%20–%20Publish/16-Publishing%20Preparations/16-Publishing%20Preparations/">Skills4EOSC FAIR-by-Design Methodology Publishing Preparations</a></li>
+<li><a href="https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%205%20–%20Publish/17-Zenodo%20Publishing/17-Zenodo%20Publishing/">Skills4EOSC FAIR-by-Design Methodology Zenodo Publishing</a></li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  
+  
+  <nav class="md-footer__inner md-grid" aria-label="" >
+    
+    
+    <a href="../../03%20Recognition/recognition/" class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: Recognition framework" rel="prev">
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Previous
+        </span>
+        <div class="md-ellipsis">
+          Recognition framework
+        </div>
+      </div>
+    </a>
+    
+    
+    
+    <a href="../../05%20Co-creation/Co-creation/" class="md-footer__link md-footer__link--next"
+      aria-label="Next: Co-creation" rel="next">
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Next
+        </span>
+        <div class="md-ellipsis">
+          Co-creation
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center">
+      
+        <div class="md-copyright"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+              alt="Creative Commons License" style="border-width:0" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/a9f9eb58f58a4c39a32609c160ca52922c41fc2a/resources/attachments/cc-by.png" /></a> Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+            Attribution 4.0 International License</a>.
+        </div>
+      
+      </div>
+
+    </div>
+    <div class="logos-container" style="display: block; text-align: center;">
+      <img alt="Skills4EOSC Logo" style="max-height:30px" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/logo-white.png" />
+      <img alt="EOSC Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eosc-logo.png">
+      <img alt="Co-funded by the European Union Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eu-logo.png" />
+      <img alt="UK Research and Innovation Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/ukri-logo.png" />
+    </div>
+    <div class="md-container">
+
+      <div class="cite-example md-copyright">
+        <div class="md-footer-meta__inner md-grid" style="justify-content: center; align-items: center;">
+          Cite as:
+          
+            
+            
+            
+              Filiposka, Sonja,
+            
+          
+            
+            
+            
+              Mishev, Anastas,
+            
+          
+            
+            
+            
+              Anastasopoulou, Athina,
+            
+          
+            
+            
+            
+              Frontini, Francesca,
+            
+          
+            
+            
+            
+              Pedonese, Giulia,
+            
+          
+            
+            
+            
+              van der Lek, Iulianna.
+            
+          
+          (2024). FAIR-by-Design training for the CLARIN community (1.0.0). 
+          <a href="https://doi.org/10.5281/zenodo.13816183">&nbsp;https://doi.org/10.5281/zenodo.13816183</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.footer", "search.highlight", "search.suggest"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1703 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+  
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Skills4EOSC">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-8.5.7">
+    
+  
+    <meta name="title" content="Metadata and Controlled Vocabularies"/>
+  
+  
+    <meta name="tags" content="['Metadata', 'Controlled Vocabularies', 'Syllabus']"/>
+  
+
+    
+      
+        <title>Metadata and Controlled Vocabularies - FAIR-by-Design Training for CLARIN Community</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="custom" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#metadata-and-controlled-vocabularies" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="FAIR-by-Design Training for CLARIN Community" class="md-header__button md-logo" aria-label="FAIR-by-Design Training for CLARIN Community" data-md-component="logo">
+      
+  <img src="../../../attachments/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR-by-Design Training for CLARIN Community
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Metadata and Controlled Vocabularies
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="FAIR-by-Design Training for CLARIN Community" class="md-nav__button md-logo" aria-label="FAIR-by-Design Training for CLARIN Community" data-md-component="logo">
+      
+  <img src="../../../attachments/logo.png" alt="logo">
+
+    </a>
+    FAIR-by-Design Training for CLARIN Community
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        FAIR-by-Design training for the CLARIN community
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          1st Session
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1st Session" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          1st Session
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          01 CLARIN
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="01 CLARIN" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          01 CLARIN
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01%20CLARIN/About%20CLARIN/" class="md-nav__link">
+        About CLARIN
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          02 Skills4EOSC
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="02 Skills4EOSC" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          02 Skills4EOSC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02%20Skills4EOSC/About%20Skills4EOSC/" class="md-nav__link">
+        About Skills4EOSC
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          03 FAIR by Design Methodology
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="03 FAIR by Design Methodology" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          03 FAIR by Design Methodology
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03%20FAIR-by-Design%20Methodology/FAIR-by-Design_content/" class="md-nav__link">
+        FAIR-by-Design Methodology
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          04 Metadata
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="04 Metadata" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          04 Metadata
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Metadata and Controlled Vocabularies
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Metadata and Controlled Vocabularies
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#slides" class="md-nav__link">
+    Slides
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    Learning objectives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-and-metadata-schema" class="md-nav__link">
+    Metadata and Metadata Schema
+  </a>
+  
+    <nav class="md-nav" aria-label="Metadata and Metadata Schema">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rda-minimal-metadata-for-learning-resources" class="md-nav__link">
+    RDA Minimal Metadata for Learning Resources
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controlled-vocabularies" class="md-nav__link">
+    Controlled Vocabularies
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syllabus" class="md-nav__link">
+    Syllabus
+  </a>
+  
+    <nav class="md-nav" aria-label="Syllabus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syllabus-elements" class="md-nav__link">
+    Syllabus Elements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-learning-objectives" class="md-nav__link">
+    Defining learning objectives
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          05 Facilitator kit
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="05 Facilitator kit" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          05 Facilitator kit
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05%20Facilitator%20kit/Facilitator%20kit/" class="md-nav__link">
+        Facilitator kit
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_6">
+          06 Rich learning exp
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="06 Rich learning exp" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          06 Rich learning exp
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06%20Rich%20learning%20exp/Rich%20learning%20experience/" class="md-nav__link">
+        Rich learning experience
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7" type="checkbox" id="__nav_2_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_7">
+          07 Citing and attribution
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="07 Citing and attribution" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_7">
+          <span class="md-nav__icon md-icon"></span>
+          07 Citing and attribution
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07%20Citing%20and%20attribution/Citing%20and%20attribution/" class="md-nav__link">
+        Citing and attribution
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_8" type="checkbox" id="__nav_2_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_8">
+          08 Hands on
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="08 Hands on" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_8">
+          <span class="md-nav__icon md-icon"></span>
+          08 Hands on
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08%20Hands-on/hands-on/" class="md-nav__link">
+        Activity
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_9" type="checkbox" id="__nav_2_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_9">
+          09 Wrap up
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="09 Wrap up" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_9">
+          <span class="md-nav__icon md-icon"></span>
+          09 Wrap up
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09%20Wrap-up/wrap-up/" class="md-nav__link">
+        Takeaways
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          2nd Session
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2nd Session" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          2nd Session
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          01 Recap
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="01 Recap" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          01 Recap
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2nd%20Session/01%20Recap/recap/" class="md-nav__link">
+        Reminder
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          02 Version control
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="02 Version control" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          02 Version control
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2nd%20Session/02%20Version%20control/Version%20control/" class="md-nav__link">
+        Version control
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          03 Recognition
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="03 Recognition" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          03 Recognition
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2nd%20Session/03%20Recognition/recognition/" class="md-nav__link">
+        Recognition framework
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4" type="checkbox" id="__nav_3_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_4">
+          04 Publishing
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="04 Publishing" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          04 Publishing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2nd%20Session/04%20Publishing/Publishing%20considerations/" class="md-nav__link">
+        Publishing consideration
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5" type="checkbox" id="__nav_3_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_5">
+          05 Co creation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="05 Co creation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          05 Co creation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2nd%20Session/05%20Co-creation/Co-creation/" class="md-nav__link">
+        Co-creation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_6" type="checkbox" id="__nav_3_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_6">
+          06 Quallity assurance
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="06 Quallity assurance" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          06 Quallity assurance
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2nd%20Session/06%20Quallity%20assurance/quality_assurance/" class="md-nav__link">
+        QA
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_7" type="checkbox" id="__nav_3_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_7">
+          07 Hands on
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="07 Hands on" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_7">
+          <span class="md-nav__icon md-icon"></span>
+          07 Hands on
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2nd%20Session/07%20Hands-on/hands-on/" class="md-nav__link">
+        Activity
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_8" type="checkbox" id="__nav_3_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_8">
+          08 Wrap up
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="08 Wrap up" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_8">
+          <span class="md-nav__icon md-icon"></span>
+          08 Wrap up
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2nd%20Session/08%20Wrap-up/wrap-up/" class="md-nav__link">
+        Takeaways
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#slides" class="md-nav__link">
+    Slides
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    Learning objectives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-and-metadata-schema" class="md-nav__link">
+    Metadata and Metadata Schema
+  </a>
+  
+    <nav class="md-nav" aria-label="Metadata and Metadata Schema">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rda-minimal-metadata-for-learning-resources" class="md-nav__link">
+    RDA Minimal Metadata for Learning Resources
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controlled-vocabularies" class="md-nav__link">
+    Controlled Vocabularies
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syllabus" class="md-nav__link">
+    Syllabus
+  </a>
+  
+    <nav class="md-nav" aria-label="Syllabus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syllabus-elements" class="md-nav__link">
+    Syllabus Elements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-learning-objectives" class="md-nav__link">
+    Defining learning objectives
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-reading" class="md-nav__link">
+    Suggested Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+  <nav class="md-tags" >
+    
+      
+      
+        <span class="md-tag">Metadata</span>
+      
+    
+      
+      
+        <span class="md-tag">Controlled Vocabularies</span>
+      
+    
+      
+      
+        <span class="md-tag">Syllabus</span>
+      
+    
+  </nav>
+
+
+
+
+<h1 id="metadata-and-controlled-vocabularies">Metadata and Controlled Vocabularies</h1>
+<h2 id="slides">Slides</h2>
+<p><a download="download" href="https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/blob/main/resources/1st%20Session/04%20Metadata/Metadata.pptx">Download the slides here</a></p>
+<h2 id="learning-objectives">Learning objectives</h2>
+<p>Upon completing this module the learner should be able to:</p>
+<ul>
+<li>apply the RDA metadata schema for learning resources </li>
+<li>use controlled vocabularies</li>
+<li>define the syllabus and the learning objective of a learning unit</li>
+</ul>
+<h2 id="metadata-and-metadata-schema">Metadata and Metadata Schema</h2>
+<p>Metadata is one of the key ingredients to making learning resources findable, accessible, and reusable. In essence, metadata consists of structured information that describes, explains and locates a resource.</p>
+<p>The main purpose of the (meta)data about the learning resource is to enable cataloguing and discovery by providing a standard means to report on:</p>
+<ul>
+<li>WHO created the resource</li>
+<li>WHAT is the content of the resource</li>
+<li>WHEN was the resource created</li>
+<li>WHERE is the location of the resource</li>
+<li>WHY the data was resource</li>
+</ul>
+<p><img alt="example metadata for a language dataset" src="../attachments/image-clarin-metadata.png" /></p>
+<p>Example metadata for a language dataset</p>
+<p>Using this information a learner or instructor should be able to:</p>
+<ul>
+<li>Search and retrieve the information about a learning resource </li>
+<li>Determine if the learning resource meets certain learning requirements</li>
+<li>Discover how to acquire and use the learning resource</li>
+</ul>
+<h3 id="rda-minimal-metadata-for-learning-resources">RDA Minimal Metadata for Learning Resources</h3>
+<p>The <a href="https://www.rd-alliance.org/groups/education-and-training-handling-research-data.html">RDA Education And Training On Handling Of Research Data Interest Group</a> has defined a <a href="https://zenodo.org/record/6769695#.YrrP9-xBybQ">minimal metadata set for learning resources</a> that has become a de facto standard for describing FAIR learning materials.</p>
+<p>The following table describes the minimal metadata set elements and their definitions:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Element Name</strong></th>
+<th><strong>Definition</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Title</td>
+<td>The human readable name of the resource.</td>
+</tr>
+<tr>
+<td>Abstract / Description</td>
+<td>A brief synopsis about or description of the learning resource</td>
+</tr>
+<tr>
+<td>Author(s)</td>
+<td>Name of entity(ies) authoring the resource</td>
+</tr>
+<tr>
+<td>Primary Language</td>
+<td>Language in which the resource was originally published or made available</td>
+</tr>
+<tr>
+<td>Keyword(s)</td>
+<td>Keywords or tags used to describe the resource</td>
+</tr>
+<tr>
+<td>License</td>
+<td>A license document that applies to this content, typically indicated by URL</td>
+</tr>
+<tr>
+<td>Version Date</td>
+<td>Version date for the most recently published or broadcast resource</td>
+</tr>
+<tr>
+<td>URL to Resource</td>
+<td>URL that resolves to the learning resource or to a "landing page" for the resource that contains important contextual information  including the direct resolvable link to the resource, if applicable.</td>
+</tr>
+<tr>
+<td>Resource URL Type</td>
+<td>Designation of the identifier scheme  used for the resource URL, e.g., DOI, ARK, Handle</td>
+</tr>
+<tr>
+<td>Target Group (Audience)</td>
+<td>Principal users(s) for which the resource was designed</td>
+</tr>
+<tr>
+<td>Learning Resource Type</td>
+<td>The predominant type or kind that characterizes the learning resource</td>
+</tr>
+<tr>
+<td>Learning Outcome</td>
+<td>Descriptions of what knowledge, skills or abilities a learner should acquire on completion of the resource</td>
+</tr>
+<tr>
+<td>Access Cost</td>
+<td>Choice stating whether or not there is a fee for use of the resource (yes, no, maybe)</td>
+</tr>
+<tr>
+<td>Expertise (Skill) Level</td>
+<td>Target skill level in the topic being taught; example values include beginner, intermediate, advanced</td>
+</tr>
+</tbody>
+</table>
+<p>This table is taken from <a href="https://doi.org/10.15497/RDA00073">RDA Minimal Metadata for Learning Resources</a> by Hoebelheinrich, Nancy J; Biernacka, Katarzyna; Brazas, Michelle; Castro, Leyla Jael; Fiore, Nicola; Hellström, Margareta; Lazzeri, Emma; Leenarts, Ellen; Martinez Lavanchy, Paula Maria; Newbold, Elizabeth; Nurnberger, Amy; Plomp, Esther; Vaira, Lucia; van Gelder, Celia W G; Whyte, Angus licensed under the <a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC BY 4.0 license</a>.</p>
+<p>These elements need to be standardized so that they are useful when used in practice. This is done by defining a metadata schema that describes the structure of the metadata elements. The metadata schema defines the standards for describing the metadata elements.</p>
+<p>The metadata schema for learning resources that also defines the type of each element, the allowed values, and constraints is available on the RDA website: <a href="https://www.rd-alliance.org/system/files/Copy%20of%20Examples%20for%20Professional%20and%20Informal%20Education.pdf">RDA Minimal Metadata for Learning Resources Professional and Informal Education Examples</a></p>
+<h3 id="controlled-vocabularies">Controlled Vocabularies</h3>
+<p>Some of the fields in the proposed RDA metadata schema are based on fixed or suggested controlled vocabularies (CV). The use of controlled vocabularies is to help humans and machines categorize the information while helping to reduce duplication and errors. </p>
+<p>In essence, controlled vocabularies should be used for any metadata elements with predefined value(s), where in the vocabulary is presented as a list of prescribed items. </p>
+<p>Such examples are </p>
+<ul>
+<li>Access Cost with possible values of Y, N and Maybe</li>
+<li>Primary Language that can be a two letter code from the <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">ISO 639-1:2002 codeset</a></li>
+</ul>
+<p>Examples of relevant control vocabularies for the CLARIN community, available at <a href="https://vocabs.sshopencloud.eu/browse/en/">SSH Vocabulary Commons SKOSMOS instance</a> include:</p>
+<ul>
+<li>SSH Training Discovery Toolkit<ul>
+<li><a href="https://vocabs.sshopencloud.eu/browse/sshoc-training-resource-format/en/">Formats of training resources</a></li>
+<li><a href="https://vocabs.sshopencloud.eu/browse/sshoc-audience/en/">Intended audience</a></li>
+<li><a href="https://vocabs.sshopencloud.eu/browse/sshoc-training-resource-status/en/">Status of training resources</a></li>
+</ul>
+</li>
+<li>SSHOC<ul>
+<li><a href="https://vocabs.sshopencloud.eu/browse/sshocterm/en/">SSHOC Multilingual Data Stewardship Terminology</a></li>
+<li><a href="https://vocabs.sshopencloud.eu/browse/sshocmm/en/">SSHOC Multilingual Metadata</a></li>
+</ul>
+</li>
+<li>CLARIN Service Description<ul>
+<li><a href="https://vocabs.sshopencloud.eu/browse/csd-linguistic-subjects/en/">CLARIN taxonomy for Linguistic subjects</a></li>
+<li><a href="https://vocabs.sshopencloud.eu/browse/csd-tool-tasks/en/">CLARIN taxonomy for tools and services tasks</a></li>
+</ul>
+</li>
+</ul>
+<p>In the Skills4EOSC project, a specific example of using controlled vocabularies are different lists of OS Skills Terms</p>
+<ul>
+<li><a href="https://ontobee.org/ontology/T4FS">t4FS: 223 'data stewardship activity' terms</a></li>
+<li><a href="https://www.cscce.org/resources/glossary/">CSCCE  Glossary: 45 terms listed according to 5 dimensions, selecting those included in 'skills wheel' for scientific community managers</a></li>
+<li><a href="https://research-and-innovation.ec.europa.eu/system/files/2023-04/ec_rtd_research-competence-presentation.pdf">ResearchComp</a></li>
+</ul>
+<p>Note that in many cases controlled vocabularies are suggested, but at this stage they are not strictly defined.</p>
+<h2 id="syllabus">Syllabus</h2>
+<p>Once you have identified your learning concepts, the next step is to sequence them into an instructional sequence (agenda). This instructional sequence will become your blueprint for the organisation of the learning materials and the definition of the syllabus.</p>
+<p>In essence the blueprint takes the input from the creative concept map and organizes it into a more formal outline. Formally, we call this learning materials outline syllabus. Each syllabus should provide information regarding a number of elements (including the ones defined in the step 1 of the backward instructional design):</p>
+<ul>
+<li>clear, descriptive <strong>title</strong> </li>
+<li>description of the <strong>purpose</strong> or goal </li>
+<li><strong>target audience</strong></li>
+<li><strong>prerequisites</strong></li>
+<li><strong>duration</strong></li>
+<li><strong>learning objectives</strong></li>
+<li><strong>agenda</strong> (instructional sequence)</li>
+<li><strong>resources and materials</strong></li>
+<li><strong>certification</strong> information</li>
+</ul>
+<p>Remember that:</p>
+<ul>
+<li>The syllabus can present a higher level sequence outline, that can be later broken down into smaller subtopics if necessary.</li>
+<li>The topics sequence should be defined so that the concepts introduced early help with the ones encountered later. </li>
+<li>The defined agenda should not be very rigid thus preventing changing the sequence of topics or adding or deleting topics at a later stage.</li>
+<li>The syllabus is sent to the learners and should provide them with all necessary information to help them decide if they want to follow the training related to the learning materials.</li>
+</ul>
+<h3 id="syllabus-elements">Syllabus Elements</h3>
+<p>Within this training we recommend the development of a training syllabus that consists of two groups of information:</p>
+<ul>
+<li>typical syllabus information</li>
+<li>additional information related to the RDA minimal metadata schema</li>
+</ul>
+<p>The following is a <strong>list of all required syllabus fields</strong>:</p>
+<ul>
+<li>Clear descriptive Title of the training </li>
+<li>Type (Course/Workshop/Webinar)</li>
+<li>Date/Time: when it will be offered (available from date if it is self-paced)</li>
+<li>Location - where it will be available<ul>
+<li>physical location</li>
+<li>URL link to resources (and virtual room if online) should lead to the learning  platform</li>
+</ul>
+</li>
+<li>Training Description - what is the main goal/purpose of this training</li>
+<li>Target audience: target audience description </li>
+<li>Expertise Level / Skill Level: Beginner / Intermediate / Advanced</li>
+<li>Primary Language: English</li>
+<li>Access Cost: N </li>
+<li>Prerequisites - if any</li>
+<li>Duration - total training duration</li>
+<li>Training objectives - list of specific training objectives</li>
+<li>Keywords - Keywords or tags used to describe the training</li>
+<li>Agenda: Training Schedule - Training Structure  (time, topic)</li>
+<li>Resources and Materials - list with locations of available/required resources for the training</li>
+<li>Certification Information - if any</li>
+<li>Author(s) - Comma separated List of people involved in preparing the training (Name Surname)</li>
+<li>Trainer(s) - Comma separated list of people involved in delivering the training (Name Surname ORCID logo link)</li>
+<li>Contact information - how to reach out to training organizers</li>
+<li>License</li>
+<li>PID</li>
+<li>Accessibility Mission</li>
+</ul>
+<p>As syllabus is one of the required documents for the FAIR-by-Design learning materials, you must ensure that your syllabus contains <strong>all elements</strong> provided in this section. Only in this way you will ensure that your learning materials contain all necessary metadata information together with the traditional syllabus information that is provided.</p>
+<h3 id="defining-learning-objectives">Defining learning objectives</h3>
+<p>Learning objectives should describe what new knowledge and skills will be obtained in a specific, measurable, attainable, relevant and time-bound (SMART) way. </p>
+<p>The learning objectives are used to organize specific topics or individual learning activities so that the learner can most effectively achieve the overall learning outcome.</p>
+<p>To ensure standardization and wide understanding of the learning objective, it is best practice to define the learning objectives using a well-known taxonomy such as the <a href="https://cmapspublic2.ihmc.us/rid=1Q2PTM7HL-26LTFBX-9YN8/Krathwohl%202002.pdf">Bloom’s taxonomy</a>. </p>
+<p>The Bloom's Taxonomy is a classification of the different objectives and skills that educators set for their students (learning outcomes). The cognitive domain categorizes the human learning process into 6 hierarchical levels: Remember, Understand, Apply, Analyze, Evaluate, and Create. </p>
+<p><img alt="Description of the complexity levels for the cognitive domain" src="../attachments/Bloom%27s_Revised_Taxonomy.jpg" />
+"<a href="https://www.flickr.com/photos/vandycft/29428436431">Bloom's Revised Taxonomy</a>" by <a href="https://cft.vanderbilt.edu">Vanderbilt University Center for Teaching</a> licensed under the terms of the <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY-2.0</a>.</p>
+<p>When defining learning objectives using the Bloom's taxonomy, correct verbs should be used for each objective based on the level the learners needs to achieve. For these purposes the example verbs provided in the image can be used.</p>
+<p><img alt="List of verbs on each complexity level in the cognitive domain" src="../attachments/Bloom%E2%80%99s_Taxonomy_Verbs.png" />
+<a href="https://en.wikipedia.org/wiki/Bloom%27s_taxonomy#/media/File:Bloom%E2%80%99s_Taxonomy_Verbs.png">Bloom's taxonomy</a> by <a href="https://www.fractuslearning.com/">Fractus Learning</a>. (2023, July 10). In <a href="https://en.wikipedia.org/wiki/Bloom%27s_taxonomy">Wikipedia</a> licensed under the terms of <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-SA 4.0</a>.  </p>
+<p>This approach will significantly improve the findability of the produced resources, as well as the potential reuse of individual learning objects in different aggregations.</p>
+<p>The number of learning objectives depends on the aggregation level of the learning resource that is being developed. </p>
+<h2 id="summary">Summary</h2>
+<p>Using metadata has crucial importance when producing learning resources that need to be findable and reusable. Skills4EOSC supports the usage of RDA Minimal Metadata for Learning Resources. In addition the usage of controlled vocabularies helps in  standardizing terms for consistency. A syllabus organizes learning concepts into a structured instructional sequence, and learning objectives should be defined clearly using frameworks like Bloom's Taxonomy to ensure they are specific and measurable.</p>
+<h2 id="suggested-reading">Suggested Reading</h2>
+<ul>
+<li><a href="https://zenodo.org/records/8419242">Skills4EOSC FAIR-by-Design Methodology for Learning Materials Development</a></li>
+<li><a href="https://fair-by-design-methodology.github.io/microlearning/latest/01%20Prepare/prepare/">Skills4EOSC FAIR-by-Design Microlearning Stage 1</a></li>
+<li><a href="https://fair-by-design-methodology.github.io/FAIR-by-Design_Book/3%20-%20Learning%20materials%20description%20and%20modelling/31-Describing_learning_materials/">Skills4EOSC FAIR-by-Design Methodology Describing learning materials</a></li>
+<li><a href="https://fair-by-design-methodology.github.io/FAIR-by-Design_Book/4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/413-design/">Skills4EOSC FAIR-by-Design Methodology Design stage</a></li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  
+  
+  <nav class="md-footer__inner md-grid" aria-label="" >
+    
+    
+    <a href="../../03%20FAIR-by-Design%20Methodology/FAIR-by-Design_content/" class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: FAIR-by-Design Methodology" rel="prev">
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Previous
+        </span>
+        <div class="md-ellipsis">
+          FAIR-by-Design Methodology
+        </div>
+      </div>
+    </a>
+    
+    
+    
+    <a href="../../05%20Facilitator%20kit/Facilitator%20kit/" class="md-footer__link md-footer__link--next"
+      aria-label="Next: Facilitator kit" rel="next">
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Next
+        </span>
+        <div class="md-ellipsis">
+          Facilitator kit
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center">
+      
+        <div class="md-copyright"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+              alt="Creative Commons License" style="border-width:0" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/a9f9eb58f58a4c39a32609c160ca52922c41fc2a/resources/attachments/cc-by.png" /></a> Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+            Attribution 4.0 International License</a>.
+        </div>
+      
+      </div>
+
+    </div>
+    <div class="logos-container" style="display: block; text-align: center;">
+      <img alt="Skills4EOSC Logo" style="max-height:30px" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/logo-white.png" />
+      <img alt="EOSC Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eosc-logo.png">
+      <img alt="Co-funded by the European Union Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eu-logo.png" />
+      <img alt="UK Research and Innovation Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/ukri-logo.png" />
+    </div>
+    <div class="md-container">
+
+      <div class="cite-example md-copyright">
+        <div class="md-footer-meta__inner md-grid" style="justify-content: center; align-items: center;">
+          Cite as:
+          
+            
+            
+            
+              Filiposka, Sonja,
+            
+          
+            
+            
+            
+              Mishev, Anastas,
+            
+          
+            
+            
+            
+              Anastasopoulou, Athina,
+            
+          
+            
+            
+            
+              Frontini, Francesca,
+            
+          
+            
+            
+            
+              Pedonese, Giulia,
+            
+          
+            
+            
+            
+              van der Lek, Iulianna.
+            
+          
+          (2024). FAIR-by-Design training for the CLARIN community (1.0.0). 
+          <a href="https://doi.org/10.5281/zenodo.13816183">&nbsp;https://doi.org/10.5281/zenodo.13816183</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.footer", "search.highlight", "search.suggest"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+    
+  </body>
+</html>
