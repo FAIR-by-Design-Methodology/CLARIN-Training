@@ -18,7 +18,7 @@ abstract: "When developing learning materials, it is essential to ensure they ar
 primaryLanguage: "EN"
 license: "http://creativecommons.org/licenses/by/4.0/"
 versionDate: "2024-09-19"
-urlToResource: "https://doi.org/10.5281/zenodo.10676532"
+urlToResource: "https://doi.org/10.5281/zenodo.13816183"
 resourceURLType: "URL"
 targetGroup: "Training materials designers, Training workflow and infrastructure managers"
 learningResourceType: "GitBook"
@@ -153,7 +153,7 @@ Sonja Filiposka[![ORCID logo](./attachments/orcid_16x16.webp)](https://orcid.org
 
 ## DOI
 
-[https://doi.org/10.5281/zenodo.10676532](https://doi.org/10.5281/zenodo.10676532)
+[https://doi.org/10.5281/zenodo.13816183](https://doi.org/10.5281/zenodo.13816183)
 
 ## Accessibility Mission
 
