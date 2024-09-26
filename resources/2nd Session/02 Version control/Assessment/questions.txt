@@ -8,7 +8,7 @@
     - [X] Contains information about the changes for each new versions
     - [X] Should be sorted by release date
     - Should not be manually edited
-    - Is not mandatory in the FAIR-by-Design Methodology
+    - [x] Is not mandatory in the FAIR-by-Design Methodology, but it is highly recomended
 
 3. Which of the following best describes the minor version number?
     - [X] The overall structure of the learning materials has not changed
