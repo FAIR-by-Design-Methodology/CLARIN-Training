@@ -32,6 +32,7 @@ learningOutcome:
     - Assess FAIR-ness of learning materials
 accessCost: "N"
 expertiseLevel: "Beginner"
+template: signposting.html
 ---
 
 ![Header with funding information](./attachments/header.png)
