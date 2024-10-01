@@ -26,9 +26,15 @@ authors:
     affiliation: CLARIN
 title: FAIR-by-Design training for the CLARIN community
 abstract: >-
-  When developing learning materials, it is essential to ensure they are FAIR (Findable, Accessible, Interoperable, and Reusable) from both the learners' and trainers' perspectives. Therefore, integrating FAIR principles into the development of learning materials is a crucial element. This training introduces the CLARIN community to the FAIR-by-Design Methodology, which provides a systematic approach that embeds the FAIR principles into the backward instructional design process.
+  When developing learning materials, it is essential to ensure they are FAIR
+  (Findable, Accessible, Interoperable, and Reusable) from both the learners'
+  and trainers' perspectives. Therefore, integrating FAIR principles into the
+  development of learning materials is a crucial element. This training
+  introduces the CLARIN community to the FAIR-by-Design Methodology, which
+  provides a systematic approach that embeds the FAIR principles into the
+  backward instructional design process.
 version: 1.0.1
-doi: 10.5281/zenodo.13816183
+doi: 10.5281/zenodo.13867278
 date-released: '2024-10-01'
 license: CC-BY-4.0
 license-url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
