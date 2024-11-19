@@ -44,5 +44,5 @@ We deeply value your thoughts and ideas. Your feedback is crucial in shaping the
 - **GitHub Discussions**: Engage with the community by asking questions, sharing comments, or starting a discussion on GitHub. Every perspective helps us grow.
 - **Pull Requests**: If you have specific suggestions for improvement, why not take it a step further and submit a pull request? Your contribution can directly shape the next version.
 - **[Feedback Form](https://forms.gle/XDkcga4y8zAVJDEn8)**: Tell us what you think about this training by filling out the Feedback form. Your insights will help us improve the experience for everyone.
-- **[Post-Mortem Document](../../Feedback/FAIR-by-Design_postmortem.docx){:download}**: Have you applied the methodology in your work? We’d love to hear about your experience. Share your impressions and outcomes in the Post-Mortem document to help us learn from real-world applications.
+- **[Post-Mortem Document](https://github.com/FAIR-by-Design-Methodology/CLARIN-Training/raw/main/resources/Feedback/FAIR-by-Design_postmortem.docx){:download}**: Have you applied the methodology in your work? We’d love to hear about your experience. Share your impressions and outcomes in the Post-Mortem document to help us learn from real-world applications.
 
